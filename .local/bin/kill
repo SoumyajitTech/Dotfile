@@ -1,0 +1,17 @@
+#!/bin/sh
+
+ActiveWindowManagerPID()
+{
+    local windowManager="$1"
+
+    local windowManagerPIDs="$(pidof "$windowManager")"
+
+    local displayNumber="$(echo $DISPLAY \
+        | awk 'BEGIN { FS = "[:.]" } { print $2 }')"
+
+    ps e -p "$windowManagerPIDs" \
+        | awk -v n="$displayNumber" \
+            '$0 ~ " DISPLAY=:" n "[\n .]" { print $1 }'
+}
+
+kill "$(ActiveWindowManagerPID blackbox)"

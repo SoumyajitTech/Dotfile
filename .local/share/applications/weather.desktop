@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version = 1.0
+Type = Application
+Terminal = false
+Name = weather
+Exec = /home/argha/.local/bin/weather
+Icon = /home/argha/.config/icon/weather.png
+Categories = Application;

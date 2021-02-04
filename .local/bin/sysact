@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# A dmenu wrapper script for system functions.
+
+cmds="\
+lock screen	lock
+leave	kill -TERM $(pidof -s bspwm)
+refresh	kill -HUP $(pidof -s bspwm)
+reboot	reboot
+shutdown	shutdown -h now
+"
+
+choice="$(echo "$cmds" | cut -d'	' -f 1 | rofi -dmenu -config ~/.config/rofi/themes/dt-center.rasi -p "Run: ")"
+
+`echo "$cmds" | grep "^$choice	" | cut -d '	' -f2`

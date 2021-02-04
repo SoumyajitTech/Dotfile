@@ -1,0 +1,29 @@
+[global_config]
+[keybindings]
+  close_term = <Primary>w
+  close_window = <Primary>q
+[profiles]
+  [[default]]
+    audible_bell = True
+    visible_bell = True
+    urgent_bell = True
+    background_color = "#292d3e"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = FiraMono Nerd Font 11
+    foreground_color = "#bbc5ff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 5000
+    palette = "#292d3e:#f07178:#c3e88d:#ffcb6b:#82aaff:#c792ea:#89ddff:#d0d0d0:#434758:#ff8b92:#ddffa7:#ffe585:#9cc4ff:#e1acff:#a3f7ff:#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

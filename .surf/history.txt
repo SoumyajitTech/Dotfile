@@ -1,0 +1,56 @@
+2020-12-27 15:14:52 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-27 15:16:28 http://suckless.com/ http://suckless.com/
+2020-12-27 15:26:57 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-27 15:28:05 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-27 15:45:49 http://suckless.org/ software that sucks less | suckless.org software that sucks less
+2020-12-27 15:46:25 https://www.wikipedia.org/ Wikipedia
+2020-12-27 15:46:53 http://surf.suckless.org/ surf | suckless.org software that sucks less
+2020-12-27 15:46:55 http://surf.suckless.org/patches/ surf | suckless.org software that sucks less
+2020-12-27 15:47:00 http://surf.suckless.org/patches/unicode-in-dmenu/ surf | suckless.org software that sucks less
+2020-12-27 15:48:02 https://www.youtube.com/ YouTube
+2020-12-27 15:48:34 https://gitlab.com/dwt1 Derek Taylor · GitLab
+2020-12-27 15:49:11 https://gitlab.com/dwt1 file:///home/dt/.surf/html/homepage.html
+2020-12-27 15:49:11 file:///home/dt/.surf/html/homepage.html 
+2020-12-27 15:50:59 file:///home/argha/.surf/html/homepage.html Home
+2020-12-27 16:03:58 http://suckless.org/ software that sucks less | suckless.org software that sucks less
+2020-12-27 16:04:52 http://suckless.org/ software that sucks less | suckless.org software that sucks less
+2020-12-27 16:06:12 http://suckless.org/ software that sucks less | suckless.org software that sucks less
+2020-12-27 16:08:07 http://suckless.org/ software that sucks less | suckless.org software that sucks less
+2020-12-27 16:18:33 https://gitlab.com/SoumyajitTech Soumyajit Sarkar · GitLab
+2020-12-27 16:18:49 http://suckless.org/ software that sucks less | suckless.org software that sucks less
+2020-12-27 16:19:09 https://www.youtube.com/ YouTube
+2020-12-27 16:20:12 https://archlinux.org/news/accessible-installation-medium/ Arch Linux - News: Accessible installation medium
+2020-12-27 16:25:45 https://www.youtube.com/watch?v=ucn2KzCDnOY What's "Natural" anyway? - YouTube
+2020-12-27 19:37:37 https://www.reddit.com/r/bspwm/comments/kl185j/a_small_graphic_problem/ A small graphic problem : bspwm
+2020-12-27 19:50:53 https://www.reddit.com/r/unixporn/comments/kl1yo1/my_bspwmarch_bspwm/ My Bspwmarch [BSPWM] : unixporn
+2020-12-27 19:51:18 https://i.redd.it/09wt834wee761.png 09wt834wee761.png 1920×2198 pixels
+2020-12-27 20:00:29 https://www.youtube.com/ YouTube
+2020-12-27 20:01:53 https://www.reddit.com/r/commandline/comments/kl3p7t/a_very_simple_system_info_tool_for_linux_written/ A very simple system info tool for Linux written in C : commandline
+2020-12-28 15:12:44 https://aur.archlinux.org/ AUR (en) - Home
+2020-12-28 15:13:21 https://www.youtube.com/ YouTube
+2020-12-28 15:15:35 file:///home/argha/.surf/html/homepage.html Home
+2020-12-28 18:47:57 file:///home/argha/.surf/html/homepage.html Home
+2020-12-28 20:29:46 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-28 20:37:37 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-28 20:43:15 https://lbry.tv/ lbry.tv
+2020-12-28 20:44:48 https://lbry.tv/ lbry.tv
+2020-12-28 20:58:04 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-28 20:58:10 https://lukesmith.xyz/articles/programs Programs and Equipment
+2020-12-28 20:58:47 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-28 20:58:49 https://lukesmith.xyz/articles/programs Programs and Equipment
+2020-12-28 20:58:59 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-28 20:59:01 https://lukesmith.xyz/articles/programs Programs and Equipment
+2020-12-28 20:59:08 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-28 22:05:33 https://gitlab.archlinux.org/archlinux/archiso/-/tags/v49 v49 · Tags · Arch Linux / archiso · GitLab
+2020-12-28 22:06:47 https://wiki.archlinux.org/index.php/TalkingArch Install Arch Linux with accessibility options - ArchWiki
+2020-12-28 22:07:27 https://bugs.archlinux.org/task/68312 FS#68312 : [nvidia] nvidia_uvm uses unknown symbols and breaks CUDA and OpenCL on kernel 5.9.x
+2020-12-29 10:33:39 https://archlinux.org/news/accessible-installation-medium/ Arch Linux - News: Accessible installation medium
+2020-12-29 11:00:53 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-29 11:02:33 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-29 11:02:48 https://brave.com/?ref=luk005 Secure, Fast & Private Web Browser with Adblocker | Brave Browser
+2020-12-29 11:03:02 https://lbry.tv/ lbry.tv
+2020-12-30 10:47:07 https://lukesmith.xyz/ Luke Smith's Webpage
+2020-12-30 10:47:18 https://notrelated.xyz/ Not Related! A Big-Braned Podcast
+2020-12-30 20:01:16 https://www.reddit.com/r/archlinux/comments/kmzpug/is_arch_good_for_gaming/ Is Arch good for gaming : archlinux
+2020-12-31 10:06:08 https://www.reddit.com/r/archlinux/comments/knik9a/is_it_worth_going_through_the_trouble_of_setting/ Is it worth going through the trouble of setting up a firewall? : archlinux
+2020-12-31 10:07:44 https://www.millennialwoes.com/millenniyule?y=2020 Millenniyule Schedyule [MW]

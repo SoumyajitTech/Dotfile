@@ -1,0 +1,11 @@
+#!/bin/sh
+
+IMG_PATH=/home/argha/Pictures/Screenshots
+UL=fb
+EDIT=gimp
+TIME=3000 #Miliseconds notification should remain visible
+
+cd $IMG_PATH
+
+scrot -d 1 '%d-%b-%Y(%I:%M%P)_$wx$h_scrot.png'  && notify-send -t $TIME 'Scrot' 'Fullscreen taken and saved to Pictures'
+

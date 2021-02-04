@@ -1,0 +1,10 @@
+#!/bin/sh
+
+weatherreport="${XDG_DATA_HOME:-$HOME/.local/share}/weatherreport"
+
+getforecast() { curl -sf "wttr.in/kolkata" > "$weatherreport" || exit 1 ;}
+[ "$(stat -c %y "$weatherreport" 2>/dev/null | cut -d' ' -f1)" = "$(date '+%Y-%m-%d')" ] ||
+	getforecast
+
+notify-send "⛈️  Weather is loading" "Please wait"
+setsid -f st -e less -Srf "$weatherreport"

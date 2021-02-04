@@ -1,0 +1,111 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAAAAAB38AAAQ3AAAADAAAACAAAAdzAAAEKwAAAAAABAAAB4AAAAAAAAAA
+    AAAAB38AAAQ3
+  tabs:
+  - history:
+    - last_visited: '2021-02-04T20:36:53'
+      pinned: false
+      title: Home
+      url: file:///home/argha/.surf/html/homepage.html
+    - last_visited: '2021-02-04T20:37:10'
+      original-url: https://searx.fmac.xyz/?q=how%20to%20control%20brightness%20in%20arch
+      pinned: false
+      title: how to control brightness in arch - searx
+      url: https://searx.fmac.xyz/search?q=how%20to%20control%20brightness%20in%20arch
+    - last_visited: '2021-02-04T20:39:00'
+      pinned: false
+      title: how to control brightness in runit - searx
+      url: https://searx.fmac.xyz/search
+    - last_visited: '2021-02-04T20:44:59'
+      pinned: false
+      title: intel display driver in arch - searx
+      url: https://searx.fmac.xyz/search
+    - last_visited: '2021-02-04T20:46:01'
+      original-url: https://searx.fmac.xyz/?q=archlinux
+      pinned: false
+      title: archlinux - searx
+      url: https://searx.fmac.xyz/search?q=archlinux
+    - active: true
+      last_visited: '2021-02-04T20:46:17'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 170
+      title: Arch Linux - Downloads
+      url: https://archlinux.org/download/
+      zoom: 0.9
+  - history:
+    - last_visited: '2021-02-04T20:46:30'
+      pinned: false
+      title: Home
+      url: file:///home/argha/.surf/html/homepage.html
+    - last_visited: '2021-02-04T20:46:42'
+      original-url: https://searx.fmac.xyz/?q=appimage
+      pinned: false
+      title: appimage - searx
+      url: https://searx.fmac.xyz/search?q=appimage
+    - last_visited: '2021-02-04T20:46:49'
+      pinned: false
+      title: www.appimagehub.com
+      url: https://www.appimagehub.com/
+    - last_visited: '2021-02-04T20:47:08'
+      original-url: https://www.appimagehub.com/
+      pinned: false
+      title: qBittorrent - Appimagehub.com
+      url: https://www.appimagehub.com/p/1346648
+    - active: true
+      last_visited: '2021-02-04T20:47:32'
+      original-url: https://www.appimagehub.com/
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: qBittorrent - Appimagehub.com
+      url: https://www.appimagehub.com/p/1346648
+      zoom: 0.9
+  - history:
+    - last_visited: '2021-02-04T20:47:59'
+      pinned: false
+      title: Home
+      url: file:///home/argha/.surf/html/homepage.html
+    - last_visited: '2021-02-04T20:48:05'
+      pinned: false
+      title: SoumyajitTech (Soumyajit Sarkar)
+      url: https://github.com/SoumyajitTech
+    - last_visited: '2021-02-04T20:48:21'
+      pinned: false
+      title: 'SoumyajitTech/Dotfiles: These are the important dotfiles in my system...'
+      url: https://github.com/SoumyajitTech/Dotfiles
+    - last_visited: '2021-02-04T20:48:23'
+      original-url: https://github.com/SoumyajitTech/Dotfiles
+      pinned: false
+      title: Options
+      url: https://github.com/SoumyajitTech/Dotfiles/settings
+    - active: true
+      last_visited: '2021-02-04T20:48:47'
+      original-url: https://github.com/SoumyajitTech/Dotfiles/settings/delete
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: GitHub
+      url: https://github.com/
+      zoom: 0.9
+  - active: true
+    history:
+    - last_visited: '2021-02-04T20:48:52'
+      pinned: false
+      title: Create a New Repository
+      url: https://github.com/new
+    - active: true
+      last_visited: '2021-02-04T20:49:21'
+      original-url: https://github.com/repositories
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: SoumyajitTech/Dotfile
+      url: https://github.com/SoumyajitTech/Dotfile
+      zoom: 0.9

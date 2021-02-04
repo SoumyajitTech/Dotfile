@@ -1,0 +1,53 @@
+"query:Starred:flags # \"s\""
+
+" "
+---ArchLinux---
+https://www.archlinux.org/feeds/news/ "Arch"
+https://www.reddit.com/r/archlinux/new.rss "Arch"
+
+" "
+---Audio---
+https://notrelated.libsyn.com/rss "~Not-Related(Audio)" "Not-Related Audio"
+
+" "
+---Website---
+http://lukesmith.xyz/rss.xml "website"
+
+" "
+---YouTube---
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "YouTube" 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1tVU8H153ZFO9eRsxdJlhA "YouTube" 
+https://www.youtube.com/feeds/videos.xml?channel_id=UChIZGfcnjHI0DG4nweWEduw "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3pasXoRUTKPpQaKtlJz62g "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMVT1Co9137vnJxgnSZAhog "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMrW_BDWQ0WCvvgmoRfbIfw "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCNn6AaHharXIbkRleXGboiQ "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOhHO2ICt0ti9KAh-QHvttQ "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXUJJNoP1QupwsYIWFXmsZg "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZaHw7tdjy3TNMH3ncsI4Bg "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCg6gPGh8HU2U01vaFCAsvmQ "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCneyi-aYq4VIBYIAQgWmk_w "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsTcErHg8oDvUnTzoqsYeNw "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw "YouTube"
+
+" "
+---Lbry---
+https://lbryfeed.melroy.org/channel/tv/DistroTube "~Distrotube (Lbry)" "Lbry"
+https://lbryfeed.melroy.org/channel/tv/Luke "~Luke Smith (Lbry)" "Lbry"
+https://lbryfeed.melroy.org/channel/tv/@BrodieRobertson:5 "~Brodie Robertson (Lbry)" "Lbry"
+
+" "
+---Reddit---
+https://www.reddit.com/r/linux/new.rss reddit 
+https://www.reddit.com/r/bspwm/new.rss reddit 
+https://www.reddit.com/r/ManjaroLinux/new.rss reddit 
+https://www.reddit.com/r/Ubuntu/new.rss reddit 
+https://www.reddit.com/r/commandline/new.rss reddit 
+https://www.reddit.com/r/vim/new.rss reddit 
+https://www.reddit.com/r/unixporn/new.rss reddit
+
+" "
+---PeerTube---
+https://videos.lukesmith.xyz/feeds/videos.xml?sort=-publishedAt&filter=local "~Luke Smith (Peer Tube)" "Peer Tube"

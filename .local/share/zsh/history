@@ -1,0 +1,1735 @@
+: 1612438155:0;sudo pacman -S unzip
+: 1612438254:0;unzip Fira_Mono.zip\
+P\
+
+: 1612438288:0;sudo cp FiraMono-Regular.ttf /usr/share/fonts/
+: 1612438296:0;cd /usr/share/fonts
+: 1612438301:0;mkdir TTF
+: 1612438304:0;sudo mkdir TTF
+: 1612438313:0;sudo cp FiraMono-Regular.ttf /usr/share/fonts/TTF
+: 1612438318:0;cd TTF
+: 1612438319:0;ls
+: 1612438326:0;sudo pacman -S exa
+: 1612438335:0;ls
+: 1612438345:0;sudo fc-cache -fv
+: 1612438352:0;exit
+: 1612438383:0;vi .config/alacritty/alacritty.yml
+: 1612438462:0;vi
+: 1612438509:0;make hexokinase
+: 1612438524:0;sudo pacman -S go
+: 1612438602:0;make hexokinase
+: 1612438612:0;sp -Rsu go
+: 1612438627:0;vi
+: 1612438650:0;exit
+: 1612438657:0;ex FiraMono.zip
+: 1612438702:0;exit
+: 1612438728:0;cd /usr/share/fonts
+: 1612438732:0;cd OTF/
+: 1612438738:0;mkdir OTF/
+: 1612438745:0;sudo mkdir OTF/
+: 1612438789:0;sudo rm -rf FiraMono-Regular.ttf
+: 1612438793:0;cd ~
+: 1612438847:0;sudo cp FiraMonoRegularNerdFontComplete.otf /usr/share/fonts/OTF
+: 1612438860:0;cd /usr/share/fonts
+: 1612438865:0;cd TTF
+: 1612438866:0;ls
+: 1612438875:0;sudo rm -rf FiraMono-Regular.ttf
+: 1612438881:0;sudo fc-cache -fv
+: 1612438893:0;exit
+: 1612438940:0;exit
+: 1612439016:0;cd /etc/X11/xorg.conf.d
+: 1612439030:0;git clone https://github.com/SoumyajitTech/xorg.conf.d.git
+: 1612439047:0;ls
+: 1612439056:0;sudo cp ~/xorg.conf.d .
+: 1612439064:0;..
+: 1612439066:0;ls
+: 1612439069:0;sudo cp ~/xorg.conf.d .
+: 1612439076:0;sudo cp -r ~/xorg.conf.d .
+: 1612439078:0;ls
+: 1612439082:0;qexit
+: 1612439086:0;exit
+: 1612439087:0;exit
+: 1612439115:0;cd .config/zsh
+: 1612439120:0;git clone https://github.com/romkatv/powerlevel10k.git
+: 1612439159:0;exit
+: 1612439338:0;git clone https://aur.archlinux.org/yay.git
+: 1612439346:0;cd yay/.
+: 1612439355:0;makepkg -si
+: 1612439443:0;cd ..
+: 1612439447:0;yay -Yc
+: 1612439477:0;cd .config/zsh
+: 1612439488:0;git clone https://github.com/marlonrichert/zsh-autocomplete.git
+: 1612439496:0;exit
+: 1612439581:0;sp -S pulseaudio-alsa pulseaudio-bluetooth pulsemixer pulseaudio alsa-utils alsa
+: 1612439673:0;sp -S xorg-xbacklight
+: 1612439686:0;yay -S joypixels
+: 1612439705:0;yay -S joypixel
+: 1612439711:0;yay -Ss joypixel
+: 1612439720:0;yay -Ss ttf-joypixels
+: 1612439728:0;yay -S ttf-joypixels
+: 1612439787:0;cd .config/zsh
+: 1612439789:0;ls
+: 1612439805:0;git clone https://github.com/zpm-zsh/colorize.git
+: 1612439815:0;exit
+: 1612439931:0;cd .config/zsh
+: 1612439935:0;git clone https://github.com/ael-code/zsh-colored-man-pages.git
+: 1612439982:0;git clone https://github.com/zsh-users/zsh-autosuggestions.git
+: 1612440029:0;exit
+: 1612440051:0;history
+: 1612440068:0;sp -S xdo xdotools
+: 1612440074:0;sp -S xdo xdotool
+: 1612440089:0;vi .zshenv
+: 1612440138:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+: 1612440148:0;e
+: 1612440199:0;sp -S xclip
+: 1612440282:0;vi .local/bin/sysact
+: 1612440311:0;shutdown -h now
+: 1612440337:0;sp -S lxsession
+: 1612440428:0;nvim visudo
+: 1612440443:0;EDITOR=nvim visudo
+: 1612440448:0;EDITOR=nvim sudo visudo
+: 1612440470:0;sudo visudo
+: 1612440479:0;sp -S nano
+: 1612440486:0;sudo visudo
+: 1612440509:0;vim /usr/bin/vi
+: 1612440559:0;vi .config/rofi/config.rasi
+: 1612440622:0;yay -S libxft-bgra jonaburg-picom
+: 1612440630:0;yay -Ssjonaburg-picom
+: 1612440633:0;yay -Ss jonaburg-picom
+: 1612440641:0;yay -Ss picom
+: 1612440666:0;yay -Ss picom-jonaburg-git libxft-bgra
+: 1612440671:0;yay -S picom-jonaburg-git libxft-bgra
+: 1612440689:0;yay -S picom-jonaburg-git libxft-bgra-git
+: 1612440916:0;vi .config/rofi/config.rasi
+: 1612440924:0;vi .config/rofi/themes/dt-dmenu.rasi
+: 1612440982:0;sp -Ss SauceCodePro
+: 1612441018:0;sp -S ttf-ubuntu-font-family
+: 1612441034:0;sudo visudo
+: 1612441044:0;EDITOR=nvim sudo visudo
+: 1612441049:0;EDITOR=vi sudo visudo
+: 1612441056:0;EDITOR=vi visudo
+: 1612441060:0;sudo su
+: 1612444147:0;ls
+: 1612444187:0;mkdir Applications Desktop Cell Documents Downloads Video
+: 1612444189:0;ls
+: 1612444340:0;cd st
+: 1612444343:0;vi config.h
+: 1612444395:0;sudo make install
+: 1604946159:32;vi .xmonad/xmonad.hs
+: 1604946193:3;xmonad --recompile && xmonad --restart
+: 1604946151:1;calcurse
+: 1604981013:10;sudo find / -iname dmenu
+: 1604981054:0;cd /usr/bin
+: 1604981063:135;vi dmenu_path
+: 1604981204:13;vim dmenu_path
+: 1604983086:0;linkhandler
+: 1604983102:0;sudo linkhandler
+: 1604981385:0;cd /usr/bin
+: 1604981390:22;vim dmenu_run
+: 1604981421:2;vim dmenu
+: 1604981466:123;vim dmenu_path
+: 1604985921:3;sudo pacman -S lf
+: 1604985941:0;sudo pacman -Ss lf
+: 1604985995:7;yay -Ss lf
+: 1604986250:7;yay -Ss if
+: 1604986330:5;sudo pacman-Ss if
+: 1604986339:3;sudo pacman -Ss if
+: 1604987765:5;sudo pacman -Ss dunst
+: 1604987798:8;sudo pacman -S dunst
+: 1604988526:0;dunst
+: 1604988302:16;sudo pacman -S libnotify
+: 1604988452:0;notify-send "Me" "I am a pro"
+: 1604988740:12;git clone https://github.com/BrodieRobertson/dotfiles.git
+: 1604988970:0;dunst
+: 1604988991:0;notify-send "Me" "I am a pro"
+: 1604989087:13;sudo find / -iname xfce4-notifyd-config
+: 1604989117:2;vim /usr/bin/xfce4-notifyd-config
+: 1604989204:0;notify-send "Me" "I am a pro"
+: 1604989313:14;sudo pacman -S xfce4-notifyd
+: 1604989359:2;sudo pacman -Rsu xfce4-notifyd
+: 1604989499:42;vi /etc/hosts
+: 1604989545:20;vim /etc/hosts
+: 1604989653:2;xprop
+: 1604989667:4;sudo pacman -Rsu xfce4-notifyd
+: 1604989680:0;dunst
+: 1604989763:0;notify-send "Me" "I am a pro"
+: 1604989950:0;sudo pacman -Rsu xfce4-notifyd
+: 1604990176:0;dunst
+: 1604990223:36;vim /usr/share/dbus-1/services
+: 1604990264:0;cd /usr/share/dbus-1/services
+: 1604990265:0;ls
+: 1604990277:2;vim org.freedesktop.Notifications.service\
+
+: 1604990292:0;ls | grep notification
+: 1604990314:18;vim org.freedesktop.Notifications.service\
+
+: 1604990337:0;dunst
+: 1604990359:4;sudo find / -iname org.freedesktop.Notifications
+: 1604990440:0;cd /usr/lib/xfce4/
+: 1604990441:0;ls
+: 1604990499:0;c
+: 1604990500:0;h
+: 1604990501:0;c
+: 1604990787:4;sudo find / -iname battery
+: 1604991021:0;killall xfce-notifyd
+: 1604991029:0;killall dunst
+: 1604991079:0;id -u argha
+: 1604991370:6;sudo pacman -S cronie
+: 1604991517:0;sudo systemctl enable cronie
+: 1604991534:0;sudo systemctl start cronie
+: 1604991574:4;crontab -e
+: 1604992358:0;locate alacritty.yml
+: 1604992372:0;locate xfce-notifyd
+: 1604992383:0;locate xfce-notification
+: 1604992525:17;sudo crontab -e
+: 1604992549:11;vi .zshrc
+: 1604992980:692;sudo crontab -e
+: 1604993701:4;sudo systemctl enable cronie.service --now
+: 1604994102:1;crontab -e
+: 1604994109:11;vi .zshrc
+: 1604994124:72;crontab -e
+: 1604994199:648;sudo su
+: 1604994850:86;sudo crontab -e
+: 1604995041:0;notify-send "Me" "I am a pro"
+: 1604995160:0;killall dunst
+: 1604995166:0;notify-send "Me" "I am a pro"
+: 1604995181:0;killall dunst
+: 1604995188:0;notify-send "Me" "I am a pro"
+: 1604995476:1;dmenuumount
+: 1604995542:5;sudo dmenuumount
+: 1605002288:0;dmenuumount
+: 1605003832:55;yay -S dmenu-lpass-nu
+: 1605003901:11;dmenupass
+: 1605004743:11;sudo crontab -e
+: 1605005516:17;sudo pacman -Syu
+: 1605005991:0;killall dunst
+: 1605006004:0;notify-send "Me" "I am a pro"
+: 1605006044:0;notify-send -u critical "Me" "I am a pro"
+: 1605006064:0;locate xfce-power
+: 1605006069:0;locate xfce-power-manager
+: 1605006131:0;notify-send -u critical "Me" "I am a pro"
+: 1605006137:0;notify-send "Me" "I am a pro"
+: 1605006144:0;notify-send -u critical "Me" "I am a pro"
+: 1605006159:0;cd .config/qtile/
+: 1605006163:4;vi config.py
+: 1605006182:129;vi autostart.sh
+: 1605006343:0;h
+: 1605006351:6;dmenuhandler
+: 1605006364:0;linkhandler
+: 1605006374:0;cd .local/bin
+: 1605006376:0;ll
+: 1605006405:5;dmenurecord
+: 1605006415:21;vi dmenurecord
+: 1605006453:0;c
+: 1605006455:0;h
+: 1605006456:0;c
+: 1605006479:0;cd .config/qtile/
+: 1605006482:265;vi config.py
+: 1605008117:0;killall dunst
+: 1605008137:0;notify-send -u critical "Me" "I am a pro"
+: 1605008143:0;notify-send "Me" "I am a pro"
+: 1605008202:0;killall dunst
+: 1605008207:0;notify-send "Me" "I am a pro"
+: 1605008227:0;notify-send -u normal "Me" "I am a pro"
+: 1605008234:0;notify-send -u low "Me" "I am a pro"
+: 1605008262:0;notify-send  "Me" "I am a pro"
+: 1605008424:0;cd .SpaceVim.d
+: 1605008432:37;vi autoload/config.vim
+: 1605008480:12;vim autoload/config.vim
+: 1605008497:0;ll
+: 1605008508:8;vi init.toml
+: 1605008524:10;vi .netrwhist
+: 1605008603:94;vi init.toml
+: 1605008699:82;nvim
+: 1605008783:15;vi init.toml
+: 1605011591:0;neofetch
+: 1605008813:0;cd .SpaceVim.d
+: 1605008815:0;ll
+: 1605008824:3;sudo chown argha:argha *
+: 1605008829:0;ll
+: 1605008838:0;cd autoload
+: 1605008840:0;ll
+: 1605008845:0;sudo chown argha:argha *
+: 1605008846:0;ll
+: 1605008850:0;..
+: 1605008859:2;vim autoload/config.vim
+: 1605008868:0;cd .SpaceVim.d
+: 1605008871:14;vim autoload/config.vim
+: 1605008900:0;cd ~/.config/qtile/
+: 1605008963:108;vi config.py
+: 1605009074:0;h
+: 1605009076:0;c
+: 1605009079:0;cd .SpaceVim.d
+: 1605009083:7;vi autoload/config.vim
+: 1605009094:54;vi init.toml
+: 1605009836:23;nvim
+: 1605009861:236;vi init.toml
+: 1605010116:35;nvim
+: 1605010154:4;vi init.toml
+: 1605010162:28;vi autoload/config.vim
+: 1605010193:35;nvim
+: 1605010230:25;vi autoload/config.vim
+: 1605010257:36;nvim
+: 1605010295:17;vi autoload/config.vim
+: 1605010314:15;nvim
+: 1605010330:14;vi autoload/config.vim
+: 1605010346:56;nvim
+: 1605010455:88;vi autoload/config.vim
+: 1605010545:66;nvim
+: 1605010612:11;vi autoload/config.vim
+: 1605010625:20;nvim
+: 1605010646:12;vi autoload/config.vim
+: 1605010660:20;nvim
+: 1605010682:0;c
+: 1605010685:152;vi autoload/config.vim
+: 1605011353:40;nvim
+: 1605011504:3;vi init.toml
+: 1605011520:87;sudo crontab -e
+: 1605011618:7;vi autoload/config.vim
+: 1605011681:0;cd .SpaceVim.d
+: 1605011683:65;vi init.toml
+: 1605011751:34;nvim
+: 1605011786:3;vi init.toml
+: 1605011791:17;vi autoload/config.vim
+: 1605011810:66;nvim
+: 1605011879:7;vi autoload/config.vim
+: 1605011887:13;nvim
+: 1605011902:9;vi autoload/config.vim
+: 1605011914:8;vi init.toml
+: 1605012198:22;nvim
+: 1605012469:366;vi autoload/config.vim
+: 1605012845:0;rm -rf autoload
+: 1605012901:45;vi ~/.SpaceVim.d/autoload/myspacevim.vim
+: 1605012948:0;ll
+: 1605012951:0;cd autoload
+: 1605012952:0;ll
+: 1605012987:0;..
+: 1605012989:19;vi init.toml
+: 1605013182:113;nvim
+: 1605013902:2;xprop
+: 1605014836:29;sudo pacman -S groff
+: 1605014870:0;cd Downloads
+: 1605014873:0;ls
+: 1605014971:109;man groff
+: 1605015602:0;killall dunst
+: 1605015670:0;notify-send -u low  "Me" "I am a pro"
+: 1605015804:10;sudo find / -iname xfce
+: 1605015820:1;sudo find / -iname power
+: 1605015872:0;sudo find /etc -iname power
+: 1605015877:1;sudo find /usr -iname power
+: 1605015911:0;notify-send -u low  "Me" "I am a pro"
+: 1605015967:0;oh-my-zsh
+: 1605015649:18;sudo crontab -e
+: 1605016412:0;notify-send -u low  "Me" "I am a pro"
+: 1605016673:16;htop
+: 1605016864:19;dmenuhandler
+: 1605016893:22;vi .local/bin/dmenuhandler
+: 1605016955:64;sudo pacman -Syu
+: 1605017367:19;git clone https://github.com/BrodieRobertson/dotfiles.git
+: 1605018409:7;sudo pacman -S obs-studio
+: 1605018424:7;sudo pacman -S ffmpeg
+: 1605018465:0;yay -Yc
+: 1605019799:2;dmenuumount
+: 1605019811:3;dmenupass
+: 1605019849:1;dmenuumount
+: 1605021216:10;sudo pacman -Rsu mpv
+: 1605021252:0;locate  mpv
+: 1605021312:13;sudo find / -iname mpv
+: 1605021371:133;sudo pacman -S mpv
+: 1605022228:0;cd Dotfiles
+: 1605022230:0;ll
+: 1605022238:0;cd .SpaceVim.d
+: 1605022239:0;ll
+: 1605022244:0;..
+: 1605022254:3;sudo rm -rf .SpaceVim.d
+: 1605023302:0;cd Dotfiles
+: 1605023311:0;git add -u
+: 1605023315:0;git status
+: 1605023383:0;git add .SpaceVim.d/ .config/arcologout/ .config/autostart/ .config/calcurse/ .config/dunst/ .config/i3-scrot.conf .config/sxiv/ .local/bin/ .local/share/ .surf/ .wallpaper/
+: 1605023389:0;git status
+: 1605023402:0;git add .config/termite/ .config/vifm/
+: 1605023404:0;git status
+: 1605023437:0;git commit -m "Updating my dotfiles"
+: 1605023445:16;git push
+: 1605023464:0;git status
+: 1605023764:9;dmenurecord
+: 1605023734:2;dmenurecord
+: 1605024917:0;killall picom
+: 1605025671:4;sudo pacman -S lf
+: 1605025683:7;sudo pacman -S lftp
+: 1605025692:1;sudo pacman -Ss lftp
+: 1605025701:1;sudo pacman -Ss lf-file
+: 1605025708:1;sudo pacman -Ss lf | file
+: 1605025714:0;sudo pacman -Ss lf | grep file
+: 1605025743:1;sudo pacman -Ss lf | grep file-manager
+: 1605025751:1;sudo pacman -Ss lf | grep manager
+: 1605025773:0;sudo pacman -Ss lf
+: 1605027015:0;polybar
+: 1605027020:0;polybar -r
+: 1605027104:0;polybar
+: 1605027115:0;polybar --reload
+: 1605032344:0;killall polybar
+: 1605032911:1335;yay -S lf
+: 1605034254:5;yay -Rsu lf
+: 1605034264:0;yay -Yc
+: 1605034300:77;lf
+: 1605035006:18;sudo pacman -S fzf
+: 1605035044:26;lf
+: 1605035832:0;cd .config/qtile/
+: 1605035837:166;vi config.py
+: 1605036124:0;cd Downloads
+: 1605036126:12;fzf
+: 1605036305:10;sudo pacman -S sed
+: 1605036490:26;git clone https://github.com/BrodieRobertson/dotfiles.git
+: 1605036541:3;sudo pacman -S xargs
+: 1605036455:158;lf
+: 1605037521:4;sudo pacman -Rsu lf
+: 1605037867:56;nvim
+: 1605037725:0;getkeys
+: 1605037948:6;curl -sLf https://spacevim.org/install.sh | bash -s -- -h\
+
+: 1605038008:0;rm -rf ~/.cache/{ctrlp/,neocomplete/,neomru/,neosnippet,neoyank,obexd,unite,vimfiles} ~/.SpaceVim ~/.vim\
+
+: 1605038126:25;nvim
+: 1605038460:39;yay -S lf
+: 1605038504:0;yay -Yc
+: 1605038518:0;sudo pacman -Rsu go
+: 1605038852:10;lf
+: 1605039008:0;cd voidrice/.config/lf
+: 1605039018:0;vi lfrc
+: 1605039176:76;lf
+: 1605039336:50;nvim
+: 1605039493:0;cd .SpaceVim/bundle/vimproc.vim
+: 1605039495:0;make
+: 1605039499:12;nvim
+: 1605039597:6;curl -sLf https://spacevim.org/install.sh | bash -s -- -h\
+
+: 1605039635:0;rm -rf ~/.cache/{ctrlp/,neocomplete/,neomru/,neosnippet,neoyank,obexd,unite,vimfiles} ~/.SpaceVim ~/.vim\
+
+: 1605039833:3;nvim
+: 1605039842:0;cd .SpaceVim/bundle/vimproc.vim
+: 1605039843:1;make
+: 1605039855:0;h
+: 1605039861:0;cd .SpaceVim.d
+: 1605039864:22;vi init.toml
+: 1605039890:6;nvim
+: 1605039898:0;h
+: 1605039899:18;nvim
+: 1605039977:4;yay -Rsu lf
+: 1605040005:0;neofetch
+: 1605039995:61;sudo pacman -Syu
+: 1605040596:0;git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k\
+
+: 1605040607:0;/home/argha/.oh-my-zsh/custom/themes/powerlevel10k
+: 1605040619:0;..
+: 1605040636:0;rm -rf powerlevel10k
+: 1605040649:0;h
+: 1605040662:93;git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k\
+
+: 1605040931:4;sudo pacman -Rsu zsh
+: 1605040940:0;sudo pacman -R zsh
+: 1605040986:9;chsh
+: 1605041132:0;cd .oh-my-zsh
+: 1605041141:0;./tools
+: 1605041161:4;sh uninstall.sh
+: 1605041008:4;sudo pacman -Rsu zsh
+: 1605041295:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"\
+
+: 1605041330:0;cd .oh-my-zsh
+: 1605041334:0;cd tools
+: 1605041336:0;ls
+: 1605041346:0;./install.sh
+: 1605041382:0;git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k\
+
+: 1605041494:0;git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions\
+
+: 1605041519:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting\
+
+: 1605041542:0;vi .zshrc
+: 1605041550:0;nvim .zshrc
+: 1605069300:0;cd .oh-my-zsh
+: 1605069305:0;sh uninstall.sh
+: 1605069330:0;cd tools
+: 1605069335:0;sh uninstall.sh
+: 1605069354:0;sudo pacman -Rsu zsh
+: 1605069362:0;chsh
+: 1605069377:0;sudo pacman -R zsh
+: 1605089168:0;git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k\
+
+: 1605089647:0;yay -Ss firamono
+: 1605089655:0;yay -Ss fira-mono
+: 1605089721:0;yay -S nerd-fonts-fira-mono
+: 1605089898:0;git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions\
+
+: 1605089909:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting\
+
+: 1605090028:0;curl -sLf https://spacevim.org/install.sh | bash -s -- -h\
+
+: 1605090086:0;nvim
+: 1605090109:0;cd .SpaceVim/bundle/vimproc.vim
+: 1605090111:0;make
+: 1605090113:0;nvim
+: 1605090448:0;history | grep grub
+: 1605090469:0;vi /etc/default/grub
+: 1605090487:0;vim /etc/default/grub
+: 1605090517:0;sudo update-grub
+: 1605090705:0;ranger
+: 1605090823:0;sudo pacman -Rsu dmenu
+: 1605090839:0;yay -S dmenu-distrotube-git
+: 1605090909:0;sudo pacman -S sxiv
+: 1605090923:0;sudo pacman -Rsu nitrogen
+: 1605091039:0;sudo pacman -Rsu ristretto
+: 1605091116:0;sudo pacman -S zathura zathura-pdf-poppler
+: 1605091410:0;sudo crontab -e
+: 1605091431:0;sudo pacman -S cronie
+: 1605091436:0;sudo crontab -e
+: 1605091801:0;cd Dotfiles
+: 1605091809:0;vi root
+: 1605091887:0;vi argha
+: 1605092008:0;vi .zshrc
+: 1605092096:0;yay -S dmenufm-git
+: 1605092210:0;vim /etc/hosts
+: 1605092317:0;yay -S popcorntime-bin
+: 1605092364:0;pacman -Qe
+: 1605092369:0;pacman -Qm
+: 1605092382:0;pacman -Qe | wc -l
+: 1605092414:0;sp -Rsu adobe-source-*
+: 1605092426:0;sp -Rsu adobe-source-code-pro-fonts adobe-source-han-sans-cn-fonts
+: 1605092467:0;sp -Rsu adobe-source-code-pro-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts adobe-source-sans-pro-fonts
+: 1605092479:0;sp -Rsu adobe-source-code-pro-fonts
+: 1605092492:0;sp -R adobe-source-code-pro-fonts
+: 1605092541:0;pacman -Qe | wc -l
+: 1605092576:0;sp -R arandr
+: 1605092582:0;yay -Yc
+: 1605092592:0;pacman -Qe
+: 1605092663:0;sp -S linux-lts
+: 1605092867:0;sudo update-grub
+: 1605093497:0;neofetch
+: 1605094565:0;firefox -no-remote -ProfileManager
+: 1605094768:0;cd /home/argha/.mozilla/firefox/dubcwpnz.SS-profile
+: 1605094771:0;ls
+: 1605094785:0;sudo pacman -S exa broot
+: 1605094804:0;cd /home/argha/.mozilla/firefox/dubcwpnz.SS-profile
+: 1605094806:0;ls
+: 1605094813:0;rm -rf *
+: 1605094819:0;ls
+: 1605094842:0;cp -r ~/Downloads/profile.zip .
+: 1605094858:0;ex profile.zip
+: 1605095011:0;firefox -no-remote -ProfileManager
+: 1605095787:0;sudo pacman -Syu
+: 1605102034:0;yay -Rsu dmenu-distrotube-git dmenufm-git
+: 1605102045:0;cd Repos
+: 1605102048:0;cd dmenu
+: 1605102049:0;make
+: 1605102055:0;sudo make install
+: 1605102079:0;dmenumount
+: 1605102122:0;dmenuumount
+: 1605102201:0;history | grep dmenu_path
+: 1605102294:0;cd Repos
+: 1605102296:0;cd dmenu
+: 1605102298:0;make
+: 1605102301:0;sudo make install
+: 1605102626:0;cd Repos
+: 1605102630:0;git clone https://gitlab.com/dwt1/dmenu-distrotube.git
+: 1605103047:0;cd Repos/dmenu-
+: 1605103049:0;cd Repos/dmenu
+: 1605103052:0;cd Repos/dmenu-luke
+: 1605103056:0;sudo make uninstall
+: 1605103078:0;yay -S dmenu-distrotube-git dmenufm-git
+: 1605103123:0;cd .local/bin
+: 1605103129:0;vi dmenupass1
+: 1605103170:0;mv dmenupass1 dpass
+: 1605103196:0;vi dmenumount
+: 1605103356:0;sudo dmenuumount
+: 1605104238:0;vi dmenuumount
+: 1605104353:0;vi dmenumount
+: 1605104497:0;vi dmenupass
+: 1605104542:0;vi dpass
+: 1605104571:0;vi dmenupass
+: 1605104607:0;vi dpass
+: 1605104698:0;cd .local/bin
+: 1605104703:0;vi dmenupass
+: 1605108451:0;h
+: 1605108455:0;cd Repos
+: 1605108459:0;cd dmenu-luke
+: 1605108471:0;grep -P *
+: 1605108489:0;grep password *
+: 1605108506:0;vi dmenu.c
+: 1605108696:0;yay -Rsu dmenu-distrotube-git dmenufm-git
+: 1605108706:0;..
+: 1605108710:0;cd dmenu-distrotube
+: 1605108711:0;make
+: 1605108736:0;rm -rf dmenu.c
+: 1605108754:0;cp -r ../dmenu-luke/dmenu.c .
+: 1605108757:0;make
+: 1605108842:0;..
+: 1605108846:0;cd dmenu-luke
+: 1605108849:0;grep password *
+: 1605108959:0;cd Repos
+: 1605108962:0;git clone https://gitlab.com/dwt1/dmenu-distrotube.git
+: 1605109031:0;cd Repos/dmenu-distrotube
+: 1605109032:0;make
+: 1605109039:0;sudo make install
+: 1605109078:0;grep iscol *
+: 1605109084:0;vi drw.c
+: 1605109099:0;make
+: 1605109104:0;sudo make install
+: 1605109137:0;echo ð¿¸ ./dmenu
+: 1605109151:0;echo ð¿¸ | ./dmenu
+: 1605109172:0;vi drw.c
+: 1605109190:0;..
+: 1605109200:0;git clone https://gitlab.com/dwt1/dmenu-distrotube.git
+: 1605109208:0;cd dmenu-distrotube
+: 1605109210:0;make
+: 1605109215:0;sudo make install
+: 1605109231:0;sudo make uninstall
+: 1605109239:0;yay -S dmenu-distrotube-git dmenufm-git
+: 1605109376:0;yay -S libxft-bgra-git
+: 1605109451:0;sudo make uninstall
+: 1605109461:0;yay -Rsu dmenu-distrotube-git dmenufm-git
+: 1605109472:0;../dmenu-luke
+: 1605109475:0;make
+: 1605109482:0;sudo make install
+: 1605109489:0;echo ð¿¸ | ./dmenu
+: 1605109520:0;grep iscol *
+: 1605109528:0;sudo make uninstall
+: 1605109540:0;sudo make install
+: 1605109579:0;sudo make uninstall
+: 1605109586:0;../dmenu-distrotube
+: 1605109587:0;make
+: 1605109593:0;sudo make install
+: 1605109629:0;yay -S dmenufm-git
+: 1605109867:0;vi man
+: 1605110131:0;sudo chmod +x man
+: 1605110137:0;man
+: 1605110147:0;sh man
+: 1605110182:0;vi man
+: 1605110217:0;man -k .
+: 1605110229:0;man -k "."
+: 1605110235:0;man -k *.*
+: 1605110244:0;man -k man
+: 1605110251:0;man -k libre
+: 1605110256:0;man -k zathura
+: 1605110266:0;bash
+: 1612444469:0;man -k zathuta
+: 1612444469:0;man -k .
+: 1612444469:0;man man
+: 1612444469:0;man -k . | dmenu -l 20
+: 1605110430:0;sh man
+: 1605110490:0;man -k . | dmenu -l 20
+: 1605110623:0;ls ~/.local/share/larbs/getkeys | dmenu -l 20\
+
+: 1605110644:0;vi man
+: 1605110667:0;ls ~/.local/share/larbs/getkeys | dmenu -l 20 | zathura -\
+
+: 1605110692:0;ls ~/.local/share/larbs/getkeys | dmenu -l 20\
+
+: 1605110746:0;ls ~/.local/share/larbs/getkeys | dmenu -l 20 | awk '{print $1}' | xargs -r man -Tpdf | zathura -\
+
+: 1605110772:0;ls ~/.local/share/larbs/getkeys | dmenu -l 20 | awk '{print $1}' | zathura -\
+
+: 1605110856:0;ls ~/.local/share/larbs/getkeys/*.txt | dmenu -l 20 | awk '{print $1}' | zathura -\
+
+: 1605110869:0;ls ~/.local/share/larbs/getkeys/*.txt | dmenu -l 20 |\
+
+: 1605110870:0;ls ~/.local/share/larbs/getkeys/*.txt | dmenu -l 20\
+
+: 1605110899:0;cd .local/share/larbs
+: 1605110906:0;cd getkeys
+: 1605110924:0;ls *.txt | dmenu -l 20
+: 1605110932:0;ls *.txt | dmenu -l 20 | zathura -
+: 1605111107:0;zathura "$(ls *.txt | dmenu -l 20)"
+: 1605111121:0;zathura "$(ls * | dmenu -l 20)"
+: 1605111242:0;ls *.txt | dmenu -l 20 | xargs zathura
+: 1605111277:0;ls *.txt | dmenu -l 20 | xargs -I {} zathura "{}"
+: 1605111347:0;man cat
+: 1605111382:0;ls *.txt | dmenu -l 20 | cat zathura
+: 1605111396:0;ls *.txt | dmenu -l 20 | cat | zathura -
+: 1605111414:0;ls *.txt | dmenu -l 20 | cat
+: 1605111422:0;ls *.txt | dmenu -l 20
+: 1605111463:0;ls *.txt | dmenu -l 20 | awk '{print $1}'
+: 1605111500:0;ls *.txt | dmenu -l 20 | xargs cat
+: 1605111511:0;ls *.txt | dmenu -l 20 | xargs cat | zathura -
+: 1605111539:0;ls *.txt | dmenu -l 20 | xargs cat -Tpdf | zathura -
+: 1605111552:0;man cat
+: 1605111623:0;getkeys
+: 1605111637:0;cd .local/bin
+: 1605111640:0;vi getkeys
+: 1605111658:0;getkeys
+: 1605111672:0;vi getkeys
+: 1605111693:0;getkeys
+: 1605111708:0;vi getkeys
+: 1605111723:0;getkeys
+: 1605111739:0;vi getkeys
+: 1605111751:0;getkeys
+: 1605111762:0;vi getkeys
+: 1605111770:0;getkeys
+: 1605111893:0;vi getkeys
+: 1605111910:0;getkeys
+: 1605111920:0;vi getkeys
+: 1605111926:0;getkeys
+: 1605111939:0;vi getkeys
+: 1605111963:0;getkeys
+: 1605111970:0;vi getkeys
+: 1605111986:0;getkeys
+: 1605111999:0;vi getkeys
+: 1605112013:0;getkeys
+: 1605112029:0;vi getkeys
+: 1605112051:0;getkeys
+: 1605112055:0;vi getkeys
+: 1605112084:0;getkeys
+: 1605112090:0;vi getkeys
+: 1605112131:0;getkeys
+: 1605112136:0;vi getkeys
+: 1605112155:0;getkeys
+: 1605112167:0;vi getkeys
+: 1605112176:0;getkeys
+: 1605112178:0;vi getkeys
+: 1605112188:0;getkeys
+: 1605112192:0;vi getkeys
+: 1605112209:0;getkeys
+: 1605112215:0;vi getkeys
+: 1605112233:0;getkeys
+: 1605112358:0;c
+: 1605112362:0;vi getkeys
+: 1605112426:0;cd ../share/larbs
+: 1605112430:0;cd getkeys
+: 1605112431:0;ls
+: 1605112439:0;cat calcurse.txt
+: 1605112459:0;cd ~/.local/bin
+: 1605112463:0;VI getkeys
+: 1605112471:0;vi getkeys
+: 1605112520:0;getkeys
+: 1605112536:0;vi getkeys
+: 1605112558:0;getkeys
+: 1605112566:0;vi getkeys
+: 1605112574:0;getkeys
+: 1605112578:0;vi getkeys
+: 1605112632:0;getkeys
+: 1605112643:0;vi getkeys
+: 1605112668:0;getkeys
+: 1605112675:0;vi getkeys
+: 1605113094:0;man
+: 1605113104:0;sh man
+: 1605113116:0;man .
+: 1605113121:0;man -k .
+: 1605113133:0;man man
+: 1605113146:0;man -k man
+: 1605113151:0;man -K man
+: 1605113171:0;man -k man
+: 1605113175:0;man  man
+: 1605113194:0;man -T  man
+: 1605113203:0;man -Tpdf  man
+: 1605113212:0;man -Tpdf man | zathura
+: 1605113218:0;man -Tpdf man | zathura -
+: 1605113239:0;man -k . | dmenu -l 20
+: 1605113250:0;man -k * | dmenu -l 20
+: 1605113266:0;man -k / | dmenu -l 20
+: 1605113291:0;man -k /
+: 1605113312:0;man -k /home
+: 1605113318:0;man -K .
+: 1605113480:0;du -a ~/.config/* ~/.local/* | awk '{print $2}'
+: 1605113508:0;sudo pacman -S fzf
+: 1605113532:0;du -a ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r nvim
+: 1605113575:0;du -a ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+: 1605113588:0;vi .zshrc
+: 1605113770:0;sc
+: 1605114341:0;getkeys
+: 1605114362:0;vi .zshrc
+: 1605114385:0;du -a ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r $EDITOR"
+: 1605114393:0;du -a ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+: 1605114417:0;du -a ~/.local/share/larbs/getkeys/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+: 1605114459:0;vi .zshrc
+: 1605114506:0;key
+: 1605114527:0;du -a ~/.local/share/larbs/getkeys/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+: 1605114555:0;vi .zshrc
+: 1605114594:0;key
+: 1605114617:0;vi .zshrc
+: 1605114623:0;sc
+: 1605114633:0;vi .zshrc
+: 1605114648:0;sudo pacman -S awk
+: 1605114660:0;du -a ~/.local/share/larbs/getkeys/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+: 1605114673:0;du -a ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+: 1605114684:0;vi .zshrc
+: 1605114710:0;sc
+: 1605114713:0;vi .zshrc
+: 1605114719:0;sc
+: 1605114727:0;vi .zshrc
+: 1605114744:0;sc
+: 1605114764:0;du -a ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+: 1605114773:0;vi .zshrc
+: 1605114798:0;ls ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+: 1605114810:0;ll ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+: 1605114824:0;la ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+: 1605114831:0;du -a ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+: 1605114915:0;vi .zshrc
+: 1605114997:0;sc
+: 1605115289:0;cd /sys/class/power_supply/BAT0/
+: 1605115295:0;vi capacity
+: 1605115315:0;vi capacity_level
+: 1605115465:0;cd voidrice/.local/bin/cron
+: 1605115477:0;sh cronbat
+: 1605115516:0;sh crontog
+: 1605115547:0;sc
+: 1605115555:0;vi .zshrc
+: 1605115611:0;sc
+: 1605115617:0;vi .zshrc
+: 1605115629:0;sc
+: 1605115637:0;vi .zshrc
+: 1605115892:0;sc
+: 1605115899:0;vi .zshrc
+: 1605117010:0;sc
+: 1605117288:0;vi .config/aliasrc
+: 1605117300:0;vi .zshrc
+: 1605117371:0;vi .config/aliasrc
+: 1605117430:0;vi .zshrc
+: 1605118116:0;sc
+: 1605118120:0;vi .zshrc
+: 1605118222:0;sc
+: 1605118224:0;vi .zshrc
+: 1605118236:0;nvim .zshrc
+: 1605118257:0;vi .zshrc
+: 1605118352:0;vi .config/aliasrc
+: 1605118358:0;cd .local/bin
+: 1605118363:0;vi sc
+: 1605118413:0;vi key
+: 1605118449:0;sudo chmod +x sc key
+: 1605118495:0;rm .config/aliasrc
+: 1605118500:0;sc
+: 1605118507:0;key
+: 1605118526:0;cd .local/bin
+: 1605118529:0;vi sc
+: 1605118550:0;sc
+: 1605118561:0;vi sc
+: 1605118565:0;cd .local/bin
+: 1605118567:0;vi sc
+: 1605118677:0;cd Repos/dmenu-distrotube
+: 1605118685:0;grep iscol *
+: 1605118690:0;vi drw.c
+: 1605118709:0;make
+: 1605118715:0;sudo make install
+: 1605118736:0;echo ð¿¸ | ./dmenu
+: 1605118759:0;:q
+: 1605119408:0;key
+: 1605119434:0;cd .local/bin
+: 1605119441:0;vi key
+: 1605119471:0;key
+: 1605119593:0;cd .local/bin
+: 1605119615:0;vi key
+: 1605119657:0;key
+: 1605120010:0;sp -S gvim
+: 1605120043:0;cd .local/bin
+: 1605120046:0;vi key
+: 1605120077:0;curl -sLf https://spacevim.org/install.sh | bash -s -- -h\
+
+: 1605120095:0;curl -sLf https://spacevim.org/install.sh | bash -s -- --install gvim
+: 1605120119:0;nvim
+: 1605120128:0;gvim
+: 1605120141:0;nvim
+: 1605120193:0;curl -sLf https://spacevim.org/install.sh | bash -s -- --install gvim
+: 1605120202:0;curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall gvim
+: 1605120223:0;nvim
+: 1605120234:0;curl -sLf https://spacevim.org/install.sh | bash -s -- --install neovim
+: 1605120263:0;nvim
+: 1605120394:0;sp -Rsu gvim
+: 1605120592:0;cd .local/bin
+: 1605120596:0;vi key
+: 1605120624:0;key
+: 1605120705:0;vim /etc/sudoers
+: 1605121347:0;vim /etc/hosts
+: 1605121391:0;vim /etc/sudoers
+: 1605121529:0;su -Syu
+: 1605121537:0;sp -Syu
+: 1605121566:0;neofetch
+: 1605121592:0;sc
+: 1605121702:0;cd .local/bin
+: 1605121707:0;vi sc
+: 1605121762:0;du -a ~/.config/* ~/.local/* | grep vi coc | awk '{print $2}' | fzf | xargs -r $EDITOR \
+
+: 1605121850:0;du -a ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r $EDITOR \
+
+: 1605121978:0;sc
+: 1605122232:0;du -a ~/.* | awk '{print $2}' | fzf | xargs -r $EDITOR \
+
+: 1605122272:0;du -a ~/.config/* ~/.local/* | awk '{print $2}' | fzf | xargs -r $EDITOR \
+
+: 1605122403:0;sc
+: 1605122699:0;youtube-dl
+: 1605152216:0;sudo crontab -e
+: 1605152412:0;notify-send "Arcolinux" "All updates are downloaded"
+: 1605152440:0;sudo crontab -e
+: 1605152654:0;sudo pacman -Syuw --noconfirm && notify-send "Arcolinux" "All updates are downloaded"
+: 1605152832:0;sudo systemctl enable cronie.service --no
+: 1605152835:0;sudo systemctl enable cronie.service --now
+: 1605152874:0;sudo systemctl enable cronie.service --no
+: 1605152878:0;sudo systemctl enable cronie.service --now
+: 1605152915:0;cd .local/bin
+: 1605152919:0;ranger .
+: 1605152928:0;h
+: 1605152933:0;vi .zshrc
+: 1605152990:0;cd /etc
+: 1605152992:0;lf
+: 1605153075:0;sudo systemctl enable cronie.service --now
+: 1605153094:0;sp -Syu
+: 1605153547:0;key
+: 1605153767:0;man
+: 1605153771:0;man .
+: 1605153780:0;man -k man
+: 1605153790:0;man  man
+: 1605153808:0;man -k man .
+: 1605153813:0;man  man
+: 1605153856:0;apropos .
+: 1605153859:0;man  man
+: 1605153925:0;man -k ranger
+: 1605153930:0;man -kranger
+: 1605153941:0;man -k
+: 1605153951:0;man -k "ranger"
+: 1605153960:0;man -k *ranger*
+: 1605153970:0;man -k 7z
+: 1605153973:0;c
+: 1605154227:0;neofetch
+: 1605154444:0;sc
+: 1605154487:0;echo ð¿¸ð¿¸¦ | ./dmenu
+: 1605154491:0;echo ð¿¸ð¿¸¦ | dmenu
+: 1605154520:0;yay -Ss awesome-font
+: 1605154531:0;yay -Ss awesome | grep font
+: 1605154760:0;yay -S ttf-font-awesome
+: 1605154796:0;yay -S ttf-font-awesome-4
+: 1605154829:0;yay -Ss awesome | grep font
+: 1605154876:0;echo ð¿¸ð¿¸¦ | dmenu
+: 1605155113:0;sudo systemctl enable cronie.service --now
+: 1605155167:0;echo ð¿¸ð¿¸¦ | dmenu
+: 1605155174:0;sudo systemctl enable cronie.service --now
+: 1605155187:0;sudo crontab -e
+: 1605156294:0;man ranger
+: 1605156582:0;sxhkd
+: 1605156825:0;ll
+: 1605156951:0;rm -rf .xinitrc
+: 1605156954:0;ll
+: 1605156969:0;cp voidrice/.xinitrc .
+: 1605156971:0;ll
+: 1605156982:0;cd voidrice
+: 1605156983:0;ll
+: 1605157037:0;c
+: 1605157047:0;cp voidrice/.xprofile .
+: 1605157121:0;setbg
+: 1605157142:0;vi .fehbg
+: 1605157228:0;setbg
+: 1605157280:0;key
+: 1605157471:0;sudo pacman -Rsu sxhkd
+: 1605157478:0;sudo pacman -R sxhkd
+: 1605157638:0;man
+: 1605157644:0;sh man
+: 1605157704:0;man -k tabbed
+: 1605157771:0;ping youtube.com
+: 1605158191:0;mandb -c
+: 1605158211:0;man -k tabbed
+: 1605158244:0;mandb -c
+: 1605158661:0;man .
+: 1605158670:0;man -k *
+: 1605158681:0;man -k /
+: 1605158893:0;mandb
+: 1605158906:0;mandb --help
+: 1605158917:0;mandb -d
+: 1605158925:0;man -k tabbed
+: 1605159173:0;man -a tabbed
+: 1605159181:0;man -a ranger
+: 1605159189:0;man -a .
+: 1605159264:0;man -f .
+: 1605159272:0;man -f ranger
+: 1605159279:0;man -k ranger
+: 1605160052:0;locate apropos
+: 1605160095:0;man -k apropos
+: 1605160143:0;sudo pacman -S man
+: 1605160260:0;sudo mandb
+: 1605160635:0;man -k apropos
+: 1605160640:0;sh man
+: 1605160667:0;vi man
+: 1605160676:0;man -k . | dmenu -l 20 | awk '{print $1}' | xargs -r man -Tpdf | zathura -\
+
+: 1605160687:0;man -k . | dmenu -l 20 | awk '{print $1}'\
+
+: 1605160697:0;man -a . | dmenu -l 20 | awk '{print $1}'\
+
+: 1605160753:0;apropos -a . | dmenu -l 20 | awk '{print $1}'\
+
+: 1605160777:0;apropos -e . | dmenu -l 20 | awk '{print $1}'\
+
+: 1605160859:0;apropos -e ranger
+: 1605160936:0;sh man
+: 1605161118:0;apropos --long "$1" | dmenu -l 20 | awk '{print $1}'\
+
+: 1605161170:0;apropos --long . | dmenu -l 20 | awk '{print $1}'\
+
+: 1605161320:0;apropos --long "$1" | dmenu -l 20 | awk '{print $1}'\
+
+: 1605161343:0;sh man
+: 1605161392:0;man
+: 1605161418:0;man -k tabbed
+: 1605161422:0;man
+: 1605161482:0;mand
+: 1605164857:0;echo ð¿¸ð¿¸¦ | dmenu
+: 1605164872:0;vi .dmrc
+: 1605164880:0;vi .dmenurc
+: 1605165013:0;cd Repos
+: 1605165022:0;cd dmenu-distrotube
+: 1605165027:0;make
+: 1605165032:0;sudo make install
+: 1605165052:0;vi config.h
+: 1605165074:0;make
+: 1605165077:0;sudo make install
+: 1605165084:0;echo ð¿¸ð¿¸¦ | dmenu
+: 1605165490:0;cd Repos/dmenu-distrotube
+: 1605165495:0;sudo make uninstall
+: 1605165510:0;echo ð¿¸ð¿¸¦ | dmenu
+: 1605165540:0;yay -Rsu dmenu
+: 1605165549:0;yay -Rsu dmenu dmenufm-git
+: 1605165563:0;make
+: 1605165569:0;sudo make install
+: 1605165581:0;echo ð¿¸ð¿¸¦ | dmenu
+: 1605165599:0;h
+: 1605165603:0;cd .config/polybar
+: 1605165606:0;vi config
+: 1605165657:0;checkupdates | wc -l
+: 1605165739:0;vi config
+: 1605165782:0;neofetch
+: 1605165824:0;battery
+: 1605165861:0;sp -S terminator
+: 1605165913:0;battery
+: 1605166050:0;sc
+: 1605166248:0;sysctl
+: 1605166272:0;sysact
+: 1605166301:0;cd Repos/dmenu-distrotube
+: 1605166306:0;vi config.
+: 1605166311:0;vi config.h
+: 1605166349:0;make
+: 1605166354:0;sudo make install
+: 1605166374:0;sudo make uninstall
+: 1605166396:0;yay -S dmenu-distrotube-git dmenufm-git
+: 1605166449:0;echo ð¿¸ð¿¸¦ | dmenu
+: 1605166532:0;h
+: 1605166533:0;c
+: 1605166581:0;cd .local/bin
+: 1605166583:0;h
+: 1605166589:0;cd .local/share/larbs
+: 1605166592:0;..
+: 1605166600:0;cat emoji
+: 1605166616:0;cd .local/share/larbs
+: 1605166618:0;..
+: 1605166621:0;cat emoji
+: 1605166658:0;echo ð¿¸ð¿¸¦ | dmenu
+: 1605167099:0;yay -Rsu dmenu-distrotube-git dmenufm-git
+: 1605167112:0;cd Repos/dmenu-luke
+: 1605167114:0;make
+: 1605167119:0;sudo make install
+: 1605167243:0;sudo make uninstall
+: 1605167251:0;cd ../dmenu-distrotube
+: 1605167253:0;make
+: 1605167260:0;sudo make install
+: 1605167561:0;vi drw.c
+: 1605167586:0;sudo make uninstall
+: 1605167604:0;yay -S dmenu-distrotube-git
+: 1605167658:0;echo ð¿¸ð¿¸¦ | dmenu
+: 1605167694:0;echo ð¿¸ ð¿¸¦ ð¿±­ | dmenu
+: 1605167826:0;pacman -Qm | grep libxft
+: 1605167850:0;sudo pacman -S libxft
+: 1605167869:0;echo ð¿¸ ð¿¸¦ ð¿±­ | dmenu
+: 1605168219:0;h
+: 1605168226:0;cd .local/share
+: 1605168236:0;vi emoji
+: 1605168251:0;cat emoji
+: 1605168264:0;cd .local/share
+: 1605168267:0;cat emoji
+: 1605168349:0;sudo pacman -Rsu terminator
+: 1605168359:0;yay -Yc
+: 1605168367:0;pacman -Qm | grep libxft
+: 1605168372:0;pacman -Qe | grep libxft
+: 1605192872:0;mand
+: 1605192951:0;cd .local/share/
+: 1605192954:0;cat emoji
+: 1605193008:0;echo ð¿¸ ð¿¸¦ ð¿±­ | dmenu
+: 1605193453:0;cat emoji
+: 1605193457:0;echo ð¿¸ ð¿¸¦ ð¿±­ | dmenu
+: 1605193494:0;yay -Rsu dmenu-distrotube-git
+: 1605193519:0;yay -Yc
+: 1605194882:0;dmenuumount
+: 1605194889:0;cd dmenu-distrotube
+: 1605194897:0;cd Repos/dmenu-distrotube
+: 1605194921:0;make
+: 1605194929:0;sudo make install
+: 1605194953:0;locate iscol *
+: 1605194974:0;history | grep iscol
+: 1605194981:0;grep iscol *
+: 1605194987:0;h
+: 1605194992:0;cd Repos/dmenu-luke
+: 1605194994:0;grep iscol *
+: 1605195009:0;cd Repos/dmenu-distrotube
+: 1605195017:0;cd ../dmenu-distrotube
+: 1605195024:0;sudo make uninstall
+: 1605195031:0;cd ../dmenu-luke
+: 1605195036:0;make
+: 1605195042:0;sudo make install
+: 1605195052:0;echo ð¿¸ ð¿¸¦ ð¿±­ | dmenu
+: 1605195118:0;ð¿¤£
+: 1605195177:0;sudo pacman -S libxft
+: 1605195245:0;cd Repos/dmenu-luke
+: 1605195255:0;sudo make uninstall
+: 1605195265:0;cd ../dmenu-distrotube
+: 1605195267:0;make
+: 1605195271:0;sudo make install
+: 1605195376:0;cd Repos/dmenu-distrotube
+: 1605195383:0;sudo make uninstall
+: 1605195390:0;yay -S dmenu-distrotube-git
+: 1605196206:0;echo ð¿¤£ | dmenu
+: 1605196222:0;yay -Rsu dmenu-distrotube-git
+: 1605196245:0;sudo pacman -S ttf-joypixels
+: 1605196252:0;cd Repos/dmenu-distrotube
+: 1605196254:0;make
+: 1605196261:0;grep iscol *
+: 1605196269:0;sudo make install
+: 1605196321:0;echo ð¿¤£ | dmenu
+: 1605196330:0;cd Repos/dmenu-distrotube
+: 1605196338:0;sudo make uninstall
+: 1605196343:0;make
+: 1605196349:0;sudo make install
+: 1605196374:0;sudo make uninstall
+: 1605196396:0;..
+: 1605196402:0;rm -rf dmenu-distrotube
+: 1605196408:0;git clone https://gitlab.com/dwt1/dmenu-distrotube.git
+: 1605196420:0;cd dmenu-distrotube
+: 1605196421:0;make
+: 1605196433:0;sudo make install
+: 1605196450:0;vi drw.c
+: 1605196485:0;make
+: 1605196490:0;sudo make install
+: 1605196534:0;yay -S libxft-bgra
+: 1605196567:0;yay -S libxft-bgra-git
+: 1605196677:0;echo ð¿¤£ | dmenu
+: 1605196712:0;yay -S dmenfm
+: 1605196734:0;yay -S dmenufm-git
+: 1605196937:0;cd .local/share/
+: 1605196939:0;cat emoji
+: 1605197045:0;cd Repos/dmenu-distrotube
+: 1605197048:0;vi config.h
+: 1605197069:0;make
+: 1605197074:0;sudo make install
+: 1605197105:0;sudo systemctl enable cronie.service --now
+: 1605197198:0;neofetch
+: 1605197243:0;vi .dmenurc
+: 1605197274:0;cd Repos/dmenu-distrotube
+: 1605197284:0;vi config.def.h
+: 1605197342:0;make
+: 1605197352:0;vi config.h
+: 1605197366:0;vi config.def.h
+: 1605197372:0;make
+: 1605197380:0;vi config.h
+: 1605197394:0;vi config.mk
+: 1605197401:0;vi config.def.h
+: 1605197408:0;make
+: 1605197416:0;vi config.h
+: 1605197428:0;make
+: 1605197443:0;vi config.def.h
+: 1605197454:0;vi config.h
+: 1605197463:0;sudo make install
+: 1605197472:0;vi config.h
+: 1605197493:0;vi config.def.h
+: 1605197503:0;make
+: 1605197507:0;sudo make install
+: 1605197514:0;vi config.h
+: 1605197523:0;make
+: 1605197528:0;vi config.def.h
+: 1605197537:0;make
+: 1605197544:0;vi config.h
+: 1605197548:0;sudo make install
+: 1605197557:0;vi config.def.h
+: 1605197564:0;make
+: 1605197571:0;vi config.h
+: 1605197583:0;make
+: 1605197587:0;sudo make install
+: 1605197633:0;sc
+: 1605198676:0;cd /var/cache/pacman/pkg
+: 1605198705:0;ll
+: 1605198714:0;br
+: 1605198721:0;bl
+: 1605198801:0;yay -Syu
+: 1605198838:0;man -k tabbed
+: 1605198923:0;pacman -Qm
+: 1605198953:0;yay -Rsu ttf-font-awesome
+: 1605198963:0;yay -Rsu ttf-font-awesome-4
+: 1605198971:0;yay -R ttf-font-awesome
+: 1605198979:0;yay -Rsu ttf-font-awesome-4
+: 1605198999:0;cd .local/share/
+: 1605199001:0;cat emoji
+: 1605199022:0;cd .local/share/
+: 1605199026:0;cat emoji
+: 1605199262:0;history | grep tree
+: 1605199266:0;history | grep time
+: 1605199281:0;time tree /
+: 1605199352:0;neofetch
+: 1605199366:0;sudo pacman -Rsu alacritty
+: 1605199377:0;sudo pacman -Rsu termite
+: 1605199384:0;yay -Yc
+: 1605199612:0;cd .local/share/
+: 1605199942:0;git clone https://gitlab.com/SoumyajitTech/dotfiles.git
+: 1605200014:0;git clone https://github.com/SoumyajitTech/Dotfiles.git
+: 1605200125:0;cd .local/share/
+: 1605200128:0;cat emoji
+: 1605200147:0;h
+: 1605200150:0;time tree /
+: 1605200361:0;cd .config/termite/
+: 1605200365:0;vi config
+: 1605200439:0;cp config-bak config
+: 1605201310:0;neofetch
+: 1605201324:0;time tree /
+: 1605201363:0;vi .Xresources
+: 1605201732:0;cd Dotfiles
+: 1605201743:0;git add -u
+: 1605201748:0;git status
+: 1605201767:0;git add .config/termite/config-bak
+: 1605201771:0;git status
+: 1605201776:0;git commit -m "Updating my dotfiles"
+: 1605201801:0;git push
+: 1605201883:0;neofetch
+: 1605206216:0;calcurse
+: 1605206226:0;sudo pacman -S calcurse
+: 1605206725:0;yay -S glow
+: 1605206917:0;cd .local/bin
+: 1605206920:0;vi key
+: 1605206935:0;key
+: 1605206962:0;vi key
+: 1605206999:0;yay -Rsu glow
+: 1605207002:0;yay -Rsu glow-bin
+: 1605207009:0;yay -Yc
+: 1605207069:0;pacman -Qm
+: 1605249531:0;nvim
+: 1605250929:0;sudo pacman -S gimp
+: 1605257758:0;killall picom
+: 1605264078:0;neofetch
+: 1605266777:0;htop
+: 1605266877:0;xmonad --recompile && xmonad --restart
+: 1605267251:0;htop
+: 1605267356:0;sudo pacman -S figlet
+: 1605267380:0;figlet calcarse
+: 1605267400:0;figlet alacritty
+: 1605267436:0;figlet alacritty >> .config/alacritty/alacritty.yml
+: 1605267694:0;figlet termite > .config/termite/config
+: 1605267764:0;figlet termite >> .config/termite/config
+: 1605267904:0;figlet termite
+: 1605267930:0;vi .config/termite/config
+: 1605267995:0;vi .config/alacritty/alacritty.yml
+: 1605268065:0;htop
+: 1605268276:0;xmonad --recompile && xmonad --restart
+: 1605268338:0;
+: 1605282326:0;nvim
+: 1605292046:0;pacman -Qe | grep music
+: 1605292067:0;pacman -Qe | grep cpp
+: 1605292075:0;pacman -Qe | grep mpc
+: 1605292077:0;pacman -Qe | grep mpd
+: 1605292238:0;dmenuhandler https://www.youtube.com/watch\?v\=dNcucfu7BUw
+: 1605292265:0;cd .local/bin
+: 1605292271:0;vi dmenuhandler
+: 1605292573:0;dmenuhandler https://www.youtube.com/watch\?v\=dNcucfu7BUw
+: 1605292592:0;vi dmenuhandler
+: 1605292616:0;youtube-dl https://www.youtube.com/watch\?v\=dNcucfu7BUw
+: 1605292633:0;vi dmenuhandler
+: 1605292673:0;dmenuhandler https://www.youtube.com/watch\?v\=dNcucfu7BUw
+: 1605292826:0;vi dmenuhandler
+: 1605292963:0;sudo find / -iname *.webm
+: 1605292971:0;sudo find / -iname .webm
+: 1605292990:0;dmenuhandler https://www.youtube.com/watch\?v\=dNcucfu7BUw
+: 1605293012:0;vi dmenuhandler
+: 1605293672:0;cd .local/bin
+: 1605293674:0;vi dmenuhandler
+: 1605293725:0;dmenuhandler https://www.youtube.com/watch\?v\=dNcucfu7BUw
+: 1605293747:0;youtube https://www.youtube.com/watch\?v\=dNcucfu7BUw
+: 1605293751:0;youtube-dl https://www.youtube.com/watch\?v\=dNcucfu7BUw
+: 1605293782:0;sudo find / -iname .mkv
+: 1605293795:0;sudo find /home -iname .mkv
+: 1605293822:0;sudo find /home -iname dNcucfu7BUw.mkv
+: 1605293826:0;sudo find / -iname dNcucfu7BUw.mkv
+: 1605293901:0;locate dNcucfu7BUw.mkv
+: 1605293910:0;youtube-dl https://www.youtube.com/watch\?v\=dNcucfu7BUw
+: 1605294657:0;vi /etc/youtube-dl
+: 1605294833:0;vi ~/.config/youtube-dl/config
+: 1605294952:0;dmenuhandler https://www.youtube.com/watch\?v\=YAsxztU189k\
+
+: 1605295564:0;cd .local/bin
+: 1605295567:0;vi dmenuhandler
+: 1605295645:0;vi .config/youtube-dl/config
+: 1605296007:0;h
+: 1605296018:0;vi .SpaceVim/init.vim
+: 1605296052:0;nvim
+: 1605296069:0;vi .SpaceVim/init.vim
+: 1605296100:0;nvim
+: 1605296107:0;cd .local/bin
+: 1605296112:0;vi dmenuhandler
+: 1605296346:0;youtube-dl -f bestvideo[ext=mp4][height<1200]+bestaudio[ext=m4a]/bestvideo[ext=webm][height<1200]+bestaudio[ext=webm]/bestvideo[height<1200]+bestaudio/best[height<1200]/best https://www.youtube.com/watch\?v\=dNcucfu7BUw
+: 1605296851:0;cd .local/bin
+: 1605296856:0;vi dmenuhandler
+: 1605297019:0;cd .local/bin
+: 1605297024:0;h
+: 1605297031:0;vi .config/youtube-dl/config
+: 1605297442:0;vi dmenuhandler
+: 1605297655:0;youtube-dl -f bestvideo+bestaudio https://www.youtube.com/watch\?v\=BBvod49uySQ\
+
+: 1605297737:0;h
+: 1605297740:0;vi .config/youtube-dl/config
+: 1605297752:0;youtube-dl -f bestvideo+bestaudio https://www.youtube.com/watch\?v\=BBvod49uySQ\
+
+: 1605297852:0;vi .config/youtube-dl/config
+: 1605297861:0;youtube-dl -f bestvideo+bestaudio https://www.youtube.com/watch\?v\=BBvod49uySQ\
+
+: 1605298147:0;youtube-dl https://www.youtube.com/watch\?v\=BBvod49uySQ\
+
+: 1605339910:0;cd .local/bin
+: 1605339916:0;vi dmenuhandler
+: 1605339941:0;h
+: 1605339944:0;vi .config/youtube-dl/config
+: 1605341297:0;cd .local/bin
+: 1605341302:0;vi dmenuhandler
+: 1605341683:0;h
+: 1605341684:0;vi .config/youtube-dl/config
+: 1605341840:0;cd .local/bin
+: 1605341842:0;vi dmenuhandler
+: 1605341915:0;mand
+: 1605342046:0;h
+: 1605342048:0;vi .config/youtube-dl/config
+: 1605344706:0;git clone https://github.com/BrodieRobertson/dotfiles.git
+: 1605344815:0;sp -S alacritty
+: 1605344863:0;sp -Rsu alacritty
+: 1605344876:0;yay -S lb
+: 1605344883:0;yay -S lf
+: 1605344930:0;lf
+: 1605344951:0;xprop
+: 1605344973:0;vi .zshrc
+: 1605344987:0;lf
+: 1605345352:0;cd .config/lf
+: 1605345356:0;vi lfrc
+: 1605345475:0;cd .config/lf
+: 1605345478:0;vi lfrc
+: 1605345494:0;vi scope
+: 1605345527:0;time lf
+: 1605345540:0;time ranger
+: 1605345553:0;time lf
+: 1605345568:0;time ranger
+: 1605345583:0;yay -Rsu lf
+: 1605345589:0;yay -Rsu lf-bin
+: 1605345600:0;sp -Rsu ranger
+: 1605345607:0;c
+: 1605345618:0;yay -Rsu lf-bin
+: 1605345624:0;sp -Rsu alacritty
+: 1605345727:0;pacman -Qe | grep ncmpcpp
+: 1605345781:0;yay -S nnn
+: 1605345794:0;sp -S nnn
+: 1605345879:0;nnn
+: 1605346077:0;time nnn
+: 1605346096:0;lf
+: 1605346102:0;yay -Rsu lf-bin
+: 1605346279:0;sp -Syu
+: 1605360754:0;nnn
+: 1605361555:0;time nnn
+: 1605361564:0;time ranger
+: 1605361582:0;nnn
+: 1605362439:0;sp -Rsu nnn
+: 1605368203:0;vi .zshrc
+: 1605369676:0;yay -S lf-bin
+: 1605369723:0;vi .zshrc
+: 1605369747:0;lf
+: 1605370005:0;git clone https://github.com/BrodieRobertson/dotfiles.git
+: 1605371384:0;vi .bash_profile
+: 1605374015:0;nnn
+: 1605374640:0;history | grep oh-my-zsh
+: 1605374652:0;history | grep zsh
+: 1605374679:0;c
+: 1605374899:0;p10k configure
+: 1605375525:0;xmonad --recompile && xmonad --restart
+: 1605377868:0;yay -S st-luke-git
+: 1605377944:0;time tree /
+: 1605377990:0;yay -Rsu st-luke-git
+: 1605377998:0;yay -Yc
+: 1605378077:0;nnn
+: 1605378153:0;p10k configure
+: 1605378283:0;ls
+: 1605378344:0;p10k configure
+: 1605378404:0;neofetch
+: 1605378724:0;sp -S nnn
+: 1605378733:0;nnn
+: 1605378909:0;sp -Rsu nnn
+: 1605378997:0;yay -S lf-bin
+: 1605379008:0;yay -S lf
+: 1605379156:0;yay -Yc
+: 1605379163:0;yay -Rsu lf
+: 1605379172:0;yay -Rsu lf-bin
+: 1605379179:0;lf
+: 1605379248:0;vi .zshrc
+: 1605379294:0;lf
+: 1605379349:0;git clone https://github.com/BrodieRobertson/dotfiles.git
+: 1605379447:0;lf
+: 1605379569:0;yay -Rsu lf
+: 1605379581:0;ranger
+: 1605379600:0;cd .config/lf
+: 1605379601:0;r
+: 1605379755:0;vi .zshrc
+: 1605410964:0;cd .config
+: 1605410966:0;ll
+: 1605410973:0;cd qutebrowser
+: 1605410974:0;ll
+: 1605411004:0;cd .config
+: 1605411005:0;ll
+: 1605411011:0;cd qutebrowser
+: 1605411012:0;ll
+: 1605418408:0;cd Repos
+: 1605418447:0;history | wc-l
+: 1605418450:0;history | wc -l
+: 1605418463:0;p10k configure
+: 1605418504:0;cd Repos
+: 1605418533:0;git clone https://github.com/LukeSmithxyz/st.git
+: 1605418549:0;cd st
+: 1605418551:0;ls
+: 1605418555:0;make
+: 1605418561:0;sudo make install
+: 1605418576:0;ls
+: 1605418587:0;vi
+: 1605418602:0;vi mac
+: 1605418678:0;cd Repos/st
+: 1605418679:0;make
+: 1605418683:0;sudo make install
+: 1605418695:0;neofetch
+: 1605418717:0;urxvt
+: 1605418734:0;vi .Xresources
+: 1605418845:0;neofetch
+: 1605418948:0;cd Repos/st
+: 1605418953:0;vi config.
+: 1605418959:0;vi config.h
+: 1605418982:0;makr
+: 1605418984:0;make
+: 1605418988:0;sudo make install
+: 1605419001:0;vim config.h
+: 1605419012:0;neofetch
+: 1605419021:0;cd Repos/st
+: 1605419026:0;sudo make uninstall
+: 1605419179:0;git clone https://github.com/BrodieRobertson/dotfiles.git
+: 1605419200:0;cd dotfiles
+: 1605419201:0;ls
+: 1605419218:0;cd .config/lf
+: 1605419222:0;cd config/lf
+: 1605419223:0;ls
+: 1605419382:0;sp -Syu
+: 1605419513:0;c
+: 1605419572:0;yay -S lf-bin
+: 1605419577:0;yay -S lf
+: 1605419614:0;lf
+: 1605420141:0;man lf
+: 1605420300:0;lf
+: 1605420403:0;man lf
+: 1605420455:0;lf
+: 1605421426:0;bookmenu -b home/argha/.config/bookmenu/configs -f fzf -o
+: 1605421470:0;cd .local/bin
+: 1605421471:0;ll
+: 1605421479:0;cd bookmenu
+: 1605421481:0;ll
+: 1605421491:0;..
+: 1605421497:0;sudo chmod +x bookmenu
+: 1605421502:0;ll
+: 1605421509:0;cd bookmenu
+: 1605421511:0;ll
+: 1605421517:0;sudo chmod +x *
+: 1605421519:0;ll
+: 1605421522:0;c
+: 1605421524:0;h
+: 1605421530:0;bookmenu -b home/argha/.config/bookmenu/configs -f fzf -o
+: 1605421548:0;bookmenu -b home/argha/.local/bin/bookmenu/configs -f fzf -o
+: 1605421557:0;bookmenu -b ~/.local/bin/bookmenu/configs -f fzf -o
+: 1605421615:0;fzf ~/.local/bin/bookmenu/config -f
+: 1605421622:0;fzf ~/.local/bin/bookmenu/config
+: 1605421633:0;cd .local/bin
+: 1605421656:0;h
+: 1605421659:0;cd .config
+: 1605421660:0;ll
+: 1605421672:0;cd bookmenu
+: 1605421674:0;ll
+: 1605421687:0;sudo chmod -x *
+: 1605421689:0;ll
+: 1605421692:0;h
+: 1605421696:0;fzf ~/.local/bin/bookmenu/config
+: 1605421699:0;fzf ~/.local/bin/bookmenu/configs
+: 1605421724:0;fzf ~/.config/bookmenu/configs
+: 1605421731:0;cd .config/bookmenu
+: 1605421738:0;fzf configs
+: 1605421756:0;fzf
+: 1605421785:0;fzf -o
+: 1605421788:0;fzf -f -o
+: 1605421861:0;sudo pacman -Ss bookmenu
+: 1605421939:0;yay -Ss bookmenu
+: 1605422034:0;cd Repos
+: 1605422059:0;git clone https://github.com/BrodieRobertson/bookmenu.git
+: 1605422067:0;cd bookmenu
+: 1605422071:0;sudo make install
+: 1605422079:0;install
+: 1605422083:0;ls
+: 1605422092:0;sh ./install
+: 1605422146:0;cd /usr/share
+: 1605422154:0;cd bookmenu
+: 1605422155:0;ls
+: 1605422164:0;..
+: 1605422167:0;cd bookmenu
+: 1605422173:0;vi bookmarks
+: 1605422191:0;vi config
+: 1605422196:0;..
+: 1605422206:0;sudo rm -rf bookmenu
+: 1605422207:0;h
+: 1605422212:0;cd Repos/bookmenu
+: 1605422216:0;sh ./install
+: 1605422228:0;sudo sh ./install
+: 1605422257:0;sudo rm -rf ~/.config/bookmenu /usr/share/bookmenu
+: 1605422261:0;sh ./install
+: 1605422368:0;cd Dotfiles/.config
+: 1605422375:0;sudo rm -rf bookmenu
+: 1605422390:0;lf
+: 1605422425:0;cd .config/bookmenu
+: 1605422426:0;ls
+: 1605422435:0;vi configs
+: 1605422490:0;bookmenu -b home/argha/.config/bookmenu/configs -f fzf -o\
+
+: 1605422512:0;bookmenu -b ~/.config/bookmenu/configs -f fzf -o\
+
+: 1605422521:0;lf
+: 1605423357:0;cd .config/lf
+: 1605423367:0;ll
+: 1605423555:0;h
+: 1605423560:0;yay -S pistol-git
+: 1605423658:0;lf
+: 1605423911:0;c
+: 1605423917:0;yay -Rsu pistol-git
+: 1605423941:0;c
+: 1605423962:0;lf
+: 1605424141:0;sudo pacman -S w3m
+: 1605424176:0;sudo pacman -S ffmpegthumbnailer
+: 1605424201:0;c
+: 1605424239:0;lfrun
+: 1605424338:0;lf -remote "send remote"
+: 1605424350:0;lf -remote "send reload"
+: 1605424562:0;lf
+: 1605424658:0;sudo pacman -S poppler epub-thumbnailer bc
+: 1605424678:0;yay -S epub-thumbnailer-git
+: 1605424703:0;c
+: 1605424786:0;git clone https://github.com/cirala/lfimg.git
+: 1605424794:0;cd lfimg
+: 1605424799:0;sudo make install
+: 1605424838:0;cd /root
+: 1605425000:0;sudo make install
+: 1605425031:0;ls
+: 1605425043:0;cp image ~/.config/lf
+: 1605425058:0;make install
+: 1605425071:0;lf
+: 1605425159:0;cd lfimg
+: 1605425168:0;sudo cp lfrun /usr/bin
+: 1605425172:0;lfrun
+: 1605425200:0;lf
+: 1605425249:0;cd lfimg
+: 1605425252:0;make uninstall
+: 1605425443:0;lf
+: 1605425484:0;vi .config/lf/lfrc
+: 1605425603:0;lf
+: 1605425700:0;xmonad --recompile && xmonad --restart
+: 1605426134:0;ranger
+: 1605426726:0;yay -Rsu epub-thumbnailer-git
+: 1605426735:0;pacman -Qm
+: 1605426755:0;sp -Ss xdg-open
+: 1605426776:0;sp -Ss xdg-utils
+: 1605426784:0;sp -Ss xdg-mine
+: 1605426789:0;yay -Ss xdg-mine
+: 1605426887:0;yay -Ss xdg-open
+: 1605426918:0;yay -S xopen-file
+: 1605426978:0;xdg-mime query default image/png
+: 1605427038:0;xdg-mime default sxiv.desktop image/png image/jpeg
+: 1605427122:0;cd .config
+: 1605427126:0;vi mimeapps.list
+: 1605427215:0;cd .config
+: 1605427217:0;vi mimeapps.list
+: 1605427270:0;xdg-mime default zathura.desktop application/pdf
+: 1605427325:0;xdg-mime default org.pwmt.zathura.desktop application/pdf
+: 1605427772:0;vi .zshenv
+: 1605427792:0;ranger
+: 1605427965:0;sudo pacman -S xdg-user-dir
+: 1605427973:0;sudo pacman -Ss xdg-user-dir
+: 1605428008:0;vi .config/user-dirs.dirs
+: 1605428063:0;xdg-user-dirs-update
+: 1605428131:0;sudo pacman -Rsu pcmanfm
+: 1605428139:0;xdg-user-dirs-update
+: 1605428177:0;ls
+: 1605435737:0;history | wc -l
+: 1605435747:0;ls -a | wc -l
+: 1605435752:0;ls
+: 1605435767:0;vi .xsession
+: 1605435778:0;vi .xsession-errors
+: 1605435972:0;ranger
+: 1605436267:0;vi .config/qutebrowser/config.py
+: 1605436568:0;vi .zshenv
+: 1605436844:0;vi .config/zsh/.zshrc
+: 1605436859:0;vi .zshenv
+: 1605436892:0;git clone https://github.com/BrodieRobertson/bookmenu.git
+: 1605436903:0;git clone https://github.com/BrodieRobertson/dotfiles.git
+: 1605445122:0;vi .X
+: 1605445129:0;vi .Xresources
+: 1605446190:0;lf
+: 1605446222:0;vi .config/zsh/.zshrc
+: 1605446242:0;vi .zshenv
+: 1605446256:0;ranger
+: 1605446263:0;vi .zshenv
+: 1605446276:0;lf
+: 1605446312:0;vi .zshenv
+: 1605450038:0;xsession start script\
+
+: 1605450076:0;vi .zshenv
+: 1605450116:0;xrdb -load ~/.config/X11/xresources
+: 1612444467:0;history
+: 1612444477:0;c
+: 1612444486:0;vi .config/rofi/themes/dt-dmenu.rasi
+: 1612444548:0;vi .config/polybar/config
+: 1612444621:0;sp -Rsu qutebrowser ttf-ubuntu-font-family
+: 1612444644:0;yay -S qutebrowser
+: 1612444666:0;neofetch
+: 1612444687:0;vi .config/sxhkd/sxhkdrc
+: 1612444760:0;vi .local/bin/bspwm/crystal
+: 1612444814:0;sp -S dunst libnotify
+: 1612444942:0;dunst
+: 1612444954:0;notify-send "Arcolinux" "All updates are downloaded"
+: 1612444981:0;crystal --fullscreen
+: 1612445007:0;cd Repos/st
+: 1612445011:0;vi clear
+: 1612445019:0;vi config.h
+: 1612445032:0;sudo make install
+: 1612445040:0;ls
+: 1612445056:0;vi .zshenv
+: 1612445084:0;neofetch
+: 1612445099:0;sp -S htop 
+: 1612445106:0;r
+: 1612445114:0;htop
+: 1612445234:0;sp -S gparted
+: 1612445392:0;git clone https://github.com/SoumyajitTech/zsh.git
+: 1612445567:0;git status
+: 1612445572:0;git add -u
+: 1612445587:0;git add .p10k.zsh colorize/ zsh-autosuggestions/
+: 1612445698:0;git status
+: 1612445750:0;git add .p10k.zsh .zshrc
+: 1612445770:0;cd zsh
+: 1612445785:0;git commit -m "Updating my zsh dotfiles"
+: 1612445791:0;git push
+: 1612446037:0;git add -u
+: 1612446041:0;git commit -m "Updating my zsh dotfiles"
+: 1612446043:0;git push
+: 1612446064:0;git status
+: 1612446089:0;ls
+: 1612446228:0;cd zsh
+: 1612446229:0;ls
+: 1612446284:0;git status
+: 1612446431:0;git clone https://github.com/SoumyajitTech/zsh-Power.git
+: 1612446463:0;git add colorize/
+: 1612446470:0;git add colorize
+: 1612446482:0;cd zsh-Power
+: 1612446492:0;git add colorize/
+: 1612446533:0;git add colorize/*
+: 1612446539:0;git status
+: 1612446546:0;git commit -m "Updating my zsh dotfiles"
+: 1612446584:0;git config --global user.email soumyajit.9614@gmail.com
+: 1612446594:0;git config --global user.name SoumyajitTech
+: 1612446597:0;git commit -m "Updating my zsh dotfiles"
+: 1612446602:0;git push
+: 1612446775:0;git add .p10k.zsh .zcompcache/* .zcompdump .zcompdump-Miku-5.8 .zshrc .zcompcache/ powerlevel10k/ powerlevel10k/* zsh-autocomplete/ zsh-autocomplete/* zsh-autosuggestions/ zsh-autosuggestions/* zsh-colored-man-pages/ zsh-colored-man-pages/* zsh-syntax-highlighting/ zsh-syntax-highlighting/* 
+: 1612446779:0;git status
+: 1612446810:0;rm -rf README.md_
+: 1612446815:0;git commit -m "Updating my zsh dotfiles"
+: 1612446820:0;git push
+: 1612446879:0;neofetch
+: 1612446907:0;cd Dotfiles
+: 1612446909:0;ls
+: 1612446912:0;cd .config
+: 1612446936:0;rm -rf *
+: 1612446946:0;ls
+: 1612446959:0;cp -r ~/.config/* .
+: 1612446961:0;ls
+: 1612446965:0;cd nvim
+: 1612446966:0;ls
+: 1612446971:0;cd plugconfig
+: 1612446973:0;..
+: 1612446975:0;cd plugged
+: 1612446976:0;ls
+: 1612446981:0;rm -rf *
+: 1612446983:0;ls
+: 1612446986:0;..
+: 1612446997:0;rm -rf zsh
+: 1612446999:0;ls
+: 1612447010:0;git status
+: 1612447028:0;..
+: 1612447033:0;git add -u
+: 1612447034:0;ls
+: 1612447040:0;git status
+: 1612447079:0;git ad .config/pulse/*
+: 1612447087:0;git add .config/pulse/*
+: 1612447093:0;git commit -m "Updating my dotfiles"
+: 1612447098:0;git push
+: 1612447167:0;git add -u
+: 1612447172:0;git commit -m "Updating my dotfiles"
+: 1612447175:0;git push
+: 1612447259:0;git pull
+: 1612447296:0;git status
+: 1612447463:0;yay -S simple-mtpfs
+: 1612447520:0;yay -Yc
+: 1612447693:0;cd Cell
+: 1612447694:0;ls
+: 1612447697:0;cd SD\ card
+: 1612447698:0;ls
+: 1612447701:0;cd contact
+: 1612447702:0;ls
+: 1612447708:0;rm -rf .doom.d
+: 1612447710:0;ls
+: 1612447831:0;cp -r ~/* .
+: 1612447884:0;sp -S gnome-disks
+: 1612447891:0;sp -S gnome-disk
+: 1612447897:0;sp -S gnome-disk-utility
+: 1612447941:0;cd
+: 1612447948:0;disk
+: 1612448051:0;cd /mnt
+: 1612448052:0;ls
+: 1612448068:0;cp -r /home/argha/* .
+: 1612448080:0;sudo cp -r /home/argha/* .
+: 1612448144:0;ls
+: 1612448160:0;sudo cp -r /home/argha/* /mnt
+: 1612448162:0;ls
+: 1612448166:0;cd Downloads
+: 1612448168:0;ls
+: 1612448170:0;..
+: 1612448172:0;ll
+: 1612448194:0;rm -rf *
+: 1612448218:0;sudo cp /home/argha /mnt
+: 1612448224:0;sudo cp -r /home/argha /mnt
+: 1612448294:0;git clone https://github.com/SoumyajitTech/Dotfiles.git /home/argha
+: 1612448301:0;git clone https://github.com/SoumyajitTech/Dotfiles.git /home/argha/Dotfiles
+: 1612448455:0;cd
+: 1612448461:0;git clone https://github.com/SoumyajitTech/Dotfiles.git
+: 1612451375:0;xbacklight -10
+: 1612451379:0;xbacklight -50
+: 1612451472:0;sp -S xf86-video-intel
+: 1612451511:0;vm /etc/mkinitcpio.conf\
+
+: 1612451516:0;vim /etc/mkinitcpio.conf\
+
+: 1612451579:0;mkinitcpio -p linux\
+
+: 1612451588:0;sudo mkinitcpio -p linux\
+
+: 1612451626:0;xbacklight -50
+: 1612451629:0;xbacklight 50
+: 1612451649:0;xbacklight -set -
+: 1612451655:0;xbacklight -set -50
+: 1612451663:0;xbacklight -set 50
+: 1612451671:0;xbacklight -dec 50
+: 1612451690:0;xbacklight -dec 10
+: 1612451729:0;shutdown -h now
+: 1612452007:0;git clone https://github.com/SoumyajitTech/Dotfile.git
+: 1612452019:0;cd Dotfile
+: 1612452021:0;ls
+: 1612452048:0;cd
+: 1612452049:0;ls
+: 1612452300:0;cp -r .dmenu/ .dmenu/* .doom.d/ .doom.d/* .config/ .config/* .local/ .local/* .scripts/ .scripts/* .SpaceVim.d/ .SpaceVim.d/* .surf/ .surf/* .wallpaper/ .wallpaper/* .xmonad/ .xmonad/* .bash_history .bash_logout .bash_profile .bashrc .dmenurc .profile .spectrwm.conf .Xauthority .xinitrc .xprofile .Xresources .zprofile .zshenv hosts IOT.c Project.c Dotfile

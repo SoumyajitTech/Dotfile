@@ -1,0 +1,101 @@
+# _                      _ _
+#| |_ ___ _ __ _ __ ___ (_) |_ ___
+#| __/ _ \ '__| '_ ` _ \| | __/ _ \
+#| ||  __/ |  | | | | | | | ||  __/
+# \__\___|_|  |_| |_| |_|_|\__\___|
+#
+[options]
+allow_bold = true
+audible_bell = false
+browser = xdg-open
+clickable_url = true
+cursor_blink = system
+cursor_shape = block
+dynamic_title = true
+filter_unmatched_urls = true
+font = FiraMono Nerd Font 11
+#font = Hack Bold 10
+geometry = 900x650
+highlight = #2f2f2f
+#padding = 2
+icon_name = terminal
+modify_other_keys = false
+mouse_autohide = false
+scroll_on_output = false
+scroll_on_keystroke = true
+scrollback_lines = 15000
+size_hints = false
+search_wrap = true
+urgent_on_bell = true
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 10
+#roundness = 2.0
+
+############################################################
+#### You can change the color coding to your liking
+#### There is a folder themes in ~/config/termite/themes
+#### Copy/paste the colors from one of the 79+ templates to this one
+#### A backup of the original config termite is present
+############################################################
+#### Use websites to make the terminal your own
+#### https://terminal.sexy
+#### https://critical.ch/xterm/
+############################################################
+
+[colors]
+# Base16 Tomorrow Night bright
+
+foreground      = #bbc5ff
+foreground_bold = #bbc5ff
+cursor          = #ffffff
+# background = #292d3e
+background = rgba(40, 42, 54, 0.95)
+
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #1d1f21
+color8  = #969896
+color7  = #c5c8c6
+color15 = #ffffff
+
+# Red
+color1  = #cc6666
+color9  = #cc6666
+
+# Green
+color2  = #b5bd68
+color10 = #b5bd68
+
+# Yellow
+color3  = #f0c674
+color11 = #f0c674
+
+# Blue
+color4  = #81a2be
+color12 = #81a2be
+
+# Purple
+color5  = #b294bb
+color13 = #b294bb
+
+# Teal
+color6  = #8abeb7
+color14 = #8abeb7
+
+# Extra colors
+color16 = #de935f
+color17 = #a3685a
+color18 = #282a2e
+color19 = #373b41
+color20 = #b4b7b4
+color21 = #e0e0e0

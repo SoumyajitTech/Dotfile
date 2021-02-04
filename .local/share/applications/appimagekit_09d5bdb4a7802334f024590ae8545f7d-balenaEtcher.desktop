@@ -1,0 +1,36 @@
+[Desktop Entry]
+Name=balenaEtcher (1.5.109)
+Exec=/home/argha/Applications/balenaEtcher.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_09d5bdb4a7802334f024590ae8545f7d_balena-etcher-electron
+StartupWMClass=balenaEtcher
+X-AppImage-Version=1.5.109
+Comment=Flash OS images to SD cards and USB drives, safely and easily.
+MimeType=x-scheme-handler/etcher;
+Categories=Utility;
+
+TryExec=/home/argha/Applications/balenaEtcher.AppImage
+X-AppImage-Old-Icon=balena-etcher-electron
+X-AppImage-Old-Name=balenaEtcher
+X-AppImage-Identifier=09d5bdb4a7802334f024590ae8545f7d
+Actions=Remove;
+X-AppImageLauncher-Version=2.2.0 (git commit 0f91801), built on 2020-12-25 14:11:50 UTC
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher
+Exec=/usr/lib/appimagelauncher/remove "/home/argha/Applications/balenaEtcher.AppImage"
+Name[ast]=Desaniciar AppImage del sistema
+Name[cs]=Odebrat AppImage ze systému
+Name[de]=AppImage vom System entfernen
+Name[en]=Remove AppImage from system
+Name[es]=Eliminar Appimage del Sistema
+Name[fr]=Supprimer l'AppImage du système
+Name[it]=Rimuovi AppImage dal sistema
+Name[nl]=AppImage deïnstalleren
+Name[pl]=Usuń AppImage z systemu
+Name[pt]=Remover AppImage do sistema
+Name[pt_PT]=Remover AppImage do sistema
+Name[ru]=Удалить AppImage из системы
+Name[zh_Hans]=从系统中移除 AppImage

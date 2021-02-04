@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version = 1.0
+Type = Application
+Terminal = true
+Name = NetworkManager
+# Exec = /home/argha/.local/bin/NetworkManager.sh
+Exec = systemctl restart NetworkManager.service
+Categories = Application;

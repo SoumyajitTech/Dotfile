@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# A dmenu wrapper script for system functions.
+
+# For non-systemd init systems.
+case "$(readlink -f /sbin/init)" in
+	*runit*) hib="sudo -A zzz" ;;
+	*openrc*) reb="sudo -A openrc-shutdown -r"; shut="sudo -A openrc-shutdown -p" ;;
+esac
+
+cmds="\
+🔒  lock		lock
+🚪  leave	kill -TERM $(pgrep -u $USER "\bdwm$")
+♻  renew	kill -HUP $(pgrep -u $USER "\bdwm$")
+🐻  hibernate	slock ${hib:-systemctl suspend-then-hibernate -i}
+🔃  reboot	${reb:-reboot}
+🖥  shutdown	${shut:-shutdown -h now}"
+
+choice="$(echo "$cmds" | cut -d'	' -f 1 | rofi -dmenu -config ~/.config/rofi/themes/dt-center.rasi -p "Run: ")"
+`echo "$cmds" | grep "^$choice	" | cut -d '	' -f2-`

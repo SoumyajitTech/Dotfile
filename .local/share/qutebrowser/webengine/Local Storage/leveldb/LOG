@@ -1,0 +1,6 @@
+2021/02/04-20:37:41.005 5d1 Reusing MANIFEST /home/argha/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
+2021/02/04-20:37:41.005 5d1 Recovering log #3
+2021/02/04-20:37:41.005 5d1 Reusing old log /home/argha/.local/share/qutebrowser/webengine/Local Storage/leveldb/000003.log 
+2021/02/04-20:47:23.513 24be Level-0 table #5: started
+2021/02/04-20:47:23.521 24be Level-0 table #5: 86362 bytes OK
+2021/02/04-20:47:23.524 24be Delete type=0 #3

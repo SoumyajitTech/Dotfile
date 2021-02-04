@@ -1,0 +1,436 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'M
+	/home/brodie
+	..
+1600404092
+'b
+	/home/brodie/bin/
+	..
+1578917957
+'h
+	/home/brodie/
+	..
+1578917957
+
+# Bookmarks:
+
+# TUI:
+al
+q1
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/brodie/.local
+	include
+2
+d/home/brodie
+	.local
+5
+d/home/brodie/.local
+	include
+2
+d/home/brodie
+	.w3m
+11
+d/home/brodie/.w3m
+	cookie
+1
+d/home/brodie
+	.w3m
+11
+d/home
+	brodie
+1
+d/
+	home
+4
+d/home/brodie/.config
+	..
+0
+d/home/brodie
+	.config
+4
+d/home
+	brodie
+1
+d/home/brodie
+	desktop
+19
+d/home/brodie/desktop
+	..
+0
+d/home/brodie
+	.config
+4
+d/home/brodie/.config
+	bashtop
+17
+d/home/brodie/.config/bashtop
+	themes
+1
+d/home/brodie/.config
+	autostart
+15
+d/home/brodie
+	.config
+4
+d/home/brodie/.config
+	BraveSoftware
+2
+d/home/brodie
+	.goneovim
+8
+d/home/brodie/.goneovim
+	..
+0
+d/home/brodie
+	.mozilla
+11
+d/home/brodie/.mozilla
+	..
+0
+d/home/brodie
+	.thumbnails
+14
+d/home/brodie/.thumbnails
+	normal
+2
+d/home/brodie/.thumbnails/normal
+	0a65edf3ade86bb38ad1cbcd7d0477e2.png
+2
+d/home/brodie/.thumbnails
+	normal
+2
+d/home/brodie
+	.zoom
+18
+d/home/brodie/videos/anime
+	[HorribleSubs] Ahiru no Sora - 35 [1080p].mkv
+2
+d/home/brodie
+	.w3m
+16
+d/home
+	brodie
+1
+d/
+	home
+4
+d/home/brodie
+	pictures
+25
+d/home/brodie/pictures
+	50 Views.png
+14
+d/home/brodie
+	.mozilla
+11
+d/home/brodie/.mozilla
+	..
+0
+d/home/brodie
+	.mozilla
+11
+d/home/brodie/.mozilla
+	..
+0
+d/home/brodie
+	.zoom
+18
+d/home/brodie/.zoom
+	..
+0
+d/home/brodie
+	videos
+30
+d/home/brodie/videos
+	anime
+2
+d/home/brodie/videos/anime
+	[HorribleSubs] Ahiru no Sora - 36 [1080p].mkv
+3
+d/home/brodie/videos
+	brodie-lbry
+3
+d/home/brodie
+	pictures
+25
+d/home/brodie/pictures
+	screenshots
+13
+d/home/brodie/pictures/screenshots
+	Hate Comments
+3
+d/home/brodie/pictures
+	screenshots
+13
+d/home/brodie
+	.android
+1
+d/usr/share
+	..
+0
+d/usr
+	share
+8
+d/home/brodie
+	.android
+1
+d/usr/share
+	..
+0
+d/home/brodie
+	.zoom
+18
+d/usr/share
+	..
+0
+d/home/brodie
+	templates
+29
+d/home/brodie/templates
+	..
+0
+d/home/brodie
+	templates
+29
+d/home/brodie/templates
+	..
+0
+d/home/brodie
+	pictures
+25
+d/home/brodie/videos/anime
+	..
+0
+d/home/brodie/videos
+	..
+0
+d/home/brodie
+	desktop
+18
+d/home/brodie/desktop
+	..
+0
+d/home/brodie
+	desktop
+18
+d/home/brodie/desktop
+	82092913_p0.jpg
+6
+d/home/brodie
+	desktop
+18
+d/home/brodie/desktop
+	..
+0
+d/home/brodie
+	models
+17
+d/home/brodie/models
+	..
+0
+d/home/brodie
+	models
+17
+d/home/brodie/models
+	..
+0
+d/home/brodie
+	desktop
+14
+d/home/brodie/desktop
+	0.png
+2
+d/home/brodie
+	downloads
+18
+d/home/brodie/downloads
+	1_BadPresentation.mp4
+2
+d/home/brodie
+	desktop
+16
+d/home/brodie/desktop
+	..
+0
+d/home/brodie
+	scripts
+19
+d/home/brodie/scripts
+	..
+0
+d/home/brodie
+	scripts
+19
+d/home/brodie/scripts
+	alsa
+2
+d/home/brodie/scripts/alsa
+	alsavolctrl
+1
+d/home/brodie/scripts
+	alsa
+2
+d/home/brodie/scripts/alsa
+	..
+0
+d/home/brodie
+	pictures
+16
+d/home/brodie/pictures
+	screenshots
+8
+d/home/brodie/pictures/screenshots
+	Hate Comments
+3
+d/home/brodie/pictures
+	screenshots
+13
+d/home/brodie
+	repos
+21
+d/home/brodie/.config
+	Dharkael
+3
+d/home/brodie
+	.config
+4
+d/home/brodie/.config
+	Dharkael
+3
+d/home/brodie
+	.config
+4
+d/home/brodie/.config
+	vifm
+21
+d/home/brodie/.config/vifm
+	..
+0
+d/home/brodie/.config
+	vifm
+21
+d/home/brodie
+	.config
+4
+d/home/brodie/.config
+	vifm
+20
+d/home/brodie/.config/vifm
+	vifmrc
+5
+d
+
+# Right window history (oldest to newest):
+D/home/brodie
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:filter 
+:touch 
+:mkdir 
+:29
+:!
+:sync
+:view
+:tag
+:tabclose
+:tog;
+:cd ~/pictures/mpvscreenshots
+:31
+:10-15select
+:10,15select
+:3select5
+:.,^select
+:select *
+:select *.
+:select png
+:select *.png
+:select *.*
+:select .*
+:hideui
+:filter */
+:filter {/}
+:f
+:filter zr
+:filter {*/}
+:filter {.png}
+:undolist
+:touch test
+:22
+:17
+:1
+:wq!
+:wq
+:help
+:select
+:5select
+:10select
+:10,16select
+:%se
+:%select
+:.,
+:.,$select
+:.,0select
+:^,.select
+:*.*select
+:filter {
+:filter {*.jpg}
+:filter {*.png}
+:filter {*
+:filter {*.*}
+:filter {.*}
+:filter /^p.*c/
+
+# Search history (oldest to newest):
+/add
+/rep
+/thu
+/zs
+/zshe
+/*.*
+/vif
+/vifm
+
+# Prompt history (oldest to newest):
+pcell
+pdesktop
+pdocuments
+pvdeos
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/brodie/.local/share/vifm/Trash/000_alsavolctrl
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/brodie/.local/share/vifm/Trash/000_get-pip.py
+	/home/brodie/zaread/get-pip.py
+t/home/brodie/.local/share/vifm/Trash/000_watermark.png
+	/home/brodie/videos/youtube/opening/watermark.png
+t/home/brodie/.local/share/vifm/Trash/001_watermark.png
+	/home/brodie/watermark.png
+t/home/brodie/.local/share/vifm/Trash/000_test
+	/home/brodie/test
+
+# State:
+f/^p.*c/
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0

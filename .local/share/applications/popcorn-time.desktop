@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version = 1.0
+Type = Application
+Terminal = false
+Name = Popcorn Time
+Exec = /home/argha/Applications/Popcorn-Time-0.4.4-linux64/Popcorn-Time
+Icon = /home/argha/Applications/Popcorn-Time-0.4.4-linux64/src/app/images/icon.png
+Categories = Application;

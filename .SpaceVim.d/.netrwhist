@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/usr/share/doc/betterlockscreen/examples'
+let g:netrw_dirhist_1='/usr/share/doc/betterlockscreen'
+let g:netrw_dirhist_0='/home/argha'
+let g:netrw_dirhist_9='/home/argha/.local'
+let g:netrw_dirhist_8='/home/argha/.local/share'
+let g:netrw_dirhist_7='/home/argha/.local/share/icons'
+let g:netrw_dirhist_6='/home/argha/.config/termite'
+let g:netrw_dirhist_5='/home/argha/.config/zsh'
+let g:netrw_dirhist_4='/home/argha/.config/X11'
+let g:netrw_dirhist_3='/home/argha/.config/calcurse'
