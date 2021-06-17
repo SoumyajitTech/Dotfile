@@ -1,0 +1,37 @@
+[Desktop Entry]
+Name=Bitwarden
+Exec=/home/argha/Applications/Bitwarden-1.25.1-x86_64_968e7c1f85fd0a2d362c05f14596be46.AppImage --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=appimagekit_f42365441102d6bdb7e3a12259327b15_bitwarden
+StartupWMClass=Bitwarden
+X-AppImage-Version=1.25.1
+GenericName=Password Manager
+Comment=A secure and free password manager for all of your devices.
+MimeType=x-scheme-handler/bitwarden;
+Categories=Utility;
+
+TryExec=/home/argha/Applications/Bitwarden-1.25.1-x86_64_968e7c1f85fd0a2d362c05f14596be46.AppImage
+X-AppImage-Old-Icon=bitwarden
+X-AppImage-Old-Name=Bitwarden
+X-AppImage-Identifier=f42365441102d6bdb7e3a12259327b15
+Actions=Remove;
+X-AppImageLauncher-Version=2.2.0 (git commit 0f91801), built on 2021-02-04 18:46:58 UTC
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher
+Exec=/usr/lib/appimagelauncher/remove "/home/argha/Applications/Bitwarden-1.25.1-x86_64_968e7c1f85fd0a2d362c05f14596be46.AppImage"
+Name[ast]=Desaniciar AppImage del sistema
+Name[cs]=Odebrat AppImage ze systému
+Name[de]=AppImage vom System entfernen
+Name[en]=Remove AppImage from system
+Name[es]=Eliminar Appimage del Sistema
+Name[fr]=Supprimer l'AppImage du système
+Name[it]=Rimuovi AppImage dal sistema
+Name[nl]=AppImage deïnstalleren
+Name[pl]=Usuń AppImage z systemu
+Name[pt]=Remover AppImage do sistema
+Name[pt_PT]=Remover AppImage do sistema
+Name[ru]=Удалить AppImage из системы
+Name[zh_Hans]=从系统中移除 AppImage

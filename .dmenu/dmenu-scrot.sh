@@ -43,5 +43,5 @@ s.upload_section)	scrot -s '%Y-%m-%d-@%H-%M-%S-scrot.png' -e "$UL \$f"  && (xcli
     p.edit_upload_section)  scrot -s '%Y-%m-%d-@%H-%M-%S-scrot.png' -e "$EDIT \$f && $UL \$f && rm -f \$f"  && (xclip -o;echo) | xclip -selection clipboard && notify-send -u low -t $TIME "Scrot" "Screenshot Uploaded (powered by FB) - $(xclip -o)"  ;;
 
 
-  	*)		exec "'${cmd}'"  ;;
+  	*)		exec "${cmd}"  ;;
 esac

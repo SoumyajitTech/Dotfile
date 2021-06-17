@@ -1,0 +1,25 @@
+{
+	"lockOption": -1,
+	"vaultTimeoutAction": "lock",
+	"openAtLogin": false,
+	"mainWindowSize": {
+		"width": 1896,
+		"height": 1036,
+		"isMaximized": false,
+		"displayBounds": {
+			"x": 0,
+			"y": 0,
+			"width": 1920,
+			"height": 1080
+		},
+		"x": 12,
+		"y": 32
+	},
+	"installedVersion": "1.25.1",
+	"lastActive": 1620406851538,
+	"appId": "d779d881-01df-4c21-af90-7bd4595d8dfa",
+	"rememberEmail": true,
+	"rememberedEmail": "soumyajit.9614@gmail.com",
+	"sends_fc8586bc-7c5a-46e2-87c2-ad210117d29e": {},
+	"lastSync_fc8586bc-7c5a-46e2-87c2-ad210117d29e": "1970-01-01T00:00:00.000Z"
+}

@@ -56,10 +56,10 @@ highlight Fifo cterm=bold ctermfg=cyan ctermbg=default
 highlight Executable cterm=bold ctermfg=red ctermbg=default
 highlight Selected cterm=bold ctermfg=magenta ctermbg=default
 highlight CurrLine cterm=bold,reverse ctermfg=4 ctermbg=black
-highlight TopLine cterm=none ctermfg=147 ctermbg=8
+highlight TopLine cterm=none ctermfg=white ctermbg=8
 highlight TopLineSel cterm=bold ctermfg=white ctermbg=default
 highlight StatusLine cterm=bold ctermfg=white ctermbg=8
-highlight WildMenu cterm=underline,reverse ctermfg=white ctermbg=black
+highlight WildMenu cterm=underline,reverse ctermfg=147 ctermbg=black
 highlight CmdLine cterm=none ctermfg=green ctermbg=black
 highlight ErrorMsg cterm=none ctermfg=red ctermbg=black
 highlight Border cterm=none ctermfg=black ctermbg=8

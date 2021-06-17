@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <title>Home</title>
     <link rel="stylesheet" href="../styles/homepage.css">
     <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
@@ -67,7 +67,7 @@
                     <a class="bookmark" href="https://www.patreon.com/" target="_blank">Patreon</a>
                     <a class="bookmark" href="https://gitlab.com/SoumyajitTech" target="_blank">GitLab</a>
                     <a class="bookmark" href="https://github.com/SoumyajitTech" target="_blank">GitHub</a>
-                    <a class="bookmark" href="https://mastodon.technology/" target="_blank">Mastodon</a>
+                    <a class="bookmark" href="https://f-droid.org/" target="_blank">Fdroid</a>
                     <a class="bookmark" href="https://diasp.org/stream" target="_blank">Diaspora</a>
                     <a class="bookmark" href="https://netflix.com" target="_blank">Netflix</a>
                 </div>
@@ -92,7 +92,7 @@
 
     <script>
         // Search on enter key event
-        document.getElementById("search-field").addEventListener("keydown",  event => { 
+        document.getElementById("search-field").addEventListener("keydown",  event => {
             if (event.keyCode === 13) {
                 var val = document.getElementById("search-field").value;
                 window.open("https://google.com/search?q=" + val);
@@ -105,9 +105,9 @@
                 sec = date.getSeconds(),
                 hour = date.getHours();
 
-            return "" + 
-                (hour < 10 ? ("0" + hour) : hour) + ":" + 
-                (min < 10 ? ("0" + min) : min) + ":" + 
+            return "" +
+                (hour < 10 ? ("0" + hour) : hour) + ":" +
+                (min < 10 ? ("0" + min) : min) + ":" +
                 (sec < 10 ? ("0" + sec) : sec);
         }
 

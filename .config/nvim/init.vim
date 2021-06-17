@@ -11,12 +11,14 @@ call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"
 Plug 'tpope/vim-commentary'
 Plug 'vim-scripts/AutoCompLPop'
 Plug 'junegunn/goyo.vim'
+Plug 'vifm/vifm.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 Plug 'vimwiki/vimwiki'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 set title
@@ -26,7 +28,7 @@ set mouse=a
 set nohlsearch
 set clipboard+=unnamedplus
 set complete+=kspell
-set completeopt=menuone,longest
+set completeopt=menuone,noinsert
 set noshowmode
 set noruler
 set laststatus=0
@@ -34,23 +36,30 @@ set noshowcmd
 set showmatch
 set shortmess+=c
 
+" Tab Settings
+  set expandtab
+  set shiftwidth=4
+  set softtabstop=4
+  set tabstop=4
+
 "Source
-source ~/.config/nvim/plugconfig/netrw.vim
-source ~/.config/nvim/plugconfig/easy-motion.vim
-source ~/.config/nvim/plugconfig/vim-hexokinase.vim
-source ~/.config/nvim/plugconfig/goyo.vim
-source ~/.config/nvim/plugconfig/basic-autocmd.vim
+    source ~/.config/nvim/plugconfig/netrw.vim
+    source ~/.config/nvim/plugconfig/easy-motion.vim
+    source ~/.config/nvim/plugconfig/vim-hexokinase.vim
+    source ~/.config/nvim/plugconfig/goyo.vim
+    source ~/.config/nvim/plugconfig/basic-autocmd.vim
+    " source ~/.config/nvim/plugconfig/coc.vim
 
 " Theme
-	let g:airline_theme='onedark'
-	let g:airline#extensions#tabline#enabled = 1
+    let g:airline_theme='onedark'
+    let g:airline#extensions#tabline#enabled = 1
 
 " Some basics:
 	nnoremap c "_c
 	set nocompatible
 	filetype plugin on
 	syntax on
-    	colorscheme onedark
+    colorscheme onedark
 	set encoding=utf-8
 	set number relativenumber
 	set termguicolors
@@ -72,6 +81,19 @@ source ~/.config/nvim/plugconfig/basic-autocmd.vim
 	map <C-Down> <C-w>j
 	map <C-Up> <C-w>k
 	map <C-Right> <C-w>l
+
+" Fix indenting visual block
+  vmap < <gv
+  vmap > >gv
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vifm
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+  map <Leader>vv :Vifm<CR>
+  map <Leader>vs :VsplitVifm<CR>
+  map <Leader>sp :SplitVifm<CR>
+  map <Leader>dv :DiffVifm<CR>
+  map <Leader>tv :TabVifm<CR>
 
 " Replace ex mode with gq
 	map Q gq
@@ -96,15 +118,15 @@ source ~/.config/nvim/plugconfig/basic-autocmd.vim
 	autocmd VimLeave *.tex !texclear %
 
 " Navigate the complete menu items like CTRL+n / CTRL+p would.
-inoremap <expr> <Down> pumvisible() ? "<C-n>" :"<Down>"
-inoremap <expr> <Up> pumvisible() ? "<C-p>" : "<Up>"
+  inoremap <expr> <Down> pumvisible() ? "<C-n>" :"<Down>"
+  inoremap <expr> <Up> pumvisible() ? "<C-p>" : "<Up>"
 
 " Select the complete menu item like CTRL+y would.
-inoremap <expr> <Right> pumvisible() ? "<C-y>" : "<Right>"
-inoremap <expr> <CR> pumvisible() ? "<C-y>" :"<CR>"
+  inoremap <expr> <Right> pumvisible() ? "<C-y>" : "<Right>"
+  inoremap <expr> <Tab> pumvisible() ? "<C-y>" :"<Tab>"
 
 " Cancel the complete menu item like CTRL+e would.
-inoremap <expr> <Left> pumvisible() ? "<C-e>" : "<Left>"
+  inoremap <expr> <Left> pumvisible() ? "<C-e>" : "<Left>"
 
 " Ensure files are read as what I want:
 	let g:vimwiki_ext2syntax = {'.Rmd': 'markdown', '.rmd': 'markdown','.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}

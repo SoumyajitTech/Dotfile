@@ -96,6 +96,7 @@ file_node_extensions = {
     'img'      : ' ',
     'ini'      : ' ',
     'iso'      : ' ',
+    'ino'      : ' ',
     'jar'      : ' ',
     'java'     : ' ',
     'jl'       : ' ',

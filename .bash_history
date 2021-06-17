@@ -135,3 +135,14 @@ chsh
 cd ~
 reboot
 sudo reboot
+sudo systemctl restart lightdm.service 
+sudo systemctl restart lightdm.service 
+sp -S bspwm sxhkd xwallpaper polybar sxiv rofi dmenu
+sudo pacman -S bspwm sxhkd xwallpaper polybar sxiv rofi dmenu
+nmtui
+sudo pacman -S bspwm sxhkd xwallpaper sxiv rofi dmenu
+ls
+yay -S polybar libxft-bgra 
+sudo pacman -S zsh
+chsh
+reboot

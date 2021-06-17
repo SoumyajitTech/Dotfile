@@ -51,10 +51,12 @@ super + d
 #Ranger
 super + e
     alacritty -e ranger
+    # alacritty -e vifmrun /home/argha/
 
 #Browser
 super + w
     qutebrowser
+    # tabbed vimb -e
 
 #Htop
 super + h
@@ -209,9 +211,9 @@ alt + F3
 alt + shift + t
     variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
 
-#Wallpaper next
-alt + shift + n
-    variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+# Wallpaper next
+alt + ctrl + n
+    /home/argha/Repos/styli/styli.sh -s nature &
 
 #Wallpaper previous
 alt + shift + p
@@ -384,7 +386,7 @@ super + ctrl + space
 
 #reload sxhkd:
 super + ctrl + r
-  killandnotify "sxhkd" "Config reloaded" && sxhkd &
+  ~/.local/bin/killandnotify "sxhkd" "Config reloaded" && sxhkd &
   # pkill -USR1 -x sxhkd
 
 # Hide-Desktop
@@ -407,7 +409,7 @@ super + shift + r
 
 # Focus/swap windows by direction
 super + shift + {h,k,j,l}
-	bspwm_smart_move {west,south,north,east}
+	~/.local/bin/bspwm/bspwm_smart_move {west,south,north,east}
 	# bspc node --swap {west,south,north,east}
 
 # Flip layout vertically/horizontally
@@ -509,7 +511,7 @@ ctrl + alt + {Left, Right}
 
 # Expand a window by moving one of its side outward
 ctrl + alt + {h,j,k,l}
-	bspwm_resize {west,south,north,east} 20
+	~/.local/bin/bspwm/bspwm_resize {west,south,north,east} 20
 	# bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 
 # Contract a window by moving one of its side inward

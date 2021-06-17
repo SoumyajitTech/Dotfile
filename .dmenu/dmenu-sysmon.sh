@@ -33,15 +33,14 @@ case $choice in
 	htop| \
 	nmon| \
 	s-tui)
-        exec urxvt -e $choice
+        exec alacritty -e $choice
 	;;
 	iftop| \
 	iotop| \
 	iptraf-ng)
-        exec urxvt -e gksu $choice
+        exec alacritty -e gksu $choice
 	;;
 	*)
 		exit 1
 	;;
 esac
-

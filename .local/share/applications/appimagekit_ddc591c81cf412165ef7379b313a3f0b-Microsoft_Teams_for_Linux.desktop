@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Microsoft Teams for Linux (1.0.5)
+Name=Microsoft Teams
 Exec=/home/argha/Applications/teams-for-linux-1.0.5.AppImage
 Terminal=false
 Type=Application
@@ -15,7 +15,7 @@ X-AppImage-Old-Icon=teams-for-linux
 X-AppImage-Old-Name=Microsoft Teams for Linux
 X-AppImage-Identifier=ddc591c81cf412165ef7379b313a3f0b
 Actions=Remove;
-X-AppImageLauncher-Version=2.2.0 (git commit 0f91801), built on 2020-12-25 14:11:50 UTC
+X-AppImageLauncher-Version=2.2.0 (git commit 0f91801), built on 2021-02-04 18:46:58 UTC
 
 [Desktop Action Remove]
 Name=Remove AppImage from system

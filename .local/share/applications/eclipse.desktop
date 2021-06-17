@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version = 1.0
+Type = Application
+Terminal = false
+Name = Eclipse
+Exec = /home/argha/Applications/eclipse/eclipse
+Icon = /home/argha/.config/icon/eclipse.png
+Categories = Application;

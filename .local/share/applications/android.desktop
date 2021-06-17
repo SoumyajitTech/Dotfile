@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version = 1.0
+Type = Application
+Terminal = false
+Name = Android Studio
+Exec = /home/argha/Applications/android-studio/bin/studio.sh
+Icon = /home/argha/Applications/android-studio/bin/studio.png
+Categories = Application;

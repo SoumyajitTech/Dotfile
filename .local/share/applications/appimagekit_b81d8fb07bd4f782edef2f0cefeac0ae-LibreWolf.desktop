@@ -1,0 +1,48 @@
+[Desktop Entry]
+Name=LibreWolf
+Exec=/home/argha/Applications/librewolf-85.0-1.x86_64_85d24e2535a0892ea914c69b8b7d7c28.appimage %u
+Icon=appimagekit_b81d8fb07bd4f782edef2f0cefeac0ae_librewolf
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
+StartupWMClass=LibreWolf
+Categories=Network;WebBrowser;
+StartupNotify=true
+Terminal=false
+X-MultipleArgs=false
+Keywords=Internet;WWW;Browser;Web;Explorer;
+Actions=Remove;
+
+TryExec=/home/argha/Applications/librewolf-85.0-1.x86_64_85d24e2535a0892ea914c69b8b7d7c28.appimage
+X-AppImage-Old-Icon=librewolf
+X-AppImage-Identifier=b81d8fb07bd4f782edef2f0cefeac0ae
+X-AppImageLauncher-Version=2.2.0 (git commit 0f91801), built on 2021-02-04 18:46:58 UTC
+
+[Desktop Action new-window]
+Name=Open a New Window
+Exec=/home/argha/Applications/librewolf-85.0-1.x86_64_85d24e2535a0892ea914c69b8b7d7c28.appimage %u
+
+[Desktop Action new-private-window]
+Name=Open a New Private Window
+Exec=/home/argha/Applications/librewolf-85.0-1.x86_64_85d24e2535a0892ea914c69b8b7d7c28.appimage --private-window %u
+
+[Desktop Action profilemanager]
+Name=Open the Profile Manager
+Exec=/home/argha/Applications/librewolf-85.0-1.x86_64_85d24e2535a0892ea914c69b8b7d7c28.appimage --ProfileManager %u
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher
+Exec=/usr/lib/appimagelauncher/remove "/home/argha/Applications/librewolf-85.0-1.x86_64_85d24e2535a0892ea914c69b8b7d7c28.appimage"
+Name[ast]=Desaniciar AppImage del sistema
+Name[cs]=Odebrat AppImage ze systému
+Name[de]=AppImage vom System entfernen
+Name[en]=Remove AppImage from system
+Name[es]=Eliminar Appimage del Sistema
+Name[fr]=Supprimer l'AppImage du système
+Name[it]=Rimuovi AppImage dal sistema
+Name[nl]=AppImage deïnstalleren
+Name[pl]=Usuń AppImage z systemu
+Name[pt]=Remover AppImage do sistema
+Name[pt_PT]=Remover AppImage do sistema
+Name[ru]=Удалить AppImage из системы
+Name[zh_Hans]=从系统中移除 AppImage

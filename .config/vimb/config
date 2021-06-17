@@ -1,0 +1,80 @@
+#For HTML5 video display install this GST Plugins: gst-editing-services; gst-libav; gst-plugin-gtk; gst-plugin-opencv; gst-plugin-qmlgl; gst-plugins-bad; gst-plugins-bad-libs; gst-plugins-base; gst-plugins-base-libs; gst-plugin-espeak; gst-plugins-good; gst-plugins-ugly; gst-python; (All GST Plugins).
+
+set accelerated-2d-canvas=true
+set allow-file-access-from-file-urls=false
+set allow-universal-access-from-file-urls=false
+set caret=true
+# Home Page
+set home-page = /home/argha/.surf/html/homepage.html
+# Download Path
+set download-path=~/Downloads
+# Cookies (accept all non-third-party cookies)
+set cookie-accept=origin
+# User
+set user-agent=Mozilla Chrome Safari AppleWebKit
+set user-scripts=true
+set webgl=true
+set dns-prefetching=true
+set geolocation=ask
+# Smooth-Scrolling
+set smooth-scrolling=true
+# Hardware Acceleration
+set hardware-acceleration-policy=always
+# Dark Theme
+set dark-mode=true
+#JavaScript
+set javascript-can-access-clipboard=false
+set javascript-can-open-windows-automatically=false
+set plugins=false
+# Spell Checking
+set spell-checking=true
+set spell-checking-languages=pt_BR, en_US
+# Searching
+set incsearch=true
+# Editor
+set editor-command=alacritty -e nvim %s
+
+set header=DNT=1
+set input-autohide=true
+set prevent-newwindow=true
+set stylesheet=true
+set tabs-to-links=true
+set timeoutlen=5000
+set webinspector=true
+set xss-auditor=true
+
+### APPEARANCE ###
+# Font
+set default-font=FiraMono Nerd Font
+set monospace-font=FiraMono Nerd Font Mono
+set sans-serif-font=FiraMono Nerd Font
+set serif-font=FiraMono Nerd Font
+set font-size=12
+set monospace-font-size=12
+# Status Bar
+set status-bar=false
+set status-css=color:#292d3e;background-color:#292d3e;font:12pt FiraMono Nerd Font;
+set status-ssl-css=color:#292d3e;background-color:#292d3e;font:12pt FiraMono Nerd Font;
+set status-ssl-invalid-css=color:#292d3e;background-color:#292d3e;font:12pt FiraMono Nerd Font;
+# Input Box
+set input-css=color:#9faab8;background-color:#292d3e;font:10pt FiraMono Nerd Font;
+set input-error-css=color:#9faab8;background-color:#292d3e;font:10pt FiraMono Nerd Font;
+
+### REMAPS ###
+# Zoom Remap
+nmap = zI
+nmap - zO
+nmap + zz
+# Back and Forward Rebind
+nnoremap H <C-O>
+nnoremap L <C-I>
+# Shortcuts
+shortcut-default dd
+shortcut-add dd=https://duckduckgo.com/?q=$0
+shortcut-add amazon=https://amazon.in
+shortcut-add od=https://odysee.com/
+shortcut-add leetcode=https://leetcode.com/problemset/all/?difficulty=Easy&topicSlugs=array%2Cstring
+shortcut-add gh=https://github.com/SoumyajitTech
+shortcut-add gl=https://gitlab.com/SoumyajitTech
+shortcut-add novo=https://novoresume.com/resume-templates
+shortcut-add thingspeak=https://thingspeak.com/login?skipSSOCheck=true

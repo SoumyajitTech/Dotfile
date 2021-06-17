@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version = 1.0
+Type = Application
+Terminal = false
+Name = Arduino
+Exec = /home/argha/Applications/arduino-1.8.13/arduino
+Icon = /home/argha/.config/icon/arduino.png
+Categories = Application;

@@ -10,7 +10,18 @@
 
 # export STATUSBAR="i3blocks" # Uncomment this line when using i3.
 
-. ~/.xprofile
+# . ~/.xprofile
+mpd &			# music player daemon-you might prefer it as a service though
+remaps &		# run the remaps script, switching caps/esc and more; check it for more info
+setbg &			# set the background with the `setbg` script
+lxsession &
+#xrdb ${XDG_CONFIG_HOME:-$HOME/.config}/Xresources &	# Uncomment to use Xresources colors/settings on startup
+picom &			# xcompmgr for transparency
+~/.config/polybar/launch.sh &
+dunst &			# dunst for notifications
+sxhkd &
+unclutter &		# Remove mouse when idle
+xrdb -load ~/.config/X11/xresources
 # Your default LARBS WM is determined in your `~/.profile` on login.  Here we
 # run the proper command to run when the graphical environment starts.
 

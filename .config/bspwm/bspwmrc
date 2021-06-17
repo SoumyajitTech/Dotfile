@@ -76,8 +76,9 @@ bspc monitor -d 1
 #Fullscreen applications
 bspc rule -a mpv state=fullscreen
 bspc rule -a Sxiv state=fullscreen
-bspc rule -a Spotify state=fullscreen
+bspc rule -a tabbed state=fullscreen
 bspc rule -a qutebrowser state=fullscreen
+bspc rule -a Navigator state=fullscreen
 bspc rule -a VirtualBox Manager state=fullscreen
 bspc rule -a VirtualBox Machine state=fullscreen
 # bspc rule -a Surf state=fullscreen
@@ -99,7 +100,7 @@ bspc rule -a Oblogout state=floating
 #bspc rule -a Skype state=floating
 #bspc rule -a Stacer state=floating
 #bspc rule -a Xfce4-appfinder state=floating sticky=on
-bspc rule -a Alacritty state=floating
+bspc rule -a Alacritty state=floating rectangle=1200x900+320+100
 
 #Tiled applications
 bspc rule -a Gnome-disks state=tiled

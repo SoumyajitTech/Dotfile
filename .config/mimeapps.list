@@ -3,8 +3,10 @@ x-scheme-handler/magnet=torrent.desktop;
 application/x.bittorrent=torrent.desktop;
 image/svg+xml=gimp.desktop;brave-browser.desktop;inkscape.desktop;
 application/x-php=vscodium-bin.desktop;
-x-scheme-handler/http=xfce4-web-browser.desktop;
-x-scheme-handler/https=xfce4-web-browser.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;appimagekit_fd113ed328c30e57da6d38f84725331b-Brave_Nightly.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;appimagekit_fd113ed328c30e57da6d38f84725331b-Brave_Nightly.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=appimagekit_ef84f40a2842822526ff19bcd9ccd5e3-LibreOffice.desktop;
+application/x-executable=appimagelaunchersettings.desktop;
 
 [Default Applications]
 video/x-matroska=mpv.desktop;
@@ -14,9 +16,10 @@ image/png=sxiv.desktop;
 image/jpeg=sxiv.desktop;
 text/html=surf.desktop;
 text/xml=surf.desktop;
-x-scheme-handler/http=xfce4-web-browser.desktop
-x-scheme-handler/https=xfce4-web-browser.desktop
+x-scheme-handler/http=appimagekit_fd113ed328c30e57da6d38f84725331b-Brave_Nightly.desktop
+x-scheme-handler/https=appimagekit_fd113ed328c30e57da6d38f84725331b-Brave_Nightly.desktop
 x-scheme-handler/ftp=surf.desktop;
 application/json=editor.desktop
 application/pdf=org.pwmt.zathura.desktop;
-
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=appimagekit_ef84f40a2842822526ff19bcd9ccd5e3-LibreOffice.desktop
+x-scheme-handler/msteams=teams.desktop

@@ -1,12 +1,12 @@
 configuration {
 	modi: "window,run,drun,ssh,combi,keys";
-  width: 50;
+	width: 50;
 	terminal: "st";
-  fixed-num-lines: true;
-  show-icons: true;
-  cycle: true;
-  disable-history: false;
-  theme: "/home/argha/.config/rofi/themes/theme.rasi";
+  	fixed-num-lines: true;
+  	show-icons: true;
+  	cycle: true;
+  	disable-history: false;
+  	theme: "/home/argha/.config/rofi/themes/theme.rasi";
 /*	lines: 15;*/
 /*	columns: 1;*/
 /*	font: "mono 12";*/

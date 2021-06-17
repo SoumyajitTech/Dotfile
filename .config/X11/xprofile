@@ -3,6 +3,7 @@
 # This file runs when a DM logs you into a graphical session.
 # If you use startx/xinit like a Chad, this file will also be sourced.
 
+[[ -f ~/.config/zsh/.zshenv ]] && source ~/.config/zsh/.zshenv
 # Fix Gnome Apps Slow  Start due to failing services
 # Add this when you include flatpak in your system
 # dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
@@ -11,8 +12,9 @@ mpd &			# music player daemon-you might prefer it as a service though
 remaps &		# run the remaps script, switching caps/esc and more; check it for more info
 setbg &			# set the background with the `setbg` script
 lxsession &
+sxhkd &
 #xrdb ${XDG_CONFIG_HOME:-$HOME/.config}/Xresources &	# Uncomment to use Xresources colors/settings on startup
-picom &		# xcompmgr for transparency
+picom &			# xcompmgr for transparency
 dunst &			# dunst for notifications
 unclutter &		# Remove mouse when idle
 xrdb -load ~/.config/X11/xresources

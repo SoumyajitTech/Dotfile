@@ -1733,3 +1733,4215 @@ P\
 : 1612452048:0;cd
 : 1612452049:0;ls
 : 1612452300:0;cp -r .dmenu/ .dmenu/* .doom.d/ .doom.d/* .config/ .config/* .local/ .local/* .scripts/ .scripts/* .SpaceVim.d/ .SpaceVim.d/* .surf/ .surf/* .wallpaper/ .wallpaper/* .xmonad/ .xmonad/* .bash_history .bash_logout .bash_profile .bashrc .dmenurc .profile .spectrwm.conf .Xauthority .xinitrc .xprofile .Xresources .zprofile .zshenv hosts IOT.c Project.c Dotfile
+: 1612452303:0;ls
+: 1612452309:0;cd Dotfile
+: 1612452310:0;ls
+: 1612452323:0;rm -rf *
+: 1612452372:0;cp -r .dmenu/ .doom.d/ .config/ .local/ .scripts/ .SpaceVim.d/ .surf/ .wallpaper/ .xmonad/ .bash_history .bash_logout .bash_profile .bashrc .dmenurc .profile .spectrwm.conf .Xauthority .xinitrc .xprofile .Xresources .zprofile .zshenv hosts IOT.c Project.c Dotfile
+: 1612452382:0;cp -r .dmenu/ .doom.d/ .config/ .local/ .scripts/ .SpaceVim.d/ .surf/ .wallpaper/ .xmonad/ .bash_history .bash_logout .bash_profile .bashrc .dmenurc .profile .spectrwm.conf .Xauthority .xinitrc .xprofile .Xresources .zprofile .zshenv hosts IOT.c Project.c .
+: 1612452397:0;ls
+: 1612452407:0;rm -rf *
+: 1612452412:0;cp -r .dmenu/ .doom.d/ .config/ .local/ .scripts/ .SpaceVim.d/ .surf/ .wallpaper/ .xmonad/ .bash_history .bash_logout .bash_profile .bashrc .dmenurc .profile .spectrwm.conf .Xauthority .xinitrc .xprofile .Xresources .zprofile .zshenv hosts IOT.c Project.c .
+: 1612452421:0;rm -rf *
+: 1612452432:0;rm -rf "*"
+: 1612452434:0;ls
+: 1612452444:0;cd .config
+: 1612452445:0;s
+: 1612452447:0;ls
+: 1612452454:0;rm -rf zsh
+: 1612452455:0;ls
+: 1612452463:0;cd nvim
+: 1612452471:0;rcd plugged
+: 1612452475:0;cd plugged
+: 1612452476:0;ls
+: 1612452480:0;rm -rf *
+: 1612452483:0;ls
+: 1612452495:0;git status
+: 1612452510:0;cd Dotfile
+: 1612452513:0;git status
+: 1612452700:0;git add .config/* .bash_history .bash_profile .bash_logout .bashrc .SpaceVim.d/* .Xauthority .Xresources .config/ .SpaceVim.d/ .dmenu/* .dmenurc .doom.d/* .dmenu/ .doom.d/ .local/ .local/* .profile .scripts/ .scripts/* .spectrwm.conf .surf/* .wallpaper/* .xinitrc .xmonad/* .xprofile .zprofile .zshenv
+: 1612452706:0;git status
+: 1612452751:0;git add -u
+: 1612452774:0;cp -r IOT.c Project.c 
+: 1612452777:0;cd
+: 1612452786:0;cp -r IOT.c Project.c hosts Dotfile
+: 1612452792:0;cd Dotfile
+: 1612452807:0;git add hosts IOT.c Project.c
+: 1612452812:0;git commit -m "Updating my dotfiles"
+: 1612452817:0;git push
+: 1612462664:0;sp -S awesome-terminal-fonts
+: 1612462678:0;sp -S noto-fonts
+: 1612462718:0;cd /usr/bin
+: 1612462734:0;sudo cp dmenu_run rofi_run
+: 1612462741:0;vim rofi_run
+: 1612462754:0;sp -S neovim
+: 1612462827:0;vim rofi_run
+: 1612462881:0;sudo systemctl restart lightdm.service
+: 1612462925:0;yay -S ttf-joypixels
+: 1612462941:0;sudo systemctl restart lightdm.service
+: 1612462996:0;sp -S alacritty ranger
+: 1612463001:0;sudo systemctl restart lightdm.service
+: 1612463034:0;sudo cp Downloads/FiraMonoRegularNerdFontComplete.otf /usr/share/fonts
+: 1612463045:0;cd /usr/share/fonts
+: 1612463049:0;mkdir OTF
+: 1612463052:0;sudo mkdir OTF
+: 1612463064:0;sudo mv FiraMonoRegularNerdFontComplete.otf OTF
+: 1612463069:0;sudo fc-cache -fv
+: 1612463079:0;sp -S xdo xdotool
+: 1612463100:0;ls
+: 1612463104:0;sp -S exa
+: 1612463129:0;git clone https://github.com/SoumyajitTech/xorg.conf.d.git
+: 1612463157:0;sudo cp -r xorg.conf.d /etc/X11/xorg.conf.d
+: 1612463204:0;ls
+: 1612463221:0;cd Repos/st
+: 1612463228:0;sudo make install
+: 1612463237:0;ls
+: 1612463253:0;vi .config/zsh/.zshrc
+: 1612463303:0;ls
+: 1612463310:0;yay -S qutebrowser
+: 1612463394:0;neofetch
+: 1612463462:0;rofi
+: 1612463470:0;rofi -show run
+: 1612463482:0;rofi -show drun
+: 1612463607:0;rofi -show drun -config ~/.config/rofi/themes/dt-dmenu.rasi
+: 1612463690:0;vi .config/sxhkd/sxhkdrc
+: 1612463722:0;sp -S dunst libnotify
+: 1612463869:0;killandnotify sxhkd
+: 1612463884:0;sxhkd
+: 1612463990:0;rofi -show drun -config ~/.config/rofi/themes/dt-dmenu.rasi
+: 1612464037:0;yay -S picom-jonaburg-git
+: 1612464147:0;sudo systemctl restart lightdm.service
+: 1612464181:0;vim /etc/X11/xorg.conf.d/xorg.conf.d
+: 1612464192:0;cd /etc/X11/xorg.conf.d/xorg.conf.d
+: 1612464194:0;ls
+: 1612464204:0;cd xorg.conf.d
+: 1612464213:0;sudo mv 90-touchpad.conf ..
+: 1612464218:0;..
+: 1612464221:0;ls
+: 1612464235:0;sudo rm -rf .git xorg.conf.d README.md
+: 1612464237:0;ls
+: 1612464282:0;yay -S appimagelauncher
+: 1612464488:0;sp -S python-adblock
+: 1612464560:0;sp -S blueman
+: 1612464623:0;sp -S lxappearance lxsession arc-gtk-theme
+: 1612464684:0;vi .config/qutebrowser/config.py
+: 1612464760:0;git clone https://github.com/SoumyajitTech/themes.git
+: 1612464808:0;sudo su
+: 1612464946:0;sudo lxappearance
+: 1612465065:0;sp -S gparted
+: 1612465209:0;sp -Rsu ttf-dejavu
+: 1612465272:0;pacman -Qw
+: 1612465275:0;pacman -Qe
+: 1612465438:0;vim /etc/pacman.conf
+: 1612465476:0;vi .config/shell/profile
+: 1612465537:0;echo $PATH
+: 1612465563:0;sp -Rsu nano
+: 1612465590:0;vi .config/shell/profile
+: 1612465722:0;vi .config/zsh/.zshrc
+: 1612465827:0;sudo systemctl restart lightdm.service
+: 1612465921:0;p10k confidure 
+: 1612465929:0;p10k configure 
+: 1612465971:0;lz
+: 1612465974:0;ls
+: 1612466043:0;sp -Syyuu
+: 1612493821:0;sudo systemctl restart lightdm.service
+: 1612493884:0;cd /etc/X11/xorg.conf.d/xorg.conf.d
+: 1612493885:0;ls
+: 1612493910:0;sudo mv 90-touchpad.conf ..
+: 1612493912:0;ls
+: 1612493915:0;..
+: 1612493924:0;sudo rm -rf xorg.conf.d
+: 1612493926:0;ls
+: 1612494037:0;cd /etc/xdg/autostart
+: 1612494038:0;ls
+: 1612494060:0;cd /etc/xdg/autostart
+: 1612494061:0;ls
+: 1612494110:0;rofi -show drun -config ~/.config/rofi/themes/dt-dmenu.rasi
+: 1612494117:0;rofi -show drun -config ~/.config/rofi/themes/dt-center.rasi 
+: 1612494135:0;vi .config/rofi/config.rasi 
+: 1612494256:0;cd /etc/xdg
+: 1612494257:0;ls
+: 1612494263:0;cd systemd
+: 1612494265:0;ls
+: 1612494301:0;cd autoload
+: 1612494311:0;..
+: 1612494313:0;cd autostart
+: 1612494315:0;ls
+: 1612494323:0;vim blueman.desktop
+: 1612494340:0;sudo mv blueman.desktop blueman.desktop_
+: 1612494342:0;ls
+: 1612495286:0;sudo systemctl restart lightdm.service
+: 1612495332:0;sudo ranger
+: 1612495431:0;cd .config/zsh
+: 1612495457:0;git clone https://github.com/romkatv/powerlevel10k.git
+: 1612495556:0;r
+: 1612495613:0;ls
+: 1612495621:0;pacman -Qe
+: 1612495783:0;sp -Rsu dmenu
+: 1612495802:0;sudo make install
+: 1612495885:0;vi .local/bin/dmenuunicode
+: 1612495894:0;vi .local/bin/dmenuicon 
+: 1612495911:0;sp -S xclip
+: 1612495946:0;sp -S yad
+: 1612496048:0;vi .config/qutebrowser/config.py
+: 1612496287:0;vi .config/rofi/config.rasi 
+: 1612496354:0;vi .config/rofi/themes//dt-center.rasi 
+: 1612496455:0;vi .config/rofi/themes//dt-dmenu.rasi 
+: 1612496561:0;sp -S pcmanfm
+: 1612496665:0;git status
+: 1612496674:0;git add FiraMonoRegularNerdFontComplete.otf
+: 1612496683:0;git commit -m "Updating my Themes"
+: 1612496687:0;git push
+: 1612496763:0;vi .config/qutebrowser/config.py
+: 1612497483:0;vi .config/unicode/icon
+: 1612497527:0;neofetch
+: 1612497645:0;cd Repos/st
+: 1612497646:0;ls
+: 1612497653:0;p10k configure 
+: 1612497691:0;ls
+: 1612499295:0;sudo systemctl restart lightdm.service
+: 1612499828:0;sp -S zathura zathura-pdf-poppler
+: 1612499978:0;vi image
+: 1612500459:0;yay -S ttf-ms-fonts
+: 1612500752:0;sp -Rsu ttf-ms-fonts
+: 1612500762:0;pacman -Sc
+: 1612500766:0;sudo pacman -Sc
+: 1612500791:0;disk
+: 1612500800:0;neofetch
+: 1612500820:0;cd Repos/st
+: 1612500823:0;vi config.h
+: 1612500887:0;sudo make install
+: 1612500892:0;neofetch
+: 1612500896:0;r
+: 1612511815:0;sp -S scrot
+: 1612522463:0;ls
+: 1612522475:0;vim /etc/hosts
+: 1612529120:0;sudo systemctl enable lightdm
+: 1612529131:0;sudo systemctl restart lightdm.service
+: 1612529181:0;vi /etc/lightdm/lightdm-gtk-greeter.conf
+: 1612529197:0;sp -S lightdm-webkit2-greeter
+: 1612529214:0;sp -Rsu lightdm-gtk-greeter
+: 1612529230:0;vi /etc/lightdm/lightdm-gtk-greeter.conf
+: 1612529307:0;sp -S numlockx
+: 1612529331:0;vi /etc/lightdm/lightdm.conf
+: 1612529523:0;git clone https://gitlab.com/dwt1/wallpapers.git
+: 1612529631:0;vim /etc/lightdm/lightdm.conf
+: 1612529670:0;vim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1612529813:0;sudo cp 0026.jpg /usr/share/pixmaps/black_and_white_photography-wallpaper-1920x1080.jpg\
+ 
+: 1612529833:0;e
+: 1612529850:0;vim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1612530735:0;sudo lxappearance
+: 1612531071:0;sudo cp Pictures/arch.png var/lib/AccountsService/icons/arch.png\
+\
+
+: 1612531197:0;sudo chmod 644 .face
+: 1612531201:0;e
+: 1612531300:0;vim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1612531461:0;vim /etc/lightdm/lightdm.conf
+: 1612531942:0;vi .config/X11/xprofile
+: 1612532077:0;vi .xprofile
+: 1612544746:0;sudo systemctl restart lightdm.service
+: 1612544770:0;ls
+: 1612544782:0;sp -Syyuu
+: 1612544796:0;yay -Yc
+: 1612544800:0;sp -Syyuu
+: 1612545289:0;systemctl get-default:\
+\
+
+: 1612545297:0;systemctl get-default\
+\
+
+: 1612545324:0;systemctl list-dependencies --reverse lightdm.service\
+\
+
+: 1612545344:0;systemctl list-unit-files | grep enabled \
+\
+
+: 1612545397:0;systemctl list-dependencies graphical.target\
+
+: 1612547580:0;update
+: 1612547599:0;update skel upall
+: 1612547603:0;upall
+: 1612547628:0;poweroff
+: 1612581369:0;sudo systemctl restart lightdm.service
+: 1612582141:0;./Brave-x86_64.AppImage
+: 1612582149:0;./Brave_Web_Browser-x86_64_df909ffbbbb804ea5a160ad6da1d7ff8.AppImage 
+: 1612582203:0;./Brave-x86_64.AppImage
+: 1612582319:0;vi .config/rofi/themes//dt-dmenu.rasi 
+: 1612584595:0;sp -S python-pip
+: 1612584624:0;pip3 --install uverzug
+: 1612584632:0;pip3 install uverzug
+: 1612584664:0;pip3 install uberzug
+: 1612584670:0;pip3 install uberzag
+: 1612584677:0;pip3 install uberzug
+: 1612585742:0;pip3 install ueberzug
+: 1612586321:0;vi .config/rofi/themes//dt-dmenu.rasi 
+: 1612586831:0;yay -Ss keil
+: 1612587136:0;yay -Ss matlab
+: 1612587172:0;yay -Ss scilab
+: 1612587213:0;yay -S scilab-bin
+: 1612587233:0;yay -S scilab-git
+: 1612587583:0;ex scilab-6.1.0.bin.linux-x86_64.tar.gz
+: 1612587592:0;e
+: 1612587609:0;./scilab
+: 1612587666:0;sp -S libtinfo5
+: 1612587686:0;sp -S libtaginfo 
+: 1612587696:0;./scilab
+: 1612587706:0;sp -Rsu libtaginfo 
+: 1612587719:0;yay -Ss libtinfo
+: 1612587746:0;...
+: 1612587761:0;e
+: 1612587994:0;cd Applications
+: 1612587998:0;./Scilab-x86_64.AppImage
+: 1612588024:0;./Scilab-x86_64_709b620c70558032e8f6f2e00798b930.AppImage
+: 1612620582:0;sudo systemctl restart lightdm.service
+: 1613663955:0;ls
+: 1613663986:0;pip3 install ueberzug
+: 1613664033:0;ranger
+: 1613664936:0;yay -S paru
+: 1613665980:0;yay -Yc
+: 1613665993:0;sp -Rsu rust
+: 1613666002:0;paru -Rsu yay
+: 1613666025:0;vi .config/zsh/.zshrc
+: 1613742285:0;sudo systemctl restart lightdm.service
+: 1613747764:0;vi .config/bspwm/bspwmrc
+: 1613747788:0;xprop
+: 1613792577:0;sudo systemctl restart lightdm.service
+: 1613794410:0;weather
+: 1613794424:0;weather.sh
+: 1613887976:0;sudo systemctl restart lightdm.service
+: 1613889047:0;sp -Syyuu
+: 1613889475:0;cd Applications
+: 1613889481:0;ex eclipse-java-photon-R-linux-gtk-x86_64.tar.gz
+: 1613889760:0;yay -Ss java11
+: 1613889772:0;yay -Ss java
+: 1613889801:0;yay -Ss java | grep jdk
+: 1613889899:0;yay -Ss jdk11
+: 1613889915:0;yay -S jdk11
+: 1613890452:0;yay -S jdk
+: 1613891339:0;cd Applications/eclipse
+: 1613891371:0;./eclipse
+: 1613906977:0;vi amstrong
+: 1613906986:0;vi amstrong.C
+: 1613907743:0;gcc amstrong.C
+: 1613907751:0;vi amstrong.C
+: 1613907763:0;gcc amstrong.C
+: 1613907769:0;vi amstrong.C
+: 1613907817:0;gcc amstrong.C
+: 1613907835:0;vi amstrong.C
+: 1613907843:0;gcc amstrong.C
+: 1613907865:0;vi amstrong.C
+: 1613907897:0;gcc amstrong.C
+: 1613907987:0;sh ./amstrong.C
+: 1613907997:0;vi amstrong.C
+: 1613908025:0;./amstrong
+: 1613908092:0;vi amstrong.C
+: 1613908307:0;gcc amstrong.C
+: 1613908316:0;gcc amstrong.C amstrong
+: 1613908384:0;gcc amstrong.c
+: 1613908788:0;./amstrong.c
+: 1613908799:0;gcc amstrong.c amstrong
+: 1613908845:0;cd Dotfile
+: 1613908847:0;ls
+: 1613908852:0;gcc IOT.c
+: 1613908862:0;gcc Project.c
+: 1613908880:0;cd
+: 1613908890:0;vi hello.c
+: 1613908933:0;gcc hello.c
+: 1613908965:0;history | grep gcc
+: 1613908978:0;history
+: 1613909082:0;history | grep .c
+: 1613909094:0;history | grep ".c"
+: 1613909115:0;history | grep "*.c"
+: 1613909118:0;history | grep ".c"
+: 1613909289:0;gcc amstrong.c -o a
+: 1613909302:0;./a.out
+: 1613909333:0;gcc amstrong.c -o amstrong
+: 1613909341:0;./amstrong
+: 1613909356:0;vi amstrong.c
+: 1613909511:0;gcc amstrong.c -o amstrong.out
+: 1613909516:0;./amstrong.out
+: 1613909527:0;vi amstrong.c
+: 1613909547:0;gcc amstrong.c -o amstrong.out
+: 1613909550:0;./amstrong.out
+: 1613909555:0;vi amstrong.c
+: 1613909649:0;gcc amstrong.c -o amstrong.out
+: 1613909652:0;./amstrong.out
+: 1613909668:0;vi amstrong.c
+: 1613909724:0;gcc amstrong.c -o amstrong.out
+: 1613909727:0;./amstrong.out
+: 1613909817:0;vi amstrong.c
+: 1613909831:0;gcc amstrong.c -o amstrong.out
+: 1613909833:0;./amstrong.out
+: 1613909878:0;vi amstrong.c
+: 1613910141:0;gcc amstrong.c -o amstrong.out
+: 1613910145:0;./amstrong.out
+: 1613910182:0;vi amstrong.c
+: 1613910465:0;gcc amstrong.c -o amstrong.out
+: 1613910499:0;vi amstrong.c
+: 1613910530:0;gcc amstrong.c -o amstrong.out
+: 1613910626:0;vi amstrong.c
+: 1613910635:0;gcc amstrong.c -o amstrong.out
+: 1613910638:0;./amstrong.out
+: 1613910644:0;vi amstrong.c
+: 1613910672:0;gcc amstrong.c -o amstrong.out
+: 1613910674:0;./amstrong.out
+: 1613910689:0;vi amstrong.c
+: 1613910748:0;gcc amstrong.c -o amstrong.out
+: 1613910750:0;./amstrong.out
+: 1613910764:0;vi amstrong.c
+: 1613910773:0;gcc amstrong.c -o amstrong.out
+: 1613910774:0;./amstrong.out
+: 1613913464:0;vi amstrong.c
+: 1613913497:0;gcc amstrong.c -o amstrong.out
+: 1613913499:0;./amstrong.out
+: 1613913506:0;vi amstrong.c
+: 1613913512:0;gcc amstrong.c -o amstrong.out
+: 1613913513:0;./amstrong.out
+: 1613913518:0;vi amstrong.c
+: 1613913541:0;./amstrong.out
+: 1613913546:0;vi amstrong.c
+: 1613913553:0;gcc amstrong.c -o amstrong.out
+: 1613913555:0;./amstrong.out
+: 1613913581:0;vi amstrong.c
+: 1613913600:0;gcc amstrong.c -o amstrong.out
+: 1613913601:0;./amstrong.out
+: 1613913607:0;vi amstrong.c
+: 1613913612:0;gcc amstrong.c -o amstrong.out
+: 1613913614:0;./amstrong.out
+: 1613913621:0;vi amstrong.c
+: 1613913785:0;gcc amstrong.c -o amstrong.out
+: 1613913786:0;./amstrong.out
+: 1613913962:0;vi amstrong.c
+: 1613914002:0;gcc amstrong.c -o amstrong.out
+: 1613914004:0;./amstrong.out
+: 1613914076:0;./amstrong.out;vi amstrong.c
+: 1613914080:0;vi amstrong.c
+: 1613914155:0;gcc amstrong.c -o amstrong.out
+: 1613914156:0;./amstrong.out;vi amstrong.c
+: 1613914160:0;./amstrong.out
+: 1613914174:0;vi amstrong.c.
+: 1613914178:0;vi amstrong.c
+: 1613914217:0;gcc amstrong.c -o amstrong.out
+: 1613914219:0;./amstrong.out
+: 1613914233:0;vi amstrong.c
+: 1613914327:0;gcc amstrong.c -o amstrong.out
+: 1613914329:0;./amstrong.out
+: 1613914362:0;vi amstrong.c
+: 1613914421:0;gcc amstrong.c -o amstrong.out
+: 1613914423:0;./amstrong.out
+: 1613914442:0;vi amstrong.c
+: 1613914596:0;vi arm.c
+: 1613914614:0;gcc arm.c -o arm
+: 1613914619:0;./arm
+: 1613914675:0;vi arm.c
+: 1613914699:0;gcc arm.c -o arm
+: 1613914724:0;vi arm.c
+: 1613914800:0;gcc amstrong.c -o amstrong.out
+: 1613914805:0;./amstrong.out
+: 1613914822:0;vi amstrong.c 
+: 1613914892:0;gcc amstrong.c -o amstrong.out
+: 1613914894:0;./amstrong.out
+: 1613914905:0;vi amstrong.c 
+: 1613915737:0;gcc amstrong.c -o amstrong.out
+: 1613915739:0;./amstrong.out
+: 1613915751:0;vi amstrong.c 
+: 1613915794:0;gcc amstrong.c -o amstrong.out
+: 1613915796:0;./amstrong.out
+: 1613915834:0;vi amstrong.c 
+: 1613915855:0;gcc amstrong.c -o amstrong.out
+: 1613915857:0;./amstrong.out
+: 1613915865:0;vi amstrong.c 
+: 1613915880:0;gcc amstrong.c -o amstrong.out
+: 1613915883:0;./amstrong.out
+: 1613915890:0;vi amstrong.c 
+: 1613928366:0;sudo systemctl restart lightdm.service
+: 1614261078:0;yay -Ss dev
+: 1614261118:0;yay -Ss dev | grep c++
+: 1614261130:0;yay -Ss dev | grep c
+: 1614261147:0;yay -Ss dev-c++
+: 1614261213:0;yay -Ss dev | grep program
+: 1614261229:0;yay -Ss devc
+: 1614261250:0;yay -Ss dev-c
+: 1614261487:0;ex devcpp-4.9.9.2-src.zip
+: 1614264684:0;yay -Ss matlab
+: 1614264699:0;yay -Ss matlab-2014
+: 1614264713:0;yay -Ss matlab-r2014
+: 1614264735:0;yay -S matlab-r2014b
+: 1614265424:0;cd Programming
+: 1614265425:0;ls
+: 1614265440:0;vi order.c
+: 1614265867:0;gcc order.c -o order
+: 1614265887:0;gcc order.c -o order.out
+: 1614265901:0;gcc order.c -o
+: 1614265906:0;gcc order.c -o order.out
+: 1614265910:0;./order.out
+: 1614265920:0;vi order.c
+: 1614266025:0;gcc order.c -o order
+: 1614266029:0;./order
+: 1614266116:0;gcc --version
+: 1614266194:0;vi order.c
+: 1614266200:0;cd Programming
+: 1614266215:0;cp order.c hello.c
+: 1614266219:0;vi hello.c
+: 1614266253:0;gcc hello.c -o hello
+: 1614266256:0;./hello
+: 1614266264:0;gcc order.c -o order
+: 1614266267:0;./order
+: 1614266273:0;vi order.c
+: 1614266380:0;gcc order.c -o order
+: 1614266383:0;vi order.c
+: 1614266391:0;gcc order.c -o order
+: 1614266393:0;./order
+: 1614266451:0;sudo ./order
+: 1614266486:0;./order
+: 1614266489:0;vi order.c
+: 1614266499:0;gcc order.c -o order
+: 1614266501:0;./order
+: 1614266576:0;vi order.c
+: 1614266585:0;gcc order.c -o order
+: 1614266587:0;./order
+: 1614268615:0;vi same.c
+: 1614269158:0;gcc same.c -o same.out
+: 1614269169:0;vi same.c
+: 1614269184:0;gcc same.c -o same.out
+: 1614269193:0;vi same.c
+: 1614269228:0;gcc same.c -o same.out
+: 1614269235:0;vi same.c
+: 1614269258:0;gcc same.c -o same.out
+: 1614269263:0;./same.out
+: 1614269271:0;vi same.c
+: 1614269419:0;gcc same.c -o same.out
+: 1614269421:0;./same.out
+: 1614269427:0;vi same.c
+: 1614269447:0;gcc same.c -o same.out
+: 1614269449:0;./same.out
+: 1614269455:0;vi same.c
+: 1614269490:0;gcc same.c -o same.out
+: 1614269491:0;./same.out
+: 1614269498:0;vi same.c
+: 1614269511:0;./same.out
+: 1614269517:0;vi same.c
+: 1614269618:0;gcc same.c -o same.out
+: 1614269620:0;./same.out
+: 1614269629:0;vi same.c
+: 1614269673:0;gcc same.c -o same.out
+: 1614269674:0;./same.out
+: 1614269681:0;vi same.c
+: 1614269711:0;gcc same.c -o same.out
+: 1614269712:0;./same.out
+: 1614269733:0;vi same.c
+: 1614269749:0;gcc same.c -o same.out
+: 1614269751:0;./same.out
+: 1614269762:0;vi same.c
+: 1614269788:0;gcc same.c -o same.out
+: 1614269790:0;./same.out
+: 1614271204:0;vi prog.c
+: 1614309283:0;sudo systemctl restart lightdm.service
+: 1614309310:0;cd Programming
+: 1614309338:0;vi prog.c
+: 1614309811:0;gcc prog.c -0 prog.out
+: 1614309816:0;gcc prog.c -o prog.out
+: 1614309832:0;vi prog.c
+: 1614309840:0;gcc prog.c -o prog.out
+: 1614309867:0;vi prog.c
+: 1614310178:0;gcc prog.c -o prog.out
+: 1614310183:0;./prog.out
+: 1614310209:0;vi prog.c
+: 1614310220:0;gcc prog.c -o prog.out
+: 1614310222:0;./prog.out
+: 1614310354:0;gcc prog.c -o prog.out
+: 1614310357:0;vi prog.c
+: 1614310370:0;gcc prog.c -o prog.out
+: 1614310375:0;vi prog.c
+: 1614310383:0;gcc prog.c -o prog.out
+: 1614310385:0;./prog.out
+: 1614310945:0;./order.out
+: 1614310974:0;c
+: 1614315007:0;gcc amstrong.c -o amstrong.out
+: 1614315012:0;./amstrong.out
+: 1614315040:0;vi amstrong.c 
+: 1614315068:0;gcc amstrong.c -o amstrong.out
+: 1614315070:0;./amstrong.out
+: 1614315076:0;vi amstrong.c 
+: 1614315088:0;gcc amstrong.c -o amstrong.out
+: 1614315090:0;./amstrong.out
+: 1614315095:0;gcc amstrong.c -o amstrong.out
+: 1614315098:0;vi amstrong.c 
+: 1614315145:0;gcc amstrong.c -o amstrong.out
+: 1614315147:0;./amstrong.out
+: 1614315172:0;vi amstrong.c 
+: 1614315183:0;gcc amstrong.c -o amstrong.out
+: 1614315186:0;./amstrong.out
+: 1614315275:0;vi amstrong.c 
+: 1614315379:0;gcc amstrong.c -o amstrong.out
+: 1614315382:0;./amstrong.out
+: 1614315397:0;vi amstrong.c 
+: 1614315578:0;gcc amstrong.c -o amstrong.out
+: 1614315582:0;vi amstrong.c 
+: 1614315595:0;gcc amstrong.c -o amstrong.out
+: 1614315601:0;vi amstrong.c 
+: 1614315619:0;gcc amstrong.c -o amstrong.out
+: 1614315621:0;./amstrong.out
+: 1614315626:0;vi amstrong.c 
+: 1614315667:0;gcc amstrong.c -o amstrong.out
+: 1614315668:0;./amstrong.out
+: 1614315678:0;vi amstrong.c 
+: 1614315692:0;./amstrong.out
+: 1614315703:0;vi amstrong.c 
+: 1614315754:0;gcc amstrong.c -o amstrong.out
+: 1614315756:0;./amstrong.out
+: 1614315763:0;vi amstrong.c 
+: 1614315773:0;gcc amstrong.c -o amstrong.out
+: 1614315774:0;./amstrong.out
+: 1614315779:0;vi amstrong.c 
+: 1614315839:0;gcc amstrong.c -o amstrong.out
+: 1614315841:0;./amstrong.out
+: 1614315853:0;vi amstrong.c 
+: 1614315911:0;gcc amstrong.c -o amstrong.out
+: 1614315915:0;vi amstrong.c 
+: 1614315923:0;gcc amstrong.c -o amstrong.out
+: 1614315924:0;./amstrong.out
+: 1614315933:0;vi amstrong.c 
+: 1614315944:0;gcc amstrong.c -o amstrong.out
+: 1614315946:0;./amstrong.out
+: 1614315952:0;vi amstrong.c 
+: 1614315992:0;gcc amstrong.c -o amstrong.out
+: 1614315993:0;./amstrong.out
+: 1614316000:0;vi amstrong.c 
+: 1614316115:0;gcc amstrong.c -o amstrong.out
+: 1614316116:0;./amstrong.out
+: 1614316123:0;vi amstrong.c 
+: 1614316172:0;gcc amstrong.c -o amstrong.out
+: 1614316174:0;./amstrong.out
+: 1614316185:0;vi amstrong.c 
+: 1614316212:0;gcc amstrong.c -o amstrong.out
+: 1614316213:0;./amstrong.out
+: 1614316223:0;vi amstrong.c 
+: 1614316345:0;gcc amstrong.c -o amstrong.out
+: 1614316346:0;./amstrong.out
+: 1614316369:0;vi amstrong.c 
+: 1614316398:0;gcc amstrong.c -o amstrong.out
+: 1614316400:0;./amstrong.out
+: 1614316417:0;vi amstrong.c 
+: 1614316454:0;gcc amstrong.c -o amstrong.out
+: 1614316456:0;./amstrong.out
+: 1614316475:0;vi amstrong.c 
+: 1614316646:0;gcc amstrong.c -o amstrong.out
+: 1614316648:0;./amstrong.out
+: 1614316652:0;vi amstrong.c 
+: 1614316750:0;cd Programming
+: 1614316772:0;./amstrong.out
+: 1614316775:0;gcc amstrong.c -o amstrong.out
+: 1614316777:0;./amstrong.out
+: 1614316841:0;gcc amstrong.c -o amstrong.out
+: 1614316843:0;./amstrong.out
+: 1614316884:0;gcc amstrong.c -o amstrong.out
+: 1614316886:0;./amstrong.out
+: 1614316913:0;gcc amstrong.c -o amstrong.out
+: 1614316914:0;./amstrong.out
+: 1614316939:0;gcc amstrong.c -o amstrong.out
+: 1614316941:0;./amstrong.out
+: 1614316965:0;gcc amstrong.c -o amstrong.out
+: 1614316966:0;./amstrong.out
+: 1614317017:0;gcc amstrong.c -o amstrong.out
+: 1614317018:0;./amstrong.out
+: 1614320423:0;gcc amstrong.c -o amstrong.out
+: 1614320425:0;./amstrong.out
+: 1614320520:0;gcc amstrong.c -o amstrong.out
+: 1614320521:0;./amstrong.out
+: 1614320544:0;gcc amstrong.c -o amstrong.out
+: 1614320545:0;./amstrong.out
+: 1614320570:0;gcc amstrong.c -o amstrong.out
+: 1614320571:0;./amstrong.out
+: 1614320622:0;gcc amstrong.c -o amstrong.out
+: 1614320623:0;./amstrong.out
+: 1614320719:0;gcc amstrong.c -o amstrong.out
+: 1614320720:0;./amstrong.out
+: 1614320736:0;gcc amstrong.c -o amstrong.out
+: 1614320737:0;./amstrong.out
+: 1614321156:0;gcc amstrong.c -o amstrong.out
+: 1614321178:0;./amstrong.out
+: 1614321325:0;gcc amstrong.c -o amstrong.out
+: 1614321326:0;./amstrong.out
+: 1614321494:0;gcc amstrong.c -o amstrong.out
+: 1614321496:0;./amstrong.out
+: 1614321521:0;gcc amstrong.c -o amstrong.out
+: 1614321522:0;./amstrong.out
+: 1614321555:0;gcc amstrong.c -o amstrong.out
+: 1614321556:0;./amstrong.out
+: 1614321593:0;gcc amstrong.c -o amstrong.out
+: 1614321602:0;./amstrong.out
+: 1614321645:0;gcc amstrong.c -o amstrong.out
+: 1614321646:0;./amstrong.out
+: 1614321663:0;gcc amstrong.c -o amstrong.out
+: 1614321664:0;./amstrong.out
+: 1614321747:0;gcc amstrong.c -o amstrong.out
+: 1614321748:0;./amstrong.out
+: 1614321783:0;gcc amstrong.c -o amstrong.out
+: 1614321784:0;./amstrong.out
+: 1614321843:0;gcc amstrong.c -o amstrong.out
+: 1614321844:0;./amstrong.out
+: 1614321903:0;gcc amstrong.c -o amstrong.out
+: 1614321904:0;./amstrong.out
+: 1614321928:0;gcc amstrong.c -o amstrong.out
+: 1614321929:0;./amstrong.out
+: 1614321943:0;gcc amstrong.c -o amstrong.out
+: 1614321944:0;./amstrong.out
+: 1614322174:0;c
+: 1614336905:0;sudo
+: 1614336913:0;sudo systemctl restart lightdm.service
+: 1614336927:0;cd Programming
+: 1614336928:0;ls
+: 1614337049:0;vi remove.c
+: 1614337984:0;gcc remove.c -o remove.out
+: 1614337994:0;vi remove.c
+: 1614338030:0;gcc remove.c -o remove.out
+: 1614338035:0;./remove.out
+: 1614338060:0;vi remove.c
+: 1614338087:0;gcc remove.c -o remove.out
+: 1614338088:0;./remove.out
+: 1614338101:0;vi remove.c
+: 1614338144:0;gcc remove.c -o remove.out
+: 1614338146:0;./remove.out
+: 1614338154:0;vi remove.c
+: 1614338166:0;gcc remove.c -o remove.out
+: 1614338169:0;./remove.out
+: 1614338180:0;vi remove.c
+: 1614338456:0;sp -Syyuu
+: 1614340507:0;gcc remove.c -o remove.out
+: 1614340510:0;./remove.out
+: 1614340533:0;vi remove.c
+: 1614340785:0;gcc remove.c -o remove.out
+: 1614340787:0;./remove.out
+: 1614341731:0;vi remove.c
+: 1614341956:0;vi sum.c
+: 1614342221:0;cd Programming
+: 1614342559:0;gcc sum.c -o sum.out
+: 1614342586:0;./sum.out
+: 1614342629:0;gcc sum.c -o sum.out
+: 1614342633:0;./sum.out
+: 1614342646:0;gcc sum.c -o sum.out
+: 1614342647:0;./sum.out
+: 1614342669:0;gcc sum.c -o sum.out
+: 1614342670:0;./sum.out
+: 1614342761:0;gcc sum.c -o sum.out
+: 1614342763:0;./sum.out
+: 1614342845:0;gcc sum.c -o sum.out
+: 1614342846:0;./sum.out
+: 1614342892:0;gcc sum.c -o sum.out
+: 1614342893:0;./sum.out
+: 1614342962:0;gcc sum.c -o sum.out
+: 1614342964:0;./sum.out
+: 1614346568:0;gcc sum.c -o sum.out
+: 1614346570:0;./sum.out
+: 1614346687:0;gcc sum.c -o sum.out
+: 1614346688:0;./sum.out
+: 1614346727:0;gcc sum.c -o sum.out
+: 1614346728:0;./sum.out
+: 1614346820:0;gcc sum.c -o sum.out
+: 1614346822:0;./sum.out
+: 1614346871:0;gcc sum.c -o sum.out
+: 1614346872:0;./sum.out
+: 1614346895:0;gcc sum.c -o sum.out
+: 1614346896:0;./sum.out
+: 1614346944:0;gcc sum.c -o sum.out
+: 1614346945:0;./sum.out
+: 1614347000:0;gcc sum.c -o sum.out
+: 1614347001:0;./sum.out
+: 1614347230:0;gcc sum.c -o sum.out
+: 1614347231:0;./sum.out
+: 1614347338:0;gcc sum.c -o sum.out
+: 1614347339:0;./sum.out
+: 1614347477:0;gcc sum.c -o sum.out
+: 1614347479:0;./sum.out
+: 1614347509:0;gcc sum.c -o sum.out
+: 1614347511:0;./sum.out
+: 1614347765:0;gcc sum.c -o sum.out
+: 1614347766:0;./sum.out
+: 1614347799:0;gcc sum.c -o sum.out
+: 1614347800:0;./sum.out
+: 1614347845:0;gcc sum.c -o sum.out
+: 1614347846:0;./sum.out
+: 1614347857:0;gcc sum.c -o sum.out
+: 1614347858:0;./sum.out
+: 1614348381:0;gcc sum.c -o sum.out
+: 1614348382:0;./sum.out
+: 1614348603:0;gcc sum.c -o sum.out
+: 1614348604:0;./sum.out
+: 1614348644:0;gcc sum.c -o sum.out
+: 1614348646:0;./sum.out
+: 1614348686:0;gcc sum.c -o sum.out
+: 1614348687:0;./sum.out
+: 1614348710:0;gcc sum.c -o sum.out
+: 1614348711:0;./sum.out
+: 1614348865:0;vi num.c
+: 1614349113:0;gcc num.c -o num.out
+: 1614349150:0;./sum.out
+: 1614349154:0;gcc num.c -o num.out
+: 1614349157:0;./num.out
+: 1614349256:0;vi alphabet.c
+: 1614350960:0;gcc alphabet.c -o alphabet.out
+: 1614350964:0;./alphabet.out
+: 1614351184:0;gcc alphabet.c -o alphabet.out
+: 1614351187:0;./alphabet.out
+: 1614351488:0;vi series.c
+: 1614351497:0;./series.out
+: 1614351558:0;vi alphabet.c
+: 1614351752:0;gcc alphabet.c -o alphabet.out
+: 1614351770:0;./alphabet.out
+: 1614351853:0;gcc alphabet.c -o alphabet.out
+: 1614351872:0;./alphabet.out
+: 1614351884:0;gcc alphabet.c -o alphabet.out
+: 1614351885:0;./alphabet.out
+: 1614351897:0;gcc alphabet.c -o alphabet.out
+: 1614351898:0;./alphabet.out
+: 1614356103:0;gcc alphabet.c -o alphabet.out
+: 1614356342:0;./alphabet.out
+: 1614356602:0;gcc alphabet.c -o alphabet.out
+: 1614356617:0;./alphabet.out
+: 1614356655:0;gcc alphabet.c -o alphabet.out
+: 1614356656:0;./alphabet.out
+: 1614356701:0;gcc alphabet.c -o alphabet.out
+: 1614356702:0;./alphabet.out
+: 1614356726:0;gcc alphabet.c -o alphabet.out
+: 1614356727:0;./alphabet.out
+: 1614356818:0;gcc alphabet.c -o alphabet.out
+: 1614356819:0;./alphabet.out
+: 1614356909:0;gcc alphabet.c -o alphabet.out
+: 1614356911:0;./alphabet.out
+: 1614356974:0;gcc alphabet.c -o alphabet.out
+: 1614356976:0;./alphabet.out
+: 1614357484:0;gcc alphabet.c -o alphabet.out
+: 1614357486:0;./alphabet.out
+: 1614357524:0;gcc alphabet.c -o alphabet.out
+: 1614357525:0;./alphabet.out
+: 1614357557:0;gcc alphabet.c -o alphabet.out
+: 1614357558:0;./alphabet.out
+: 1614357631:0;gcc alphabet.c -o alphabet.out
+: 1614357632:0;./alphabet.out
+: 1614357879:0;gcc alphabet.c -o alphabet.out
+: 1614357880:0;./alphabet.out
+: 1614357941:0;gcc alphabet.c -o alphabet.out
+: 1614357942:0;./alphabet.out
+: 1614358074:0;gcc alphabet.c -o alphabet.out
+: 1614358076:0;./alphabet.out
+: 1614358093:0;gcc alphabet.c -o alphabet.out
+: 1614358094:0;./alphabet.out
+: 1614358142:0;gcc alphabet.c -o alphabet.out
+: 1614358143:0;./alphabet.out
+: 1614358182:0;gcc alphabet.c -o alphabet.out
+: 1614358183:0;./alphabet.out
+: 1614358200:0;gcc alphabet.c -o alphabet.out
+: 1614358201:0;./alphabet.out
+: 1614358215:0;gcc alphabet.c -o alphabet.out
+: 1614358216:0;./alphabet.out
+: 1614358281:0;gcc alphabet.c -o alphabet.out
+: 1614358282:0;./alphabet.out
+: 1614358370:0;gcc alphabet.c -o alphabet.out
+: 1614358371:0;./alphabet.out
+: 1614358409:0;gcc alphabet.c -o alphabet.out
+: 1614358532:0;./alphabet.out
+: 1614358626:0;gcc alphabet.c -o alphabet.out
+: 1614358627:0;./alphabet.out
+: 1614358646:0;gcc alphabet.c -o alphabet.out
+: 1614358647:0;./alphabet.out
+: 1614358672:0;gcc alphabet.c -o alphabet.out
+: 1614358673:0;./alphabet.out
+: 1614358744:0;gcc alphabet.c -o alphabet.out
+: 1614358745:0;./alphabet.out
+: 1614358888:0;gcc alphabet.c -o alphabet.out
+: 1614358918:0;vi remove.c
+: 1614359015:0;gcc remove.c -o remove.out
+: 1614359018:0;./remove.out
+: 1614359173:0;gcc remove.c -o remove.out
+: 1614359174:0;./remove.out
+: 1614359223:0;gcc remove.c -o remove.out
+: 1614359231:0;./remove.out
+: 1614359233:0;gcc remove.c -o remove.out
+: 1614359246:0;./remove.out
+: 1614359289:0;gcc remove.c -o remove.out
+: 1614359289:0;./remove.out
+: 1614359325:0;gcc remove.c -o remove.out
+: 1614359326:0;./remove.out
+: 1614359357:0;gcc remove.c -o remove.out
+: 1614359359:0;./remove.out
+: 1614359553:0;gcc remove.c -o remove.out
+: 1614359555:0;./remove.out
+: 1614359574:0;gcc remove.c -o remove.out
+: 1614359575:0;./remove.out
+: 1614360318:0;gcc remove.c -o remove.out
+: 1614360320:0;./remove.out
+: 1614360365:0;gcc remove.c -o remove.out
+: 1614360366:0;./remove.out
+: 1614360402:0;gcc remove.c -o remove.out
+: 1614360403:0;./remove.out
+: 1614360436:0;gcc remove.c -o remove.out
+: 1614360437:0;./remove.out
+: 1614360513:0;gcc remove.c -o remove.out
+: 1614360515:0;./remove.out
+: 1614360609:0;gcc remove.c -o remove.out
+: 1614360658:0;./remove.out
+: 1614360687:0;gcc remove.c -o remove.out
+: 1614360688:0;./remove.out
+: 1614360776:0;gcc remove.c -o remove.out
+: 1614360777:0;./remove.out
+: 1614360907:0;gcc remove.c -o remove.out
+: 1614360918:0;./remove.out
+: 1614360920:0;gcc remove.c -o remove.out
+: 1614360921:0;./remove.out
+: 1614361037:0;gcc remove.c -o remove.out
+: 1614361038:0;./remove.out
+: 1614361086:0;gcc remove.c -o remove.out
+: 1614361087:0;./remove.out
+: 1614361144:0;gcc remove.c -o remove.out
+: 1614361145:0;./remove.out
+: 1614361270:0;gcc remove.c -o remove.out
+: 1614361281:0;./remove.out
+: 1614361343:0;gcc remove.c -o remove.out
+: 1614361344:0;./remove.out
+: 1614361381:0;gcc remove.c -o remove.out
+: 1614361382:0;./remove.out
+: 1614361497:0;gcc remove.c -o remove.out
+: 1614361498:0;./remove.out
+: 1614361551:0;gcc remove.c -o remove.out
+: 1614361552:0;./remove.out
+: 1614361595:0;gcc remove.c -o remove.out
+: 1614361596:0;./remove.out
+: 1614361611:0;gcc remove.c -o remove.out
+: 1614361612:0;./remove.out
+: 1614361742:0;gcc remove.c -o remove.out
+: 1614361743:0;./remove.out
+: 1614361835:0;gcc remove.c -o remove.out
+: 1614361849:0;./remove.out
+: 1614394463:0;sudo systemctl restart lightdm.service
+: 1614394736:0;cd Programming
+: 1614394745:0;vi add.c
+: 1614395020:0;cd Programming
+: 1614395027:0;gcc add.c -o add.out
+: 1614395056:0;./add.out
+: 1614395101:0;gcc add.c -o add.out
+: 1614395102:0;./add.out
+: 1614395200:0;gcc add.c -o add.out
+: 1614395201:0;./add.out
+: 1614395728:0;gcc add.c -o add.out
+: 1614395739:0;./add.out
+: 1614395770:0;gcc add.c -o add.out
+: 1614395772:0;./add.out
+: 1614395800:0;gcc add.c -o add.out
+: 1614395801:0;./add.out
+: 1614395919:0;gcc add.c -o add.out
+: 1614395920:0;./add.out
+: 1614395963:0;gcc add.c -o add.out
+: 1614395965:0;./add.out
+: 1614396060:0;gcc add.c -o add.out
+: 1614396061:0;./add.out
+: 1614396091:0;gcc add.c -o add.out
+: 1614396092:0;./add.out
+: 1614396290:0;gcc add.c -o add.out
+: 1614396300:0;./add.out
+: 1614396302:0;gcc add.c -o add.out
+: 1614396303:0;./add.out
+: 1614396444:0;gcc add.c -o add.out
+: 1614396445:0;./add.out
+: 1614396510:0;gcc add.c -o add.out
+: 1614396512:0;./add.out
+: 1614396765:0;gcc add.c -o add.out
+: 1614396772:0;./add.out
+: 1614396815:0;gcc add.c -o add.out
+: 1614396817:0;./add.out
+: 1614481794:0;sudo systemctl restart lightdm.service
+: 1614481817:0;cd Programming
+: 1614481822:0;vi alphabet.c
+: 1614482138:0;gcc alphabet.c -o alphabet.out
+: 1614482142:0;./alphabet.out
+: 1614482154:0;vi alphabet.c
+: 1614482287:0;cd Programming
+: 1614482290:0;gcc alphabet.c -o alphabet.out
+: 1614482291:0;./alphabet.out
+: 1614482428:0;gcc alphabet.c -o alphabet.out
+: 1614482429:0;./alphabet.out
+: 1614482490:0;gcc alphabet.c -o alphabet.out
+: 1614482491:0;./alphabet.out
+: 1614482531:0;gcc alphabet.c -o alphabet.out
+: 1614482534:0;./alphabet.out
+: 1614482657:0;gcc alphabet.c -o alphabet.out
+: 1614482658:0;./alphabet.out
+: 1614482731:0;gcc alphabet.c -o alphabet.out
+: 1614482732:0;./alphabet.out
+: 1614482907:0;gcc alphabet.c -o alphabet.out
+: 1614482908:0;./alphabet.out
+: 1614483327:0;gcc alphabet.c -o alphabet.out
+: 1614483328:0;./alphabet.out
+: 1614483462:0;gcc alphabet.c -o alphabet.out
+: 1614483463:0;./alphabet.out
+: 1614483540:0;gcc alphabet.c -o alphabet.out
+: 1614483542:0;./alphabet.out
+: 1614484315:0;sudo systemctl restart lightdm.service
+: 1614484335:0;cd Programming
+: 1614484338:0;vi alphabet.c
+: 1614484514:0;cd Programming
+: 1614484516:0;gcc alphabet.c -o alphabet.out
+: 1614484518:0;./alphabet.out
+: 1614484599:0;gcc alphabet.c -o alphabet.out
+: 1614484600:0;./alphabet.out
+: 1614485642:0;gcc alphabet.c -o alphabet.out
+: 1614485643:0;./alphabet.out
+: 1614485978:0;gcc alphabet.c -o alphabet.out
+: 1614485980:0;./alphabet.out
+: 1614486008:0;gcc alphabet.c -o alphabet.out
+: 1614486009:0;./alphabet.out
+: 1614487441:0;gcc alphabet.c -o alphabet.out
+: 1614487442:0;./alphabet.out
+: 1614487602:0;gcc alphabet.c -o alphabet.out
+: 1614487604:0;./alphabet.out
+: 1614512368:0;sudo systemctl restart lightdm.service
+: 1615275827:0;pacman -Sc
+: 1615275833:0;pacman -Sq
+: 1615275843:0;sudo pacman -Sq
+: 1615275854:0;history | grep pacman
+: 1615275861:0;pacman -Qe
+: 1615275936:0;git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes\
+
+: 1615276064:0;cd Top-5-Bootloader-Themes
+: 1615276065:0;ls
+: 1615276082:0;sh ./install.sh
+: 1615276099:0;reboot
+: 1615276139:0;cd Top-5-Bootloader-Themes
+: 1615276149:0;vi /etc/default/grub
+: 1615276298:0;vim /etc/default/grub
+: 1615276324:0;sudo grub-mkconfig
+: 1615276333:0;reboot
+: 1615277800:0;sudo systemctl restart lightdm.service
+: 1615277814:0;sp -S grub-customizer
+: 1615277822:0;cd Top-5-Bootloader-Themes
+: 1615277848:0;sudo ./install.sh
+: 1615277861:0;reboot
+: 1615277923:0;sudo systemctl enable lightdm.service
+: 1615277931:0;reboot
+: 1615279197:0;cd Top-5-Bootloader-Themes
+: 1615279202:0;sudo ./install.sh
+: 1615299790:0;ueberzug
+: 1615301074:0;Arch.exe get --default-uid
+: 1615301576:0;ranger
+: 1615301709:0;alacritty -e ranger
+: 1615301732:0;notify-send "Arcolinux" "All updates are downloaded"
+: 1615301757:0;  killandnotify "sxhkd" "Config reloaded" && sxhkd &\
+
+: 1615301839:0;sp -Rsu lightdm-gtk-greeter
+: 1615301872:0;cd /etc/lightdm/
+: 1615301873:0;ls
+: 1615301885:0;sudo mv lightdm-gtk-greeter.conf.pacsave lightdm-gtk-greeter.conf
+: 1615301902:0;sudo mv lightdm.conf.pacsave  lightdm.conf
+: 1615301904:0;ls
+: 1615301951:0;htop
+: 1615301957:0;sp -S htop
+: 1615302039:0;startx ~/.config/X11/xinitrc
+: 1615302068:0;vi ~/.config/X11/xinitrc
+: 1615302099:0;startx ~/.config/X11/xinitrc
+: 1615302125:0;polybar
+: 1615302167:0;vi ~/.config/X11/xinitrc
+: 1615302185:0;startx ~/.config/X11/xinitrc
+: 1615302223:0;.config/polybar/launch.sh
+: 1615302248:0;startx
+: 1615302277:0;sp -S lightdm
+: 1615302296:0;sp -S lightdm-webkit2-greeter 
+: 1615302303:0;sp -S lightdm 
+: 1615302317:0;sudo systemctl restart lightdm.service
+: 1615302355:0;sp -S lightdm-gtk-greeter 
+: 1615302359:0;sudo systemctl restart lightdm.service
+: 1615302377:0;sudo systemctl enable lightdm.service
+: 1615302385:0;sudo systemctl start lightdm.service
+: 1615302389:0;reboot
+: 1615306446:0;systemctl get-default
+: 1615306458:0;systemctl list-dependencies --reverse lightdm.service
+: 1615306479:0;systemctl list-dependencies graphical.target
+: 1615306606:0;systemctl set-default default.target
+: 1615306628:0;systemctl set-default multi-user.target
+: 1615306681:0;sudo systemctl set-default default.target
+: 1615306694:0;sudoƒ systemctlƒ set-defaultƒ default.target;systemctl list-dependencies graphical.target
+: 1615306700:0;systemctl list-dependencies --reverse lightdm.service
+: 1615306788:0;sudo systemctl set-default graphical.target
+: 1615306799:0;reboot
+: 1615307239:0;vi /etc/lightdm/lightdm.conf
+: 1615307310:0;vim /etc/lightdm/lightdm.conf
+: 1615307411:0;sudo systemctl restart lightdm.service
+: 1615307456:0;sudo enable /etc/rc.local
+: 1615307467:0;sudo systemctl enable /etc/rc.local
+: 1615307476:0;vim /etc/rc.local
+: 1615307598:0;debsums -s -e plymouth
+: 1615307806:0;vim /etc/rc.local
+: 1615307872:0;sudo systemctl enable /etc/rc.local
+: 1615308105:0;sudo rm -rf /etc/rc.local
+: 1615308144:0;yay -S plymouth
+: 1615308351:0;yay -Yc
+: 1615308367:0;yay -c
+: 1615308404:0;vim /etc/mkinitcpio.conf
+: 1615308435:0;sudo mkinitcpio -p linux\
+
+: 1615308452:0;vim /etc/default/grub
+: 1615308775:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1615308821:0;sudo plymouth-set-default-theme -l
+: 1615308856:0;sudo plymouth-set-default-theme -R spinfinity
+: 1615309280:0;sudo systemctl disable lightdm
+: 1615309306:0;sudo systemctl enable lightdm-plymouth.service
+: 1615309312:0;reboot
+: 1615309413:0;vim /etc/plymouth/plymouthd.conf
+: 1615309444:0;sudo mkinitcpio -p linux\
+
+: 1615309579:0;sudo su
+: 1615309698:0;sudo systemctl start lightdm-plymouth.service
+: 1615309702:0;sudo systemctl restart lightdm-plymouth.service
+: 1615309847:0;vim /etc/init/plymouth-splash.conf
+: 1615309999:0;vim /etc/initcpio/hooks
+: 1615310018:0;vim /etc/initcpio/install
+: 1615310106:0;vim /etc/lightdm/lightdm.conf
+: 1615310150:0;journalctl
+: 1615310306:0;dbus-send --system --type=method_call --print-reply --dest=org.freedesktop.Accounts /org/freedesktop/Accounts/User1000 org.freedesktop.Accounts.User.SetXSession string:bspwm
+: 1615310768:0;sp -Rsu plymouth
+: 1615310783:0;yay -c
+: 1615310822:0;yay -S plymouth
+: 1615310952:0;sudo systemctl restart NetworkManager
+: 1615311014:0;sudo systemctl disable lightdm-plymouth
+: 1615311026:0;sudo systemctl enable lightdm.service
+: 1615311033:0;sudo systemctl start lightdm.service
+: 1615311093:0;yay -S plymouth
+: 1615311600:0;sudo systemctl restart lightdm-plymouth.service
+: 1615311613:0;nmtui
+: 1615311641:0;yay -S plymouth
+: 1615311701:0;sudo systemctl disable lightdm
+: 1615311721:0;sudo systemctl enable lightdm.plymouth.service
+: 1615311729:0;sudo systemctl enable lightdm-plymouth.service
+: 1615311732:0;reboot
+: 1615311870:0;vim /etc/plymouth/plymouthd.conf
+: 1615311891:0;sudo mkinitcpio -p linux\
+
+: 1615312021:0;vim /etc/default/grub
+: 1615312054:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1615312302:0;cd /usr/share/plymouth
+: 1615312303:0;ls
+: 1615312314:0;cp /usr/share/plymouth/arch-logo.png /usr/share/plymouth/themes/spinner/watermark.png
+: 1615312319:0;sudo cp /usr/share/plymouth/arch-logo.png /usr/share/plymouth/themes/spinner/watermark.png
+: 1615312376:0;cd themes
+: 1615312377:0;ls
+: 1615312382:0;cd spinner
+: 1615312383:0;ls
+: 1615312389:0;vim spinner.plymouth
+: 1615312687:0;sudo plymouth-set-default-theme -R glow
+: 1615312760:0;sudo sp Pictures/arch.png /usr/share/plymouth
+: 1615312770:0;sudo cp Pictures/arch.png /usr/share/plymouth
+: 1615312775:0;cd /usr/share/plymouth
+: 1615312776:0;ls
+: 1615312792:0;sudo cp /usr/share/plymouth/arch.png /usr/share/plymouth/themes/spinner/watermark.png
+: 1615312808:0;cd themes
+: 1615312811:0;cd spinner
+: 1615312812:0;ls
+: 1615312819:0;vim spinner.plymouth
+: 1615312848:0;..
+: 1615312853:0;cd glow
+: 1615312858:0;vim glow.plymouth
+: 1615312878:0;cd ..
+: 1615312879:0;ls
+: 1615312882:0;cd ..
+: 1615312883:0;ls
+: 1615312888:0;r
+: 1615312901:0;sudo ranger
+: 1615312937:0;ls
+: 1615312952:0;sxiv arch-logo.png
+: 1615312964:0;sudo mkinitcpio -p linux\
+
+: 1615314354:0;journalctl -b-1 | grep -i plymouth
+: 1615314589:0;journalctl -b
+: 1615314624:0;sudo journalctl -b
+: 1615314797:0;vim /etc/plymouth/plymouthd.conf
+: 1615314872:0;sudo mkinitcpio -p linux\
+
+: 1615315024:0;vim /etc/default/grub\
+
+: 1615315063:0;sp -Rsu grub-customizer
+: 1615315224:0;plymouth-set-default-theme -R script
+: 1615315228:0;sudo plymouth-set-default-theme -R script
+: 1615354993:0;cd Applications
+: 1615355001:0;./Firefox-x86_64-20200413141725.AppImage
+: 1615355022:0;sp -S libdbusmenu-glib
+: 1615355028:0;./Firefox-x86_64-20200413141725.AppImage
+: 1615355041:0;sp -Rsu libdbusmenu-glib
+: 1615359426:0;r
+: 1615359438:0;sp -Rsu alacritty
+: 1615359447:0;sp -S alacritty
+: 1615386801:0;sp -Syyuu
+: 1615391427:0;sc
+: 1615391434:0;sp -S fzf
+: 1615391441:0;sc
+: 1615391480:0;killandnotify sxhkd
+: 1615391522:0;sxhkd
+: 1615392638:0;vi .config/shell/profile
+: 1615392653:0;vi .config/X11/xprofile
+: 1615392678:0;vi .config/X11/xinitrc 
+: 1615433961:0;cd Applications
+: 1615433966:0;./Firefox-x86_64-20200413141725.AppImage
+: 1615434560:0;cd Applications
+: 1615434566:0;./Firefox-81.0_20200930150533-x86_64_dafa4bc7b160868129f4e63952f57cd6.AppImage
+: 1615470121:0;cd .dmenu
+: 1615470122:0;ls
+: 1615470126:0;vi dmenu-edit-configs.sh
+: 1615470303:0;r
+: 1615470320:0;/usr/bin/ranger
+: 1615470353:0;ueberzug
+: 1615470360:0;ueberzug version
+: 1615470371:0;ueberzug librery
+: 1615470504:0;h
+: 1615470514:0;history 
+: 1615470646:0;git clone https://github.com/LukeSmithxyz/voidrice.git
+: 1615471148:0;ls
+: 1615472283:0;git clone https://github.com/SoumyajitTech/zsh.git
+: 1615472318:0;git clone https://github.com/SoumyajitTech/zshPower,git
+: 1615472322:0;git clone https://github.com/SoumyajitTech/zshPower.git
+: 1615472332:0;git clone https://github.com/SoumyajitTech/zsh-Power.git
+: 1615472417:0;q
+: 1615472418:0;e
+: 1615472434:0;git add -u
+: 1615472444:0;git commit -m "Updating my zsh config"
+: 1615472453:0;git push
+: 1615472913:0;pacman -Qm
+: 1615472924:0;plymouth-set-default-theme -l
+: 1615472963:0;plymouth-set-default-theme -R tribar
+: 1615472967:0;sudo plymouth-set-default-theme -R tribar
+: 1615472997:0;plymouthd
+: 1615473002:0;sudo plymouthd
+: 1615473017:0;history | grep plymouth
+: 1615473047:0;history | grep splash
+: 1615473059:0;sudo plymouth-splash
+: 1615473136:0;sudo plymouth --show-splash
+: 1615473158:0;sudo plymouth-set-default-theme -l 
+: 1615473177:0;sudo plymouth-set-default-theme -R script
+: 1615473231:0;plymouthd
+: 1615473235:0;sudo plymouthd
+: 1615473238:0;sudo plymouth --show-splash
+: 1615473263:0;sudo plymouth-set-default-theme -R solar
+: 1615473318:0;sudo plymouth --show-splash
+: 1615477453:0;sudo systemctl restart lightdm-plymouth.service
+: 1615477770:0;cd Programming
+: 1615477772:0;ls
+: 1615478062:0;vi alphabet.c
+: 1615478069:0;./alphabet.out
+: 1615478079:0;vi alphabet.c
+: 1615478257:0;cd Programming
+: 1615478258:0;./alphabet.out
+: 1615478420:0;gcc alphabet.c -o alphabet.out
+: 1615478422:0;./alphabet.out
+: 1615478624:0;gcc alphabet.c -o alphabet.out
+: 1615478625:0;./alphabet.out
+: 1615478853:0;gcc alphabet.c -o alphabet.out
+: 1615478854:0;./alphabet.out
+: 1615478874:0;gcc alphabet.c -o alphabet.out
+: 1615478875:0;./alphabet.out
+: 1615478907:0;gcc alphabet.c -o alphabet.out
+: 1615478908:0;./alphabet.out
+: 1615479163:0;gcc alphabet.c -o alphabet.out
+: 1615479165:0;./alphabet.out
+: 1615479261:0;gcc alphabet.c -o alphabet.out
+: 1615479262:0;./alphabet.out
+: 1615479295:0;gcc alphabet.c -o alphabet.out
+: 1615479296:0;./alphabet.out
+: 1615479361:0;gcc alphabet.c -o alphabet.out
+: 1615479362:0;./alphabet.out
+: 1615479408:0;gcc alphabet.c -o alphabet.out
+: 1615479409:0;./alphabet.out
+: 1615479452:0;gcc alphabet.c -o alphabet.out
+: 1615479454:0;./alphabet.out
+: 1615479487:0;gcc alphabet.c -o alphabet.out
+: 1615479488:0;./alphabet.out
+: 1615479545:0;gcc alphabet.c -o alphabet.out
+: 1615479546:0;./alphabet.out
+: 1615479984:0;gcc alphabet.c -o alphabet.out
+: 1615479985:0;./alphabet.out
+: 1615480334:0;gcc alphabet.c -o alphabet.out
+: 1615480336:0;./alphabet.out
+: 1615480372:0;gcc alphabet.c -o alphabet.out
+: 1615480391:0;./alphabet.out
+: 1615480415:0;gcc alphabet.c -o alphabet.out
+: 1615480416:0;./alphabet.out
+: 1615480518:0;gcc alphabet.c -o alphabet.out
+: 1615480519:0;./alphabet.out
+: 1615480550:0;gcc alphabet.c -o alphabet.out
+: 1615480551:0;./alphabet.out
+: 1615480573:0;vi add.c
+: 1615480594:0;./add.out
+: 1615480763:0;vi add.c
+: 1615481367:0;gcc alphabet.c -o alphabet.out
+: 1615481391:0;gcc add.c -o add.out
+: 1615481397:0;./add.out
+: 1615482083:0;gcc add.c -o add.out
+: 1615482085:0;./add.out
+: 1615482139:0;vi diff.c
+: 1615482820:0;gcc diff.c -o diff.out
+: 1615482824:0;./diff.out
+: 1615482907:0;gcc diff.c -o diff.out
+: 1615482909:0;./diff.out
+: 1615483096:0;gcc diff.c -o diff.out
+: 1615483097:0;./diff.out
+: 1615483191:0;gcc diff.c -o diff.out
+: 1615483193:0;./diff.out
+: 1615483236:0;gcc diff.c -o diff.out
+: 1615483237:0;./diff.out
+: 1615483266:0;gcc diff.c -o diff.out
+: 1615483267:0;./diff.out
+: 1615485619:0;gcc diff.c -o diff.out
+: 1615485620:0;./diff.out
+: 1615485637:0;gcc diff.c -o diff.out
+: 1615485638:0;./diff.out
+: 1615485885:0;sp -Rsu ranger
+: 1615485894:0;sp -S ranger
+: 1615485923:0;sp -S highlight
+: 1615485972:0;pip3 install ueberzug
+: 1615485992:0;sp -Rsu ueberzug
+: 1615486008:0;pip3 uninstall ueberzug
+: 1615486028:0;pip3 install ueberzug
+: 1615486053:0;sp -S ranger
+: 1615486062:0;sp -Rsu ranger
+: 1615486067:0;sp -S ranger
+: 1615486089:0;sp -S python3-pip
+: 1615486092:0;sp -S python-pip
+: 1615486097:0;sp -S python2-pip
+: 1615486125:0;pip install ueberzug
+: 1615486131:0;pip uninstall ueberzug
+: 1615486257:0;sp -S python-adblock 
+: 1615543831:0;notify-send "Arcolinux" "All updates are downloaded"
+: 1615545559:0;sp -S mpv
+: 1615558922:0;cd Programming
+: 1615558925:0;ls
+: 1615558939:0;vi series.c
+: 1615558962:0;./series.out
+: 1615559036:0;vi series.c
+: 1615559125:0;gcc series.c -o series.out
+: 1615559128:0;./series.out
+: 1615559277:0;ls
+: 1615559288:0;vi order.c
+: 1615559326:0;./order.out
+: 1615559354:0;vi num.c
+: 1615559380:0;./num.out
+: 1615559395:0;vi num.c
+: 1615559447:0;gcc num.c -o num.out
+: 1615559449:0;./num.out
+: 1615559458:0;vi num.c
+: 1615559475:0;./num.out
+: 1615559488:0;./num.out 123
+: 1615559508:0;vi same.c
+: 1615559633:0;ls
+: 1615559641:0;vi alphabet.c
+: 1615559656:0;vi prog.c
+: 1615559731:0;./prog.out
+: 1615559809:0;vi prog.c
+: 1615560211:0;ls
+: 1615560219:0;pacman -Qq
+: 1615560221:0;pacman -Qqe
+: 1615560225:0;pacman -Qe
+: 1615560258:0;sp -Rsu fuse3
+: 1615560270:0;sp -Rsu fuseiso 
+: 1615560340:0;sp -Rsu traceroute
+: 1615560351:0;sp -Rsu usbutils
+: 1615560418:0;ping youtube.com
+: 1615566154:0;sp -S android-tools
+: 1615566205:0;adb devices
+: 1615566340:0;adb shell pm list packages
+: 1615566347:0;adb shell pm list packages | grep google
+: 1615566380:0;adb uninstall com.google.android.apps.maps
+: 1615566416:0;adb shell pm uninstall --user 0 com.google.android.apps.maps
+: 1615566538:0;adb shell pm list packages
+: 1615566541:0;adb shell pm list packages | grep google
+: 1615567009:0;adb devices
+: 1615567054:0;adb uninstall com.google.android.marvin.talkback
+: 1615567062:0;adb shell pm uninstall --user 0 com.google.android.marvin.talkback
+: 1615567069:0;adb shell pm list packages | grep google
+: 1615567418:0;cd Programming
+: 1615567420:0;ls
+: 1615567426:0;vi diff.c
+: 1615567445:0;cd Programming
+: 1615567447:0;./diff.out
+: 1615568948:0;yay -Syyuu
+: 1615568953:0;yay -Syu
+: 1615573464:0;vi TwoSum.c
+: 1615573478:0;gcc TwoSum.c -o TwoSum.out
+: 1615573482:0;./TwoSum.out
+: 1615573493:0;vi TwoSum.c
+: 1615573517:0;gcc TwoSum.c -o TwoSum.out
+: 1615573519:0;./TwoSum.out
+: 1615573897:0;vi .config/qutebrowser/config.py
+: 1615574404:0;vi ~/.config/qutebrowser/coolsheet.css
+: 1615604930:0;cd Programming
+: 1615604938:0;vi SortedArray.c
+: 1615604950:0;gcc SortedArray.c -o SortedArray.out
+: 1615604954:0;./SortedArray.out
+: 1615605021:0;vi SortedArray.c
+: 1615605039:0;gcc SortedArray.c -o SortedArray.out
+: 1615605041:0;./SortedArray.out
+: 1615605069:0;vi SortedArray.c
+: 1615605121:0;gcc SortedArray.c -o SortedArray.out
+: 1615605123:0;./SortedArray.out
+: 1615605141:0;vi SortedArray.c
+: 1615605179:0;cd Programming
+: 1615605182:0;gcc SortedArray.c -o SortedArray.out
+: 1615605185:0;./SortedArray.out
+: 1615605202:0;gcc SortedArray.c -o SortedArray.out
+: 1615605203:0;./SortedArray.out
+: 1615605283:0;gcc SortedArray.c -o SortedArray.out
+: 1615605287:0;./SortedArray.out
+: 1615605302:0;gcc SortedArray.c -o SortedArray.out
+: 1615605303:0;./SortedArray.out
+: 1615605317:0;gcc SortedArray.c -o SortedArray.out
+: 1615605318:0;./SortedArray.out
+: 1615605332:0;gcc SortedArray.c -o SortedArray.out
+: 1615605333:0;./SortedArray.out
+: 1615605522:0;gcc SortedArray.c -o SortedArray.out
+: 1615605524:0;./SortedArray.out
+: 1615605912:0;gcc SortedArray.c -o SortedArray.out
+: 1615605915:0;./SortedArray.out
+: 1615606193:0;gcc SortedArray.c -o SortedArray.out
+: 1615606194:0;./SortedArray.out
+: 1615606214:0;gcc SortedArray.c -o SortedArray.out
+: 1615606216:0;./SortedArray.out
+: 1615606394:0;gcc SortedArray.c -o SortedArray.out
+: 1615606395:0;./SortedArray.out
+: 1615645781:0;history
+: 1615646005:0;cd Programming
+: 1615646006:0;ls
+: 1615646035:0;vi SortedArray.c
+: 1615651211:0;cd Programming
+: 1615651217:0;gcc SortedArray.c -o SortedArray.out
+: 1615651222:0;./SortedArray.out
+: 1615651303:0;gcc SortedArray.c -o SortedArray.out
+: 1615651304:0;./SortedArray.out
+: 1615651350:0;gcc SortedArray.c -o SortedArray.out
+: 1615651388:0;./SortedArray.out
+: 1615651445:0;gcc SortedArray.c -o SortedArray.out
+: 1615651446:0;./SortedArray.out
+: 1615651839:0;gcc SortedArray.c -o SortedArray.out
+: 1615651840:0;./SortedArray.out
+: 1615651899:0;gcc SortedArray.c -o SortedArray.out
+: 1615651901:0;./SortedArray.out
+: 1615652355:0;gcc SortedArray.c -o SortedArray.out
+: 1615652356:0;./SortedArray.out
+: 1615652654:0;c
+: 1615652665:0;gcc SortedArray.c -o SortedArray.out
+: 1615652666:0;c
+: 1615652670:0;./SortedArray.out
+: 1615652743:0;gcc SortedArray.c -o SortedArray.out
+: 1615652745:0;./SortedArray.out
+: 1615652791:0;gcc SortedArray.c -o SortedArray.out
+: 1615652792:0;./SortedArray.out
+: 1615652860:0;gcc SortedArray.c -o SortedArray.out
+: 1615652861:0;./SortedArray.out
+: 1615652886:0;gcc SortedArray.c -o SortedArray.out
+: 1615652888:0;./SortedArray.out
+: 1615653053:0;vim /etc/hosts
+: 1615876818:0;adb shell pm list packages | grep google
+: 1615876905:0;adb uninstall com.android.vending
+: 1615876930:0;adb shell pm uninstall --user 0 com.android.vending
+: 1615878722:0;adb shell pm uninstall --user 0 com.google.android.googlequicksearchbox
+: 1615878779:0;adb uninstall com.google.android.gm
+: 1615878787:0;adb shell pm uninstall --user 0 com.google.android.gm
+: 1615879813:0;cd .surf
+: 1615879814:0;ls
+: 1615879818:0;cd html
+: 1615879819:0;ls
+: 1615879822:0;vi homepage.html
+: 1615883120:0;yay -S simple-mtpfs
+: 1615883232:0;sudo systemctl restart lightdm-plymouth.service
+: 1615883591:0;ls
+: 1615883598:0;cd SD\ card
+: 1615883599:0;ls
+: 1615883614:0;cp ~/.surf/html .
+: 1615883619:0;cp -r ~/.surf/html .
+: 1615883911:0;e
+: 1615885101:0;ls
+: 1615885105:0;cd Download
+: 1615885106:0;ls
+: 1615885111:0;ec Dotfile-main
+: 1615885119:0;ex Dotfile-main
+: 1615885126:0;ex Dotfile-main.zip
+: 1615890124:0;adb uninstall com.naver.whale
+: 1615890136:0;adb shell pm uninstall --user 0 com.naver.whale
+: 1615890160:0;adb shell pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
+: 1615890209:0;adb shell pm uninstall --user 0 com.android.hotwordenrollment.xgoogle 
+: 1615905735:0;cd Programming
+: 1615905741:0;vi Drc1.c
+: 1615905905:0;cd Programming
+: 1615905912:0;gcc Drc1.c -o Drc1.o
+: 1615905916:0;./Drc1.o
+: 1615905970:0;c
+: 1615906026:0;gcc Drc1.c -o Drc1.o
+: 1615906028:0;./Drc1.o
+: 1615906034:0;c
+: 1615906066:0;gcc Drc1.c -o Drc1.o
+: 1615906067:0;c
+: 1615906070:0;./Drc1.o
+: 1615906128:0;gcc Drc1.c -o Drc1.o
+: 1615906130:0;./Drc1.o
+: 1615906190:0;gcc Drc1.c -o Drc1.o
+: 1615906191:0;./Drc1.o
+: 1615906447:0;gcc Drc1.c -o Drc1.o
+: 1615906448:0;./Drc1.o
+: 1615906495:0;gcc Drc1.c -o Drc1.o
+: 1615906496:0;./Drc1.o
+: 1615906509:0;gcc Drc1.c -o Drc1.o
+: 1615906510:0;./Drc1.o
+: 1615906525:0;gcc Drc1.c -o Drc1.o
+: 1615906526:0;./Drc1.o
+: 1615906540:0;gcc Drc1.c -o Drc1.o
+: 1615906541:0;./Drc1.o
+: 1615906545:0;c
+: 1615911913:0;gcc Drc1.c -o Drc1.o
+: 1615911929:0;./Drc1.o
+: 1615912433:0;c
+: 1615912743:0;vi .config/qutebrowser/config.py
+: 1615949482:0;cd Programming
+: 1615949534:0;vi Drc1.c
+: 1615949538:0;cd Programming
+: 1615949560:0;gcc Drc1.c -o Drc1.o
+: 1615949565:0;./Drc1.o
+: 1615949569:0;c
+: 1615949585:0;gcc Drc1.c -o Drc1.o
+: 1615949588:0;./Drc1.o
+: 1615949616:0;gcc Drc1.c -o Drc1.o
+: 1615949617:0;./Drc1.o
+: 1615949947:0;gcc Drc1.c -o Drc1.o
+: 1615949948:0;./Drc1.o
+: 1615949961:0;gcc Drc1.c -o Drc1.o
+: 1615949962:0;./Drc1.o
+: 1615950054:0;gcc Drc1.c -o Drc1.o
+: 1615950055:0;./Drc1.o
+: 1615950082:0;gcc Drc1.c -o Drc1.o
+: 1615950083:0;./Drc1.o
+: 1615950092:0;gcc Drc1.c -o Drc1.o
+: 1615950094:0;./Drc1.o
+: 1615950108:0;gcc Drc1.c -o Drc1.o
+: 1615950109:0;./Drc1.o
+: 1615950521:0;c
+: 1615950946:0;git clone https://github.com/dracula/qutebrowser-dracula-theme.git dracula\
+
+: 1615953580:0;bspwm_smart_move west
+: 1615953698:0;vi .zshenv
+: 1615953718:0;echo $PATH
+: 1615953735:0;source .zshenv
+: 1615953795:0;sp -Syyuu
+: 1615953967:0;yay -c
+: 1615953986:0;man paru
+: 1615953989:0;mand paru
+: 1615954006:0;help paru
+: 1615954015:0;paru --help
+: 1615954032:0;yay -c
+: 1615954051:0;yay -Yc
+: 1615959145:0;adb devices
+: 1615959181:0;adb shell pm uninstall --user 0 com.lge.sizechangable.weather
+: 1615959189:0;adb shell pm uninstall --user 0 com.lge.sizechangable.weather.platform 
+: 1615959196:0;adb shell pm uninstall --user 0 com.lge.sizechangable.weather.theme.optimus 
+: 1615959205:0;adb reboot
+: 1615965305:0;vi .config/qutebrowser/config.py
+: 1615971938:0;notify-send "Arcolinux" "All updates are downloaded"
+: 1615991218:0;cd Programming
+: 1615991221:0;vi Drc1.c
+: 1615991366:0;cd Programming
+: 1615991369:0;gcc Drc1.c -o Drc1.o
+: 1615991386:0;./Drc1.o
+: 1615991514:0;gcc Drc1.c -o Drc1.o
+: 1615991515:0;./Drc1.o
+: 1615991533:0;gcc Drc1.c -o Drc1.o
+: 1615991534:0;./Drc1.o
+: 1615991558:0;gcc Drc1.c -o Drc1.o
+: 1615991559:0;./Drc1.o
+: 1615991651:0;gcc Drc1.c -o Drc1.o
+: 1615991652:0;./Drc1.o
+: 1615991706:0;gcc Drc1.c -o Drc1.o
+: 1615991707:0;./Drc1.o
+: 1615991737:0;gcc Drc1.c -o Drc1.o
+: 1615991738:0;./Drc1.o
+: 1615991756:0;gcc Drc1.c -o Drc1.o
+: 1615991757:0;./Drc1.o
+: 1615991795:0;gcc Drc1.c -o Drc1.o
+: 1615991796:0;./Drc1.o
+: 1615991838:0;gcc Drc1.c -o Drc1.o
+: 1615991839:0;./Drc1.o
+: 1615991851:0;gcc Drc1.c -o Drc1.o
+: 1615991852:0;./Drc1.o
+: 1615991864:0;c
+: 1615991935:0;vi length.c
+: 1615991967:0;vi .config/nvim/init.vim
+: 1615992528:0;cd Programming
+: 1615992544:0;vi Drc1.c
+: 1615992803:0;gcc length.c -o length.o
+: 1615992829:0;gcc Drc1.c -o Drc1.o
+: 1615992832:0;gcc length.c -o length.o
+: 1615992880:0;./length.o
+: 1615992910:0;gcc length.c -o length.o
+: 1615992911:0;./length.o
+: 1615992971:0;cd Programming
+: 1615992974:0;gcc length.c -o length.o
+: 1615992975:0;./length.o
+: 1615993008:0;gcc length.c -o length.o
+: 1615993009:0;./length.o
+: 1615999464:0;ex Popcorn-Time-0.4.4-linux64.zip
+: 1615999577:0;sp -S unzip
+: 1615999640:0;ex Popcorn-Time-0.4.4-linux64.zip /home/argha/Applications/Popcorn-Time-0.4.4-linux64
+: 1615999661:0;ex Popcorn-Time-0.4.4-linux64.zip -o /home/argha/Applications/Popcorn-Time-0.4.4-linux64
+: 1615999678:0;cd Applications
+: 1615999682:0;ex Popcorn-Time-0.4.4-linux64.zip /home/argha/Applications/Popcorn-Time-0.4.4-linux64
+: 1615999700:0;./Popcorn-Time
+: 1615999753:0;mkdir /home/argha/Applications/Popcorn-Time-0.4.4-linux64
+: 1615999758:0;e
+: 1616043768:0;cd Programming
+: 1616046304:0;ping youtube.com
+: 1616046328:0;yay -S yay
+: 1616046343:0;c
+: 1616046348:0;pfetch
+: 1616046356:0;echo $PATH
+: 1616046460:0;vi .zshenv
+: 1616046480:0;vi .config/shell/profile
+: 1616075041:0;bsphide
+: 1616076580:0;cd Programming
+: 1616076861:0;vi palindrome.c
+: 1616077080:0;cd Programming
+: 1616077086:0;gcc palindrome.c -o palindrome.o
+: 1616077090:0;./palindrome.o
+: 1616077114:0;gcc palindrome.c -o palindrome.o
+: 1616077115:0;./palindrome.o
+: 1616077239:0;gcc palindrome.c -o palindrome.o
+: 1616077240:0;./palindrome.o
+: 1616077258:0;gcc palindrome.c -o palindrome.o
+: 1616077259:0;./palindrome.o
+: 1616077979:0;gcc palindrome.c -o palindrome.o
+: 1616078011:0;./palindrome.o
+: 1616078013:0;gcc palindrome.c -o palindrome.o
+: 1616078014:0;./palindrome.o
+: 1616078079:0;gcc palindrome.c -o palindrome.o
+: 1616078081:0;./palindrome.o
+: 1616078113:0;gcc palindrome.c -o palindrome.o
+: 1616078114:0;./palindrome.o
+: 1616078141:0;gcc palindrome.c -o palindrome.o
+: 1616078150:0;./palindrome.o
+: 1616078191:0;gcc palindrome.c -o palindrome.o
+: 1616078192:0;./palindrome.o
+: 1616078230:0;gcc palindrome.c -o palindrome.o
+: 1616078230:0;./palindrome.o
+: 1616078747:0;gcc palindrome.c -o palindrome.o
+: 1616078748:0;./palindrome.o
+: 1616078762:0;gcc palindrome.c -o palindrome.o
+: 1616078763:0;./palindrome.o
+: 1616078774:0;gcc palindrome.c -o palindrome.o
+: 1616078775:0;./palindrome.o
+: 1616078844:0;gcc palindrome.c -o palindrome.o
+: 1616078845:0;./palindrome.o
+: 1616078873:0;gcc palindrome.c -o palindrome.o
+: 1616078874:0;./palindrome.o
+: 1616079167:0;gcc palindrome.c -o palindrome.o
+: 1616079168:0;./palindrome.o
+: 1616079203:0;gcc palindrome.c -o palindrome.o
+: 1616079205:0;./palindrome.o
+: 1616079240:0;gcc palindrome.c -o palindrome.o
+: 1616079241:0;./palindrome.o
+: 1616079392:0;gcc palindrome.c -o palindrome.o
+: 1616079393:0;./palindrome.o
+: 1616079609:0;gcc palindrome.c -o palindrome.o
+: 1616079610:0;./palindrome.o
+: 1616079668:0;gcc palindrome.c -o palindrome.o
+: 1616079668:0;./palindrome.o
+: 1616079910:0;gcc palindrome.c -o palindrome.o
+: 1616079937:0;./palindrome.o
+: 1616079939:0;gcc palindrome.c -o palindrome.o
+: 1616079953:0;./palindrome.o
+: 1616079996:0;gcc palindrome.c -o palindrome.o
+: 1616079996:0;./palindrome.o
+: 1616080030:0;gcc palindrome.c -o palindrome.o
+: 1616080031:0;./palindrome.o
+: 1616080055:0;gcc palindrome.c -o palindrome.o
+: 1616080056:0;./palindrome.o
+: 1616080079:0;gcc palindrome.c -o palindrome.o
+: 1616080081:0;./palindrome.o
+: 1616080172:0;gcc palindrome.c -o palindrome.o
+: 1616080173:0;./palindrome.o
+: 1616080200:0;gcc palindrome.c -o palindrome.o
+: 1616080201:0;./palindrome.o
+: 1616080245:0;gcc palindrome.c -o palindrome.o
+: 1616080246:0;./palindrome.o
+: 1616080326:0;gcc palindrome.c -o palindrome.o
+: 1616080330:0;./palindrome.o
+: 1616084633:0;gcc palindrome.c -o palindrome.o
+: 1616084634:0;./palindrome.o
+: 1616084661:0;yay -c
+: 1616084844:0;gcc palindrome.c -o palindrome.o
+: 1616084845:0;./palindrome.o
+: 1616084881:0;c
+: 1616084882:0;./palindrome.o
+: 1616084885:0;gcc palindrome.c -o palindrome.o
+: 1616084886:0;./palindrome.o
+: 1616084903:0;gcc palindrome.c -o palindrome.o
+: 1616084904:0;./palindrome.o
+: 1616084949:0;gcc palindrome.c -o palindrome.o
+: 1616084950:0;./palindrome.o
+: 1616084972:0;gcc palindrome.c -o palindrome.o
+: 1616084972:0;./palindrome.o
+: 1616085477:0;killandnotify sxhkd
+: 1616085490:0;sxhkd
+: 1616085533:0;vi .dmenu/dmenu-scrot.sh
+: 1616085613:0;sxhkd
+: 1616086317:0;vi roman.c
+: 1616086736:0;gcc roman.c -o roman.out
+: 1616086792:0;./roman.out
+: 1616086985:0;vi common.c
+: 1616087574:0;cd Programming
+: 1616087581:0;gcc common.c -o common.out
+: 1616087585:0;./common.out
+: 1616087638:0;gcc common.c -o common.out
+: 1616087639:0;./common.out
+: 1616087715:0;gcc common.c -o common.out
+: 1616087783:0;./common.out
+: 1616087786:0;gcc common.c -o common.out
+: 1616087787:0;./common.out
+: 1616087821:0;gcc common.c -o common.out
+: 1616087821:0;./common.out
+: 1616087850:0;gcc common.c -o common.out
+: 1616087851:0;./common.out
+: 1616087956:0;gcc common.c -o common.out
+: 1616087958:0;./common.out
+: 1616088115:0;gcc common.c -o common.out
+: 1616088125:0;./common.out
+: 1616088167:0;gcc common.c -o common.out
+: 1616088169:0;./common.out
+: 1616121282:0;cd Programming
+: 1616121284:0;ls
+: 1616121354:0;vi common.c
+: 1616121805:0;cd Programming
+: 1616121808:0;gcc common.c -o common.out
+: 1616121811:0;./common.out
+: 1616121936:0;ls
+: 1616121952:0;vi remove.c
+: 1616122011:0;./remove.out
+: 1616122115:0;./order.out
+: 1616122143:0;e
+: 1616122377:0;./SortedArray.out
+: 1616122422:0;vi SortedArray.c
+: 1616122721:0;gcc SortedArray.c -o SortedArray.out
+: 1616122736:0;./SortedArray.out
+: 1616122752:0;c
+: 1616122811:0;gcc SortedArray.c -o SortedArray.out
+: 1616122813:0;./SortedArray.out
+: 1616122825:0;c
+: 1616123538:0;gcc SortedArray.c -o SortedArray.out
+: 1616123539:0;./SortedArray.out
+: 1616123604:0;gcc SortedArray.c -o SortedArray.out
+: 1616123605:0;./SortedArray.out
+: 1616125120:0;gcc SortedArray.c -o SortedArray.out
+: 1616125122:0;./SortedArray.out
+: 1616125182:0;gcc SortedArray.c -o SortedArray.out
+: 1616125183:0;./SortedArray.out
+: 1616125206:0;gcc SortedArray.c -o SortedArray.out
+: 1616125231:0;./SortedArray.out
+: 1616125346:0;gcc SortedArray.c -o SortedArray.out
+: 1616125348:0;./SortedArray.out
+: 1616125358:0;c
+: 1616125361:0;./SortedArray.out
+: 1616125385:0;gcc SortedArray.c -o SortedArray.out
+: 1616125387:0;./SortedArray.out
+: 1616125395:0;c
+: 1616125398:0;./SortedArray.out
+: 1616125454:0;gcc SortedArray.c -o SortedArray.out
+: 1616125455:0;./SortedArray.out
+: 1616125481:0;gcc SortedArray.c -o SortedArray.out
+: 1616125484:0;./SortedArray.out
+: 1616125574:0;gcc SortedArray.c -o SortedArray.out
+: 1616125575:0;./SortedArray.out
+: 1616125652:0;gcc SortedArray.c -o SortedArray.out
+: 1616125662:0;./SortedArray.out
+: 1616125709:0;gcc SortedArray.c -o SortedArray.out
+: 1616125710:0;./SortedArray.out
+: 1616125719:0;gcc SortedArray.c -o SortedArray.out
+: 1616125721:0;./SortedArray.out
+: 1616125839:0;gcc SortedArray.c -o SortedArray.out
+: 1616125946:0;./SortedArray.out
+: 1616145555:0;cd Programming
+: 1616146335:0;vi MostWater.c
+: 1616161763:0;cd Programming
+: 1616161777:0;vi PalindromeString.c
+: 1616161967:0;cd Programming
+: 1616161978:0;gcc PalindromeString.c -o PalindromeString.out
+: 1616161981:0;./PalindromeString.out
+: 1616162034:0;gcc PalindromeString.c -o PalindromeString.out
+: 1616162035:0;./PalindromeString.out
+: 1616162092:0;gcc PalindromeString.c -o PalindromeString.out
+: 1616162093:0;./PalindromeString.out
+: 1616162113:0;gcc PalindromeString.c -o PalindromeString.out
+: 1616162116:0;./PalindromeString.out
+: 1616162770:0;gcc PalindromeString.c -o PalindromeString.out
+: 1616162771:0;./PalindromeString.out
+: 1616162834:0;gcc PalindromeString.c -o PalindromeString.out
+: 1616162835:0;./PalindromeString.out
+: 1616163005:0;gcc PalindromeString.c -o PalindromeString.out
+: 1616164037:0;cd Programming
+: 1616164061:0;vi DcaSample2.c
+: 1616164510:0;cd Programming
+: 1616164519:0;gcc DcaSample2.c -o DcaSample2.out
+: 1616164549:0;cd Programming
+: 1616164560:0;./DcaSample2.out
+: 1616164606:0;gcc DcaSample2.c -o DcaSample2.out
+: 1616164617:0;./DcaSample2.out
+: 1616164652:0;gcc DcaSample2.c -o DcaSample2.out
+: 1616164653:0;./DcaSample2.out
+: 1616164695:0;gcc DcaSample2.c -o DcaSample2.out
+: 1616164696:0;./DcaSample2.out
+: 1616164738:0;gcc DcaSample2.c -o DcaSample2.out
+: 1616164739:0;./DcaSample2.out
+: 1616164758:0;gcc DcaSample2.c -o DcaSample2.out
+: 1616164759:0;./DcaSample2.out
+: 1616164894:0;vi pattern.c
+: 1616164968:0;gcc pattern.c -o pattern.out
+: 1616164972:0;./pattern.out
+: 1616164986:0;gcc pattern.c -o pattern.out
+: 1616164987:0;./pattern.out
+: 1616164996:0;gcc pattern.c -o pattern.out
+: 1616164997:0;./pattern.out
+: 1616165369:0;./DcaSample2.out
+: 1616165375:0;vi DcaSample2.c
+: 1616165382:0;gcc DcaSample2.c -o DcaSample2.out
+: 1616165383:0;./DcaSample2.out
+: 1616165512:0;./add.out
+: 1616165524:0;e
+: 1616165557:0;gcc add.c -o add.out
+: 1616165564:0;./add.out
+: 1616165582:0;vi add.c
+: 1616165603:0;./add.out
+: 1616165617:0;vi add.c
+: 1616165720:0;e
+: 1616165785:0;vi pattern.c
+: 1616165844:0;gcc pattern.c -o pattern.out
+: 1616165948:0;./pattern.out
+: 1616165963:0;c
+: 1616169915:0;cd Programming
+: 1616169923:0;vi jump.c
+: 1616170123:0;cd Programming
+: 1616170129:0;gcc jump.c -o jump.out
+: 1616170141:0;cd Programming
+: 1616170147:0;./jump.out
+: 1616170207:0;gcc jump.c -o jump.out
+: 1616170208:0;./jump.out
+: 1616170216:0;c
+: 1616170302:0;gcc jump.c -o jump.out
+: 1616170304:0;./jump.out
+: 1616170324:0;c
+: 1616170435:0;gcc jump.c -o jump.out
+: 1616170435:0;c
+: 1616170437:0;./jump.out
+: 1616170446:0;c
+: 1616170448:0;./jump.out
+: 1616170466:0;gcc jump.c -o jump.out
+: 1616170467:0;./jump.out
+: 1616170613:0;gcc jump.c -o jump.out
+: 1616170615:0;./jump.out
+: 1616170937:0;gcc jump.c -o jump.out
+: 1616170938:0;./jump.out
+: 1616172688:0;cc jump.c
+: 1616172719:0;./a.out
+: 1616173612:0;gcc jump.c -o jump.out
+: 1616173638:0;./jump.out
+: 1616173826:0;gcc jump.c -o jump.out
+: 1616173827:0;./jump.out
+: 1616173863:0;gcc jump.c -o jump.out
+: 1616173864:0;./jump.out
+: 1616175876:0;gcc jump.c -o jump.out
+: 1616175877:0;./jump.out
+: 1616175939:0;gcc jump.c -o jump.out
+: 1616175940:0;./jump.out
+: 1616176168:0;gcc jump.c -o jump.out
+: 1616176169:0;./jump.out
+: 1616176211:0;gcc jump.c -o jump.out
+: 1616176212:0;./jump.out
+: 1616176284:0;gcc jump.c -o jump.out
+: 1616176285:0;./jump.out
+: 1616207887:0;cd Programming
+: 1616207894:0;vi string.c
+: 1616208345:0;cd Programming
+: 1616208353:0;gcc string.c -o string.out
+: 1616208381:0;./string.out
+: 1616208453:0;gcc string.c -o string.out
+: 1616208454:0;./string.out
+: 1616208524:0;gcc string.c -o string.out
+: 1616208525:0;./string.out
+: 1616208554:0;gcc string.c -o string.out
+: 1616208555:0;./string.out
+: 1616208586:0;c
+: 1616208762:0;gcc string.c -o string.out
+: 1616208765:0;./string.out
+: 1616208778:0;gcc string.c -o string.out
+: 1616208779:0;./string.out
+: 1616208815:0;gcc string.c -o string.out
+: 1616208816:0;./string.out
+: 1616208877:0;gcc string.c -o string.out
+: 1616208878:0;./string.out
+: 1616208997:0;gcc string.c -o string.out
+: 1616208998:0;./string.out
+: 1616209048:0;gcc string.c -o string.out
+: 1616209049:0;./string.out
+: 1616209214:0;gcc string.c -o string.out
+: 1616209215:0;./string.out
+: 1616215220:0;cd Programming\
+cd DCA
+: 1616215229:0;cd Programming\
+cd 
+: 1616215236:0;cd Programming
+: 1616215243:0;vi DCA1.c
+: 1616215491:0;cd Programming
+: 1616215501:0;gcc DCA1.c -o DCA1.out
+: 1616215519:0;./DCA1.out
+: 1616215539:0;vi DCA2.c
+: 1616215748:0;gcc DCA2.c -o DCA2.out
+: 1616215753:0;./DCA2.out
+: 1616215824:0;gcc DCA2.c -o DCA2.out
+: 1616215825:0;./DCA2.out
+: 1616215943:0;cd Programming
+: 1616215945:0;vi DCA2.c
+: 1616215954:0;cd Programming
+: 1616215957:0;gcc DCA2.c -o DCA2.out
+: 1616215977:0;./DCA2.out
+: 1616216000:0;gcc DCA2.c -o DCA2.out
+: 1616216000:0;./DCA2.out
+: 1616216023:0;gcc DCA2.c -o DCA2.out
+: 1616216033:0;./DCA2.out
+: 1616218899:0;c
+: 1616219622:0;vi DCA1.c
+: 1616220455:0;./DCA1.out
+: 1616220510:0;gcc DCA1.c -o DCA1.out
+: 1616220530:0;./DCA1.out
+: 1616220547:0;gcc DCA1.c -o DCA1.out
+: 1616220548:0;./DCA1.out
+: 1616221211:0;vi DCA2.c
+: 1616221217:0;./DCA2.out
+: 1616221325:0;gcc DCA2.c -o DCA2.out
+: 1616221328:0;./DCA2.out
+: 1616221534:0;gcc DCA2.c -o DCA2.out
+: 1616221535:0;./DCA2.out
+: 1616222728:0;vi DCA1.c
+: 1616222737:0;./DCA1.out
+: 1616224140:0;cd Programming
+: 1616224142:0;./DCA1.out
+: 1616224147:0;./DCA2.out
+: 1616224510:0;cd Programming
+: 1616224512:0;./DCA2.out
+: 1616224534:0;vi DCA2.c
+: 1616224569:0;cd Programming
+: 1616224571:0;gcc DCA2.c -o DCA2.out
+: 1616224574:0;./DCA2.out
+: 1616388305:0;sp -Syyuu
+: 1616431471:0;yay -S yay
+: 1616431815:0;source .config/zsh/.zshrc
+: 1616431827:0;yay -Rsu paru
+: 1616431832:0;yay -Yc
+: 1616431839:0;ls
+: 1616431852:0;r
+: 1616431884:0;pip3 install ueberzug
+: 1616431891:0;r
+: 1616432066:0;git clone https://github.com/thelinuxchoice/blackeye
+: 1616432101:0;git clone https://github.com/An0nUD4Y/blackeye.git
+: 1616432928:0;cd blackeye
+: 1616432963:0;ls
+: 1616432976:0;./ngrok authtoken 1q7a3aDpTOmtcfP4HMqpMB1q7Qr_5joVCuvZu8r8NcEXuWuxw
+: 1616433061:0;ls
+: 1616433166:0;cd sites
+: 1616433167:0;ls
+: 1616433204:0;unzip ngrok-stable-linux-amd64.zip
+: 1616433216:0;./ngrok authtoken 1q7a3aDpTOmtcfP4HMqpMB1q7Qr_5joVCuvZu8r8NcEXuWuxw
+: 1616433239:0;sudo ./blackeye.sh
+: 1616433261:0;sp -S php
+: 1616433269:0;sudo ./blackeye.sh
+: 1616433376:0;cd Private/blackeye
+: 1616433387:0;sudo sh ./blackeye.sh
+: 1616433431:0;sh blackeye.sh
+: 1616433487:0;sudo sh ./blackeye.sh
+: 1616433716:0;git clone https://github.com/thelinuxchoice/blackeye.git
+: 1616433938:0;sudo ./blackeye.sh
+: 1616434010:0;bash blackeye.sh
+: 1616434162:0;git clone git://github.com/htr-tech/zphisher.git\
+
+: 1616434336:0;cd zphisher
+: 1616434337:0;ls
+: 1616434352:0;bash zphisher.sh
+: 1616434422:0;git clone https://github.com/8L4NK/blackeye.git
+: 1616434443:0;cd blackeye
+: 1616434444:0;ls
+: 1616434454:0;sudo ./blackeye.sh
+: 1616434487:0;bash blackeye.sh
+: 1616434507:0;sp -S python-django-rest-framework
+: 1616434519:0;sp -S ngrok
+: 1616434548:0;unzip ngrok-stable-linux-amd64.zip
+: 1616434562:0;./ngrok authtoken 1q7a3aDpTOmtcfP4HMqpMB1q7Qr_5joVCuvZu8r8NcEXuWuxw
+: 1616434571:0;bash blackeye.sh
+: 1616434777:0;git clone https://github.com/An0nUD4Y/blackeye.git
+: 1616434837:0;cd blackeye
+: 1616434843:0;sudo ./blackeye.sh
+: 1616435146:0;./ngrok help
+: 1616435409:0;git clone https://github.com/DarkSecDevelopers/HiddenEye-Legacy.git
+: 1616435711:0;cd Private/blackeye
+: 1616435712:0;ls
+: 1616435720:0;vi README.md
+: 1616435759:0;vi ~/Repos/st/config.h
+: 1616435800:0;git clone https://github.com/thelinuxchoice/blackeye\
+
+: 1616435858:0;cd HiddenEye-Legacy
+: 1616435859:0;ls
+: 1616435884:0;pip istall -r requirements.txt
+: 1616435890:0;pip install -r requirements.txt
+: 1616435925:0;chmod +x *
+: 1616435932:0;python HiddenEye.py
+: 1616435967:0;cd Private/HiddenEye-Legacy
+: 1616435968:0;ls
+: 1616435977:0;python HiddenEye.py
+: 1616435996:0;sudo python HiddenEye.py
+: 1616436065:0;cd Private/HiddenEye-Legacy
+: 1616436066:0;ls
+: 1616436080:0;pip install -r requirements.txt
+: 1616436109:0;yay -Yc
+: 1616436204:0;cd blackeye
+: 1616436205:0;ls
+: 1616436222:0;./blackeye.sh
+: 1616436227:0;bash ./blackeye.sh
+: 1616436259:0;cd Private/blackeye
+: 1616436272:0;./ngrok http 3333
+: 1616436289:0;./ngrok http 80
+: 1616436303:0;./ngrok authtoken 1q7a3aDpTOmtcfP4HMqpMB1q7Qr_5joVCuvZu8r8NcEXuWuxw
+: 1616436308:0;./ngrok http 80
+: 1616436404:0;./ngrok authtoken ts_1q7gqGb0rYxfF6K4PcRXvqKvVlO (103.85.97.37)\
+
+: 1616436418:0;./ngrok authtoken ts_1q7gqGb0rYxfF6K4PcRXvqKvVlO\
+
+: 1616436424:0;./ngrok http 3333
+: 1616436444:0;./ngrok authtoken 1q7a3aDpTOmtcfP4HMqpMB1q7Qr_5joVCuvZu8r8NcEXuWuxw
+: 1616436447:0;./ngrok http 3333
+: 1616436528:0;cd Private/blackeye
+: 1616436535:0;bash ./blackeye.sh
+: 1616436927:0;vi ~/Repos/st/config.h
+: 1616437024:0;c
+: 1616437121:0;./ngrok http 3333
+: 1616437138:0;cd Private/blackeye
+: 1616437141:0;bash ./blackeye.sh
+: 1616469251:0;sp -S virtualbox
+: 1616470562:0;yay -Ss virtual-box
+: 1616470580:0;yay -Ss virtual | grep extention
+: 1616470593:0;yay -Ss virtual | grep extension
+: 1616471084:0;sp -Rsu virtualbox
+: 1616471097:0;sp -S virtualbox
+: 1616471131:0;yay -Sc
+: 1616471154:0;yay -Yc
+: 1616471210:0;sudo modprobe vboxdrv
+: 1616471282:0;sudo usermod -aG vboxusers argha
+: 1616471332:0;sp -S virtualbox-guest-iso
+: 1616471536:0;VBoxManage extpack install <.vbox-extpack>
+: 1616471550:0;VBoxManage extpack install .vbox-extpack
+: 1616471590:0;yay -S virtualbox-ext-oracle
+: 1616472046:0;yay -Yc.
+: 1616472049:0;yay -Yc
+: 1616472059:0;yay -Sc
+: 1616660045:0;yay -Ss fritzing
+: 1616660057:0;yay -S fritzing
+: 1616660871:0;yay -Yc
+: 1616660894:0;yay -S fritzing
+: 1616660934:0;pacman -Qm
+: 1616660943:0;yay -S fritzing
+: 1616660968:0;pacman -Qm
+: 1616662134:0;git clone https://github.com/WorldFamousElectronics/Fritzing_PulseSensor_Files.git
+: 1616663654:0;cd Fritzing
+: 1616663658:0;git clone https://github.com/ydonnelly/ESP8266_fritzing.git
+: 1616696874:0;yay -Ss visio
+: 1616696903:0;yay -Ss visio | grep flow
+: 1616696911:0;yay -Ss visio | grep diagrams
+: 1616697002:0;yay -Ss visio | grep office
+: 1616697031:0;yay -Ss visio | grep libre
+: 1616697057:0;yay -Ss visio | grep msoffice
+: 1616697066:0;yay -S visio
+: 1616773107:0;qutebrowser.sh
+: 1616821509:0;sp -S syncthing
+: 1616821557:0;syncthing
+: 1616824898:0;xrandr
+: 1616824917:0;xrandr -r 1920x108
+: 1616824920:0;xrandr -r 1920x1080
+: 1616824933:0;sp -S arandr
+: 1616827785:0;sp -S mpv
+: 1616827816:0;mpv
+: 1616827831:0;sp -S ffmpeg
+: 1616827835:0;mpv
+: 1616827888:0;ffmpeg -y
+: 1616827934:0;	ffmpeg -y \\
+	-f x11grab \\
+	-framerate 60 \\
+	-s $(xdpyinfo | grep dimensions | awk '{print $2;}') \\
+	-i $DISPLAY \\
+	-f alsa -i default \\
+	-r 30 \\
+ 	-c:v libx264rgb -crf 0 -preset ultrafast -c:a flac \\
+
+: 1616827950:0;cd .local/bin/
+: 1616827962:0;./dmenurecord
+: 1616828003:0;sp -S xorg-xdpyinfo
+: 1616828026:0;dmenurecord
+: 1616830312:0;e
+: 1616857825:0;nmtui-connect
+: 1616857843:0;vi .dmenu/dmenu-sysmon.sh
+: 1616857892:0;syncthing
+: 1616864085:0;nmtui
+: 1616903556:0;syncthing
+: 1616903935:0;sudo systemctl enable syncthing@Miku
+: 1616903969:0;systemctl status syncthing@Miku
+: 1616903981:0;sudo systemctl start syncthing@Miku
+: 1616903983:0;systemctl status syncthing@Miku
+: 1616904018:0;syncthing
+: 1616910006:0;adb devices
+: 1616910057:0;adb shell pm list packages
+: 1616910171:0;adb shell pm list packages | grep service
+: 1616910295:0;adb shell pm uninstall --user 0 com.rsupport.rs.activity.lge.allinone
+: 1616910373:0;adb shell pm list packages | wc -l
+: 1616910508:0;adb uninstall com.lge.lifetracker
+: 1616910522:0;adb shell pm uninstall --user 0 com.lge.lifetracker
+: 1616911033:0;adb shell pm list packages | grep wallpaper
+: 1616911077:0;adb shell pm list packages | grep google
+: 1616931611:0;cd Repos
+: 1616931615:0;git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
+: 1616931655:0;cd privilege-escalation-awesome-scripts-suite
+: 1616931656:0;ls
+: 1616931659:0;cd linPEAS
+: 1616931660:0;ls
+: 1616931697:0;./linpeas.sh -s
+: 1616944015:0;cd Private
+: 1616944019:0;git clone https://github.com/sundowndev/PhoneInfoga.git
+: 1616944853:0;cd PhoneInfoga
+: 1616944855:0;ls
+: 1616945005:0;./phoneinfoga version\
+
+: 1616945032:0;curl -sSL https://raw.githubusercontent.com/sundowndev/PhoneInfoga/master/support/scripts/install | bash\
+
+: 1616945093:0;echo "$(uname -s)_$(uname -m)"
+: 1616945162:0;cd Private
+: 1616945164:0;curl -sSL https://raw.githubusercontent.com/sundowndev/PhoneInfoga/master/support/scripts/install | bash\
+
+: 1616945178:0;sp -S wget
+: 1616945191:0;curl -sSL https://raw.githubusercontent.com/sundowndev/PhoneInfoga/master/support/scripts/install | bash\
+
+: 1616945309:0;cd ~/.config
+: 1616945353:0;mkdir wget
+: 1616945363:0;vi wget/wgetrc
+: 1616945377:0;cd ~/Private
+: 1616945396:0;curl -sSL https://raw.githubusercontent.com/sundowndev/PhoneInfoga/master/support/scripts/install | bash\
+
+: 1616945461:0;./phoneinfoga version\
+
+: 1616945502:0;cd Phoneinfoga
+: 1616945505:0;./phoneinfoga version\
+
+: 1616945543:0;./phoneinfoga scan -n "8637338782"\
+
+: 1616945615:0;./phoneinfoga serve
+: 1616945643:0;cd Private/Phoneinfoga
+: 1616945646:0;phoneinfoga serve -p 8080
+: 1616945654:0;./phoneinfoga serve -p 8080
+: 1616945786:0;./phoneinfoga scan -n "+918637338782"\
+
+: 1616945854:0;./phoneinfoga scan -n "+918637338782" --osint\
+
+: 1616948748:0;..
+: 1616948750:0;git clone https://github.com/derv82/wifite2.git
+: 1616948765:0;cd wifite2
+: 1616948766:0;ls
+: 1616948785:0;./Wifite.py
+: 1616948813:0;sudo ./Wifite.py
+: 1616948849:0;sp -S aircrack-ng
+: 1616948881:0;sudo ./Wifite.py
+: 1616949009:0;pip3 install tshark
+: 1616949031:0;sudo ./Wifite.py
+: 1616949125:0;nmtui
+: 1616949307:0;sp -Rsu aircrack-ng
+: 1616949362:0;nmtui
+: 1616953320:0;cd Private/Phoneinfoga
+: 1616953321:0;ls
+: 1616953341:0;./phoneinfoga scan -n "918637338782"\
+
+: 1616953414:0;./phoneinfoga serve -p 8080\
+
+: 1616992616:0;exit
+: 1616992633:0;sudo systemctl restart lightdm-plymouth.service
+: 1617016853:0;adb devices
+: 1617016901:0;adb shell pm list packages | grep wallpaper
+: 1617016933:0;adb shell pm uninstall --user 0 com.lge.livewallpaper.multiphoto
+: 1617016952:0;adb shell pm list packages | grep wallpaper
+: 1617017048:0;adb shell pm uninstall --user 0 com.lge.sizechangable.weather.theme.optimus
+: 1617017118:0;adb shell pm list packages | grep lge
+: 1617017128:0;adb shell pm list packages | grep switch
+: 1617017238:0;adb shell pm list packages | grep thing
+: 1617017242:0;adb shell pm list packages | grep think
+: 1617017277:0;adb shell pm uninstall --user 0 com.lgeha.nuts
+: 1617017339:0;adb shell pm list packages | wc -l
+: 1617116607:0;adb devices
+: 1617116731:0;adb uninstall com.google.android.apps.nbu.files
+: 1617116754:0;adb shell pm uninstall --user 0 com.google.android.apps.nbu.files
+: 1617116773:0;adb shell pm uninstall --user 0 com.google.android.projection.gearhead
+: 1617116815:0;adb shell pm list packages | grep google
+: 1617116899:0;adb shell pm uninstall --user 0 com.android.wallpaper.livepicker
+: 1617121935:0;yay -S simple-mtpfs
+: 1617195100:0;e
+: 1617195217:0;ls
+: 1617250191:0;./blackeye.sh
+: 1617250244:0;e
+: 1617250255:0;cd Private/blackeye
+: 1617250264:0;./ngrok http 3333
+: 1617258230:0;sp -S audacity
+: 1617258384:0;ex audacity-minsrc-3.0.0.tar.xz
+: 1617258491:0;sp -S audacity
+: 1617289515:0;vi intro
+: 1617295040:0;./ngrok http 3333
+: 1617295046:0;cd Private/blackeye
+: 1617295051:0;./blackeye.sh
+: 1617295357:0;cd Private/blackeye
+: 1617295359:0;./blackeye.sh
+: 1617295437:0;cd Private/blackeye
+: 1617295440:0;./ngrok http 3333
+: 1617319663:0;vi intro
+: 1617354538:0;sp -Rsu audacity
+: 1617355446:0;amixer set master toggle
+: 1617355461:0;amixer set master unmute
+: 1617355470:0;amixer set master 0 unmute
+: 1617355478:0;amixer set master toggle
+: 1617355545:0;pulseaudio
+: 1617355552:0;pulseaudio kill
+: 1617355561:0;killall pulseaudio
+: 1617355564:0;pulseaudio
+: 1617355751:0;dmenurecord
+: 1617355839:0;killall alsa
+: 1617355855:0;alsa_in
+: 1617355919:0;alsactl restore
+: 1617356558:0;e
+: 1617386141:0;sp -S audacity
+: 1617396244:0;alsactl restore
+: 1617458045:0;vi Project-QNA
+: 1617513853:0;sp -S arduino
+: 1617514317:0;sp -S pavucontrol
+: 1617514361:0;pavucontrol
+: 1617519574:0;sp -Rsu pavucontrol
+: 1617519585:0;sp -S pulsemixer
+: 1617803145:0;sp -S vimb
+: 1617803369:0;sp -Syyuu
+: 1617803646:0;sp -S vimb
+: 1617803913:0;git clone https://gitlab.com/dwt1/tabbed-distrotube.git
+: 1617804256:0;sudo make install
+: 1617804271:0;tabbed vimb -e
+: 1617804443:0;ls
+: 1617804557:0;tabbed vimb -e
+: 1617805191:0;vi .surf/html/homepage.html
+: 1617805290:0;vi .config/alacritty/alacritty.yml
+: 1617805320:0;tabbed vimb -e
+: 1617805414:0;vi .surf/html/homepage.html
+: 1617805424:0;vi .surf/styles//homepage.css
+: 1617805809:0;vi .config/alacritty/alacritty.yml
+: 1617806042:0;sp -Rsu qutebrowser ttf-ubuntu-font-family
+: 1617806048:0;sp -Rsu qutebrowser
+: 1617806069:0;yay -Yc
+: 1617806080:0;tabbed vimb -e
+: 1617806345:0;sudo make install
+: 1617806359:0;q
+: 1617806360:0;w
+: 1617806365:0;e
+: 1617806384:0;sudo make install
+: 1617810086:0;ping youtube.com
+: 1617811212:0;vi .config/vimb/config
+: 1617852085:0;cd Programming
+: 1617852086:0;ls
+: 1617852306:0;./dmenuwifi
+: 1617852311:0;e
+: 1617852592:0;./btmenu
+: 1617852601:0;w
+: 1617852602:0;e
+: 1617852625:0;./ducksearch
+: 1617852638:0;e
+: 1617852673:0;xdg-open
+: 1617852684:0;man xdg-open 
+: 1617852693:0;man xdg-open
+: 1617853014:0;vi .config/vimb/config
+: 1617853021:0;vi add.c
+: 1617853589:0;cd Programming
+: 1617853591:0;ls
+: 1617853999:0;notify-send "Arcolinux" "All updates are downloaded"
+: 1617857086:0;vi .config/vimb/config
+: 1617857569:0;vi ~/.config/vimb/config
+: 1617858388:0;vi ~/.config/vimb/switch-tab.sh
+: 1617858931:0;sudo make install
+: 1617860046:0;e
+: 1617860079:0;vi .config/sxhkd/sxhkdrc
+: 1617860100:0;vi .config/qtile/config.py
+: 1617860138:0;vi Repos/dwm/config.h
+: 1617860285:0;sudo make install
+: 1617860336:0;e
+: 1617860362:0;sudo make install
+: 1617860390:0;e
+: 1617860534:0;sudo make install
+: 1617860568:0;e
+: 1617860596:0;sudo make install
+: 1617860623:0;e
+: 1617860685:0;sudo make install
+: 1617861045:0;e
+: 1617861111:0;sudo make install
+: 1617861122:0;e
+: 1617861275:0;sudo make install
+: 1617861289:0;e
+: 1617861462:0;sudo make install
+: 1617861490:0;e
+: 1617861548:0;sudo make install
+: 1617861553:0;e
+: 1617861580:0;sudo make install
+: 1617861715:0;xprop
+: 1617861944:0;e
+: 1617861982:0;sudo make install
+: 1617863167:0;vi ~/.surf/styles/homepage.css
+: 1617890517:0;./string.out
+: 1617890652:0;e
+: 1617890744:0;./string.out
+: 1617890857:0;e
+: 1617891206:0;./diff.out
+: 1617891222:0;e
+: 1617891977:0;vi .config/vimb/config
+: 1617892004:0;vi ~/.surf/styles/homepage.css
+: 1617892026:0;vi ~/Repos/tabbed/config.h
+: 1617892056:0;cd Repos/tabbed
+: 1617892060:0;sudo make install
+: 1617892084:0;vi .config/vimb/config
+: 1617893047:0;cd practise
+: 1617893073:0;vi Teja1.c
+: 1617893404:0;gcc Teja1.c -o Teja1.out
+: 1617893407:0;./Teja1.out
+: 1617893438:0;vi Teja1.c
+: 1617893555:0;gcc Teja1.c -o Teja1.out
+: 1617893556:0;./Teja1.out
+: 1617893584:0;vi Teja1.c
+: 1617893654:0;gcc Teja1.c -o Teja1.out
+: 1617893655:0;./Teja1.out
+: 1617893703:0;vi Teja1.c
+: 1617893857:0;gcc Teja1.c -o Teja1.out
+: 1617893858:0;vi Teja1.c
+: 1617893863:0;./Teja1.out
+: 1617893892:0;vi Teja1.c
+: 1617894277:0;./remove.out
+: 1617894313:0;e
+: 1617894555:0;gcc Teja1.c -o Teja1.out
+: 1617894556:0;./Teja1.out
+: 1617894582:0;vi Teja1.c
+: 1617895442:0;gcc Teja1.c -o Teja1.out
+: 1617895444:0;vi Teja1.c
+: 1617895450:0;gcc Teja1.c -o Teja1.out
+: 1617895454:0;./Teja1.out
+: 1617895495:0;vi Teja1.c
+: 1617895979:0;gcc Teja1.c -o Teja1.out
+: 1617895980:0;./Teja1.out
+: 1617896022:0;vi Teja1.c
+: 1617900214:0;gcc Teja1.c -o Teja1.out
+: 1617900216:0;./Teja1.out
+: 1617900232:0;vi Teja1.c
+: 1617900436:0;gcc Teja1.c -o Teja1.out
+: 1617900437:0;./Teja1.out
+: 1617900482:0;vi Teja1.c
+: 1617900594:0;gcc Teja1.c -o Teja1.out
+: 1617900595:0;./Teja1.out
+: 1617900621:0;vi Teja1.c
+: 1617900671:0;gcc Teja1.c -o Teja1.out
+: 1617900672:0;vi Teja1.c
+: 1617900680:0;./Teja1.out
+: 1617900698:0;vi Teja1.c
+: 1617900775:0;./remove.out
+: 1617900806:0;vi Teja1.ce
+: 1617900808:0;e
+: 1617901167:0;gcc Teja1.c -o Teja1.out
+: 1617901168:0;./Teja1.out
+: 1617901196:0;vi Teja1.c
+: 1617901390:0;gcc Teja1.c -o Teja1.out
+: 1617901392:0;./Teja1.out
+: 1617901415:0;vi Teja1.c
+: 1617901466:0;gcc Teja1.c -o Teja1.out
+: 1617901468:0;./Teja1.out
+: 1617901491:0;vi Teja1.c
+: 1617901555:0;gcc Teja1.c -o Teja1.out
+: 1617901556:0;./Teja1.out
+: 1617901570:0;vi Teja1.c
+: 1617901587:0;gcc Teja1.c -o Teja1.out
+: 1617901589:0;./Teja1.out
+: 1617933422:0;cd practise
+: 1617933428:0;vi Teja2.c
+: 1617934189:0;cd practise
+: 1617934198:0;gcc Teja2.c -o Teja2.out
+: 1617934231:0;./Teja2.out
+: 1617934292:0;gcc Teja2.c -o Teja2.out
+: 1617934294:0;./Teja2.out
+: 1617934317:0;gcc Teja2.c -o Teja2.out
+: 1617934318:0;./Teja2.out
+: 1617934365:0;gcc Teja2.c -o Teja2.out
+: 1617934366:0;./Teja2.out
+: 1617934391:0;gcc Teja2.c -o Teja2.out
+: 1617934393:0;./Teja2.out
+: 1617934420:0;gcc Teja2.c -o Teja2.out
+: 1617934421:0;./Teja2.out
+: 1617934484:0;gcc Teja2.c -o Teja2.out
+: 1617934485:0;./Teja2.out
+: 1617934547:0;gcc Teja2.c -o Teja2.out
+: 1617934549:0;./Teja2.out
+: 1617934593:0;gcc Teja2.c -o Teja2.out
+: 1617934594:0;./Teja2.out
+: 1617934638:0;gcc Teja2.c -o Teja2.out
+: 1617934639:0;./Teja2.out
+: 1617934722:0;gcc Teja2.c -o Teja2.out
+: 1617934724:0;./Teja2.out
+: 1617934764:0;gcc Teja2.c -o Teja2.out
+: 1617934765:0;./Teja2.out
+: 1617934919:0;gcc Teja2.c -o Teja2.out
+: 1617934930:0;./Teja2.out
+: 1617935059:0;c
+: 1617935074:0;gcc Teja2.c -o Teja2.out
+: 1617935076:0;./Teja2.out
+: 1617935263:0;vi Teja3.c
+: 1617935425:0;gcc Teja3.c -o Teja3.out
+: 1617935446:0;./Teja3.out
+: 1617936219:0;vi Teja4.c
+: 1617936547:0;vi ItIndia1.c
+: 1617936950:0;gcc ItIndia1.c -o ItIndia1.out
+: 1617936970:0;./ItIndia1.out
+: 1617937006:0;gcc ItIndia1.c -o ItIndia1.out
+: 1617937007:0;./ItIndia1.out
+: 1617937132:0;vi Teja4.c
+: 1617937336:0;gcc Teja4.c -o Teja4.out
+: 1617937343:0;./Teja4.out
+: 1617938220:0;gcc Teja4.c -o Teja4.out
+: 1617938241:0;./Teja4.out
+: 1617938378:0;gcc Teja4.c -o Teja4.out
+: 1617938379:0;./Teja4.out
+: 1617938449:0;gcc Teja4.c -o Teja4.out
+: 1617938451:0;./Teja4.out
+: 1617938562:0;gcc Teja4.c -o Teja4.out
+: 1617938563:0;./Teja4.out
+: 1617938836:0;gcc Teja4.c -o Teja4.out
+: 1617938864:0;./Teja4.out
+: 1617938866:0;gcc Teja4.c -o Teja4.out
+: 1617938867:0;./Teja4.out
+: 1617938922:0;gcc Teja4.c -o Teja4.out
+: 1617938923:0;./Teja4.out
+: 1617938968:0;gcc Teja4.c -o Teja4.out
+: 1617938969:0;./Teja4.out
+: 1617939054:0;gcc Teja4.c -o Teja4.out
+: 1617939055:0;./Teja4.out
+: 1617939100:0;gcc Teja4.c -o Teja4.out
+: 1617939101:0;./Teja4.out
+: 1617939133:0;gcc Teja4.c -o Teja4.out
+: 1617939134:0;./Teja4.out
+: 1617939154:0;gcc Teja4.c -o Teja4.out
+: 1617939155:0;ram
+: 1617939158:0;./Teja4.out
+: 1617939213:0;gcc Teja4.c -o Teja4.out
+: 1617939215:0;./Teja4.out
+: 1617939260:0;gcc Teja4.c -o Teja4.out
+: 1617939261:0;./Teja4.out
+: 1617939279:0;gcc Teja4.c -o Teja4.out
+: 1617939280:0;./Teja4.out
+: 1617939296:0;gcc Teja4.c -o Teja4.out
+: 1617939297:0;./Teja4.out
+: 1617939406:0;gcc Teja4.c -o Teja4.out
+: 1617939407:0;./Teja4.out
+: 1617939468:0;gcc Teja4.c -o Teja4.out
+: 1617939469:0;./Teja4.out
+: 1617939526:0;gcc Teja4.c -o Teja4.out
+: 1617939528:0;./Teja4.out
+: 1617939551:0;gcc Teja4.c -o Teja4.out
+: 1617939552:0;./Teja4.out
+: 1617939580:0;gcc Teja4.c -o Teja4.out
+: 1617939581:0;./Teja4.out
+: 1617939591:0;gcc Teja4.c -o Teja4.out
+: 1617939611:0;./Teja4.out
+: 1617939646:0;gcc Teja4.c -o Teja4.out
+: 1617939647:0;./Teja4.out
+: 1617939675:0;gcc Teja4.c -o Teja4.out
+: 1617939678:0;./Teja4.out
+: 1617939705:0;gcc Teja4.c -o Teja4.out
+: 1617939706:0;./Teja4.out
+: 1617939739:0;gcc Teja4.c -o Teja4.out
+: 1617939740:0;./Teja4.out
+: 1617939880:0;gcc Teja4.c -o Teja4.out
+: 1617939881:0;./Teja4.out
+: 1617939912:0;gcc Teja4.c -o Teja4.out
+: 1617939913:0;./Teja4.out
+: 1617940073:0;gcc Teja4.c -o Teja4.out
+: 1617940074:0;./Teja4.out
+: 1617940247:0;gcc Teja4.c -o Teja4.out
+: 1617940248:0;./Teja4.out
+: 1617940290:0;gcc Teja4.c -o Teja4.out
+: 1617940326:0;./Teja4.out
+: 1617940328:0;gcc Teja4.c -o Teja4.out
+: 1617940447:0;./Teja4.out
+: 1617940453:0;gcc Teja4.c -o Teja4.out
+: 1617940455:0;./Teja4.out
+: 1617940728:0;gcc Teja4.c -o Teja4.out
+: 1617940729:0;./Teja4.out
+: 1617940752:0;gcc Teja4.c -o Teja4.out
+: 1617940754:0;./Teja4.out
+: 1617940779:0;c
+: 1617940889:0;gcc Teja4.c -o Teja4.out
+: 1617940892:0;./Teja4.out
+: 1617941416:0;vi Teja5.c
+: 1617943725:0;arduino
+: 1617944043:0;c
+: 1617945959:0;./sum.out
+: 1617945976:0;e
+: 1617946640:0;gcc Teja5.c -o Teja5.out
+: 1617946646:0;./Teja5.out
+: 1617946690:0;gcc Teja5.c -o Teja5.out
+: 1617946707:0;./Teja5.out
+: 1617946709:0;gcc Teja5.c -o Teja5.out
+: 1617946710:0;./Teja5.out
+: 1617946767:0;gcc Teja4.c -o Teja4.out
+: 1617946770:0;gcc Teja5.c -o Teja5.out
+: 1617946772:0;./Teja5.out
+: 1617946889:0;gcc Teja5.c -o Teja5.out
+: 1617946890:0;./Teja5.out
+: 1617951035:0;cd practise
+: 1617951037:0;vi Teja5.c
+: 1617951112:0;gcc Teja5.c -o Teja5.out
+: 1617951116:0;cd practise
+: 1617951118:0;gcc Teja5.c -o Teja5.out
+: 1617951128:0;./Teja5.out
+: 1617951199:0;gcc Teja5.c -o Teja5.out
+: 1617951200:0;./Teja5.out
+: 1617951241:0;gcc Teja5.c -o Teja5.out
+: 1617951242:0;./Teja5.out
+: 1617951252:0;3
+: 1617951259:0;./Teja5.out
+: 1617951329:0;gcc Teja5.c -o Teja5.out
+: 1617951330:0;./Teja5.out
+: 1617951392:0;gcc Teja5.c -o Teja5.out
+: 1617951394:0;./Teja5.out
+: 1617951448:0;gcc Teja5.c -o Teja5.out
+: 1617951450:0;./Teja5.out
+: 1617951491:0;gcc Teja5.c -o Teja5.out
+: 1617951492:0;./Teja5.out
+: 1617951639:0;gcc Teja5.c -o Teja5.out
+: 1617951640:0;./Teja5.out
+: 1617951666:0;gcc Teja5.c -o Teja5.out
+: 1617951667:0;./Teja5.out
+: 1617951737:0;gcc Teja5.c -o Teja5.out
+: 1617951738:0;./Teja5.out
+: 1617951800:0;gcc Teja5.c -o Teja5.out
+: 1617951800:0;./Teja5.out
+: 1617975534:0;cd practise
+: 1617975541:0;vi drc2.c
+: 1617975982:0;cd practise
+: 1617975992:0;gcc drc2.c -o drc2.out
+: 1617976000:0;./drc2.out
+: 1617976126:0;gcc drc2.c -o drc2.out
+: 1617976128:0;./drc2.out
+: 1617976162:0;gcc drc2.c -o drc2.out
+: 1617976163:0;./drc2.out
+: 1617976267:0;gcc drc2.c -o drc2.out
+: 1617976269:0;./drc2.out
+: 1617976392:0;gcc drc2.c -o drc2.out
+: 1617976393:0;./drc2.out
+: 1617976438:0;gcc drc2.c -o drc2.out
+: 1617976439:0;./drc2.out
+: 1617976486:0;gcc drc2.c -o drc2.out
+: 1617976487:0;./drc2.out
+: 1617976572:0;gcc drc2.c -o drc2.out
+: 1617976573:0;./drc2.out
+: 1617976611:0;gcc drc2.c -o drc2.out
+: 1617976612:0;./drc2.out
+: 1617976635:0;gcc drc2.c -o drc2.out
+: 1617976636:0;./drc2.out
+: 1618021466:0;cd practise
+: 1618021482:0;vi Teja6.c
+: 1618023424:0;cd practise
+: 1618023438:0;gcc Teja6.c 0o Teja6.out
+: 1618023450:0;gcc Teja6.c -o Teja6.out
+: 1618023483:0;gcc Teja6.c 0o Teja6.out
+: 1618023485:0;gcc Teja6.c -o Teja6.out
+: 1618023559:0;./Teja6.out
+: 1618023775:0;gcc Teja6.c -o Teja6.out
+: 1618023776:0;./Teja6.out
+: 1618024292:0;gcc Teja6.c -o Teja6.out
+: 1618024293:0;./Teja6.out
+: 1618024569:0;gcc Teja6.c -o Teja6.out
+: 1618024570:0;./Teja6.out
+: 1618024769:0;gcc Teja6.c -o Teja6.out
+: 1618024770:0;./Teja6.out
+: 1618025438:0;gcc Teja6.c -o Teja6.out
+: 1618025439:0;./Teja6.out
+: 1618025476:0;gcc Teja6.c -o Teja6.out
+: 1618025477:0;./Teja6.out
+: 1618025549:0;gcc Teja6.c -o Teja6.out
+: 1618025550:0;./Teja6.out
+: 1618025569:0;gcc Teja6.c -o Teja6.out
+: 1618025570:0;./Teja6.out
+: 1618025600:0;gcc Teja6.c -o Teja6.out
+: 1618025601:0;./Teja6.out
+: 1618025806:0;gcc Teja6.c -o Teja6.out
+: 1618025807:0;./Teja6.out
+: 1618025999:0;c
+: 1618028130:0;gcc Teja6.c -o Teja6.out
+: 1618028144:0;./Teja6.out
+: 1618028199:0;gcc Teja6.c -o Teja6.out
+: 1618028200:0;./Teja6.out
+: 1618028268:0;gcc Teja6.c -o Teja6.out
+: 1618028269:0;./Teja6.out
+: 1618028596:0;gcc Teja6.c -o Teja6.out
+: 1618028631:0;./Teja6.out
+: 1618028669:0;gcc Teja6.c -o Teja6.out
+: 1618028670:0;./Teja6.out
+: 1618028712:0;gcc Teja6.c -o Teja6.out
+: 1618028713:0;./Teja6.out
+: 1618028818:0;gcc Teja6.c -o Teja6.out
+: 1618028819:0;./Teja6.out
+: 1618029448:0;vi Teja7.c
+: 1618060976:0;c
+: 1618061806:0;df -h /home
+: 1618061816:0;du -h /home
+: 1618061824:0;du -h /
+: 1618061827:0;du -h 
+: 1618061830:0;df -h 
+: 1618061832:0;c
+: 1618062106:0;gcc Teja7.c -o Teja7.out
+: 1618062113:0;./Teja7.out
+: 1618062156:0;gcc Teja7.c -o Teja7.out
+: 1618062157:0;./Teja7.out
+: 1618062204:0;gcc Teja7.c -o Teja7.out
+: 1618062205:0;./Teja7.out
+: 1618062283:0;gcc Teja7.c -o Teja7.out
+: 1618062284:0;./Teja7.out
+: 1618062305:0;gcc Teja7.c -o Teja7.out
+: 1618062306:0;./Teja7.out
+: 1618062343:0;gcc Teja7.c -o Teja7.out
+: 1618062344:0;./Teja7.out
+: 1618062363:0;gcc Teja7.c -o Teja7.out
+: 1618062364:0;./Teja7.out
+: 1618072293:0;sp -Rsu qt5-base
+: 1618072307:0;sp -Rsu qt5-x11extras 
+: 1618072323:0;sp -Rsu qt5-x11extras
+: 1618072507:0;r
+: 1618072812:0;alsactl restore
+: 1618109077:0;cd practise
+: 1618109081:0;vi Teja8.c
+: 1618109870:0;cd practise
+: 1618109883:0;gcc Teja8.c -o Teja8.out
+: 1618109928:0;./Teja8.out
+: 1618110070:0;gcc Teja8.c -o Teja8.out
+: 1618110081:0;./Teja8.out
+: 1618110210:0;gcc Teja8.c -o Teja8.out
+: 1618110211:0;./Teja8.out
+: 1618110465:0;ls
+: 1618110560:0;lxclipboard
+: 1618110610:0;sp -Rsu openssh
+: 1618110622:0;sp -Rsu alacritty
+: 1618110630:0;sp -Rsu adobe-source-code-pro-fonts 
+: 1618110857:0;gcc Teja8.c -o Teja8.out
+: 1618110858:0;./Teja8.out
+: 1618114319:0;vi Teja9.c
+: 1618114430:0;gcc Teja9.c -o Teja9.out
+: 1618114444:0;./Teja9.out
+: 1618115169:0;gcc Teja9.c -o Teja9.out
+: 1618115170:0;./Teja9.out
+: 1618115183:0;gcc Teja9.c -o Teja9.out
+: 1618115185:0;./Teja9.out
+: 1618115280:0;gcc Teja9.c -o Teja9.out
+: 1618115281:0;./Teja9.out
+: 1618115460:0;gcc Teja9.c -o Teja9.out
+: 1618115461:0;./Teja9.out
+: 1618115482:0;gcc Teja9.c -o Teja9.out
+: 1618115483:0;./Teja9.out
+: 1618115511:0;gcc Teja9.c -o Teja9.out
+: 1618115512:0;./Teja9.out
+: 1618115576:0;gcc Teja9.c -o Teja9.out
+: 1618115577:0;./Teja9.out
+: 1618115755:0;c
+: 1618115844:0;./Teja9.out
+: 1618115847:0;gcc Teja9.c -o Teja9.out
+: 1618115848:0;./Teja9.out
+: 1618115854:0;c
+: 1618116706:0;sp -Rsu libxcomposite
+: 1618116724:0;compton
+: 1618117709:0;cd practise
+: 1618117745:0;vi Teja10.c
+: 1618117834:0;cd practise
+: 1618118173:0;vi Teja10.c
+: 1618118192:0;gcc Teja10.c -o Teja10.out
+: 1618118198:0;./Teja10.out
+: 1618118226:0;gcc Teja10.c -o Teja10.out
+: 1618118227:0;./Teja10.out
+: 1618118238:0;gcc Teja10.c -o Teja10.out
+: 1618118239:0;./Teja10.out
+: 1618118249:0;gcc Teja10.c -o Teja10.out
+: 1618118250:0;./Teja10.out
+: 1618118318:0;gcc Teja10.c -o Teja10.out
+: 1618118319:0;./Teja10.out
+: 1618118371:0;gcc Teja10.c -o Teja10.out
+: 1618118372:0;./Teja10.out
+: 1618237809:0;cd practise
+: 1618245172:0;mkdir DCA19-1
+: 1618245175:0;cd DCA19-1
+: 1618245179:0;vi 1.c
+: 1618245447:0;...
+: 1618245462:0;cd practise
+: 1618245471:0;vi CD1.c
+: 1618245749:0;./DCA2.out
+: 1618245778:0;e
+: 1618246177:0;cd practise
+: 1618246202:0;gcc CD1.c -o CD1.out
+: 1618246217:0;./CD1.out
+: 1618246288:0;vi CD2.c
+: 1618246525:0;gcc CD2.c -o CD2.out
+: 1618246529:0;./CD2.out
+: 1618246569:0;gcc CD2.c -o CD2.out
+: 1618246570:0;./CD2.out
+: 1618246633:0;gcc CD2.c -o CD2.out
+: 1618246674:0;./CD2.out
+: 1618246697:0;gcc CD2.c -o CD2.out
+: 1618246700:0;./CD2.out
+: 1618246917:0;gcc CD2.c -o CD2.out
+: 1618246929:0;./CD2.out
+: 1618247033:0;vi CD3.c
+: 1618247593:0;gcc CD2.c -o CD2.out
+: 1618247599:0;gcc CD3.c -o CD3.out
+: 1618247603:0;./CD3.out
+: 1618247676:0;gcc CD3.c -o CD3.out
+: 1618247677:0;./CD3.out
+: 1618247744:0;gcc CD3.c -o CD3.out
+: 1618247745:0;./CD3.out
+: 1618247759:0;gcc CD3.c -o CD3.out
+: 1618247760:0;./CD3.out
+: 1618247769:0;gcc CD3.c -o CD3.out
+: 1618248456:0;vi CD4.c
+: 1618248894:0;gcc CD4.c -o CD4.out
+: 1618248900:0;./CD4.out 
+: 1618248915:0;gcc CD4.c -o CD4.out
+: 1618248916:0;./CD4.out 
+: 1618248944:0;gcc CD4.c -o CD4.out
+: 1618248945:0;./CD4.out 
+: 1618248965:0;gcc CD4.c -o CD4.out
+: 1618248966:0;./CD4.out 
+: 1618248987:0;gcc CD4.c -o CD4.out
+: 1618248988:0;./CD4.out 
+: 1618249046:0;gcc CD4.c -o CD4.out
+: 1618249047:0;./CD4.out 
+: 1618249078:0;gcc CD4.c -o CD4.out
+: 1618249079:0;./CD4.out 
+: 1618249089:0;gcc CD4.c -o CD4.out
+: 1618249090:0;./CD4.out 
+: 1618249115:0;gcc CD4.c -o CD4.out
+: 1618249118:0;./CD4.out 
+: 1618249142:0;gcc CD4.c -o CD4.out
+: 1618249145:0;./CD4.out 
+: 1618249153:0;gcc CD4.c -o CD4.out
+: 1618249154:0;./CD4.out 
+: 1618249186:0;gcc CD4.c -o CD4.out
+: 1618249187:0;./CD4.out 
+: 1618249211:0;gcc CD4.c -o CD4.out
+: 1618249212:0;./CD4.out 
+: 1618249237:0;gcc CD4.c -o CD4.out
+: 1618249238:0;./CD4.out 
+: 1618249268:0;gcc CD4.c -o CD4.out
+: 1618249269:0;./CD4.out 
+: 1618249272:0;gcc CD4.c -o CD4.out
+: 1618249274:0;./CD4.out 
+: 1618249373:0;vi CD5.c
+: 1618249720:0;gcc CD5.c -o CD5.out
+: 1618249724:0;./CD5.out 
+: 1618249762:0;gcc CD5.c -o CD5.out
+: 1618249763:0;./CD5.out 
+: 1618249818:0;./CD5.out
+: 1618249859:0;./CD5.out  
+: 1618249873:0;gcc CD5.c -o CD5.out
+: 1618249874:0;./CD5.out  
+: 1618249878:0;c
+: 1618280924:0;./add.out
+: 1618280936:0;q
+: 1618280937:0;w
+: 1618280939:0;e
+: 1618281072:0;./alphabet.out
+: 1618281660:0;e
+: 1618281800:0;cd practise
+: 1618283307:0;cd DCA19-1
+: 1618283331:0;..
+: 1618283333:0;cd DCA19-3
+: 1618283544:0;vi Q1.c
+: 1618284759:0;cd practise/DCA19-3
+: 1618284771:0;gcc Q1.c -o Q1.out
+: 1618284785:0;./Q1.out
+: 1618284836:0;gcc Q1.c -o Q1.out
+: 1618284837:0;./Q1.out
+: 1618285207:0;gcc Q1.c -o Q1.out
+: 1618285354:0;sp -Rsu avahi
+: 1618285370:0;sp -R avahi
+: 1618285388:0;sp -R libcups
+: 1618285787:0;c
+: 1618321032:0;cd practise
+: 1618321044:0;vi Teja11.c
+: 1618321203:0;vi Teja12.c
+: 1618321596:0;cd practise
+: 1618321608:0;gcc Teja12.c -o Teja12.out
+: 1618321634:0;./Teja12.out
+: 1618321698:0;c
+: 1618321723:0;gcc Teja12.c -o Teja12.out
+: 1618321724:0;c
+: 1618321726:0;./Teja12.out
+: 1618321745:0;gcc Teja12.c -o Teja12.out
+: 1618321746:0;./Teja12.out
+: 1618321773:0;gcc Teja12.c -o Teja12.out
+: 1618321773:0;./Teja12.out
+: 1618321828:0;gcc Teja12.c -o Teja12.out
+: 1618321829:0;./Teja12.out
+: 1618321840:0;gcc Teja12.c -o Teja12.out
+: 1618321841:0;./Teja12.out
+: 1618321847:0;c
+: 1618321885:0;gcc Teja12.c -o Teja12.out
+: 1618321887:0;./Teja12.out
+: 1618321940:0;gcc Teja12.c -o Teja12.out
+: 1618321941:0;./Teja12.out
+: 1618321973:0;gcc Teja12.c -o Teja12.out
+: 1618321975:0;./Teja12.out
+: 1618321996:0;gcc Teja12.c -o Teja12.out
+: 1618321997:0;./Teja12.out
+: 1618322013:0;gcc Teja12.c -o Teja12.out
+: 1618322015:0;./Teja12.out
+: 1618322081:0;gcc Teja12.c -o Teja12.out
+: 1618322082:0;./Teja12.out
+: 1618322100:0;gcc Teja12.c -o Teja12.out
+: 1618322101:0;./Teja12.out
+: 1618322544:0;gcc Teja12.c -o Teja12.out
+: 1618322545:0;./Teja12.out
+: 1618322612:0;gcc Teja12.c -o Teja12.out
+: 1618322613:0;./Teja12.out
+: 1618322639:0;gcc Teja12.c -o Teja12.out
+: 1618322641:0;./Teja12.out
+: 1618322680:0;gcc Teja12.c -o Teja12.out
+: 1618322681:0;./Teja12.out
+: 1618322835:0;gcc Teja12.c -o Teja12.out
+: 1618322837:0;./Teja12.out
+: 1618322870:0;gcc Teja12.c -o Teja12.out
+: 1618322872:0;./Teja12.out
+: 1618322918:0;gcc Teja12.c -o Teja12.out
+: 1618322919:0;./Teja12.out
+: 1618322974:0;gcc Teja12.c -o Teja12.out
+: 1618322975:0;./Teja12.out
+: 1618323220:0;gcc Teja12.c -o Teja12.out
+: 1618323221:0;./Teja12.out
+: 1618323292:0;gcc Teja12.c -o Teja12.out
+: 1618323293:0;./Teja12.out
+: 1618323314:0;gcc Teja12.c -o Teja12.out
+: 1618323316:0;./Teja12.out
+: 1618323381:0;gcc Teja12.c -o Teja12.out
+: 1618323382:0;./Teja12.out
+: 1618323434:0;gcc Teja12.c -o Teja12.out
+: 1618323436:0;./Teja12.out
+: 1618323512:0;gcc Teja12.c -o Teja12.out
+: 1618323513:0;./Teja12.out
+: 1618323583:0;gcc Teja12.c -o Teja12.out
+: 1618323587:0;./Teja12.out
+: 1618323609:0;gcc Teja12.c -o Teja12.out
+: 1618323610:0;./Teja12.out
+: 1618323792:0;gcc Teja12.c -o Teja12.out
+: 1618323804:0;./Teja12.out
+: 1618323873:0;gcc Teja12.c -o Teja12.out
+: 1618323890:0;./Teja12.out
+: 1618323901:0;c
+: 1618323908:0;vi Teja13.c
+: 1618324475:0;gcc Teja12.c -o Teja12.out 
+: 1618324491:0;gcc Teja13.c -o Teja13.out 
+: 1618324595:0;./Teja13.out
+: 1618324621:0;gcc Teja13.c -o Teja13.out 
+: 1618324622:0;./Teja13.out
+: 1618329772:0;cd practise
+: 1618329774:0;vi Teja13.c
+: 1618329831:0;gcc Teja13.c -o Teja13.out 
+: 1618329832:0;./Teja13.out
+: 1618330056:0;gcc Teja13.c -o Teja13.out 
+: 1618330057:0;./Teja13.out
+: 1618330098:0;:w
+: 1618330102:0;./Teja13.out
+: 1618330105:0;gcc Teja13.c -o Teja13.out 
+: 1618330106:0;./Teja13.out
+: 1618331720:0;gcc Teja13.c -o Teja13.out 
+: 1618331721:0;./Teja13.out
+: 1618331769:0;gcc Teja13.c -o Teja13.out 
+: 1618331770:0;./Teja13.out
+: 1618331869:0;gcc Teja13.c -o Teja13.out 
+: 1618331878:0;./Teja13.out
+: 1618331906:0;gcc Teja13.c -o Teja13.out 
+: 1618331907:0;./Teja13.out
+: 1618332101:0;gcc Teja13.c -o Teja13.out 
+: 1618332102:0;./Teja13.out
+: 1618332185:0;gcc Teja13.c -o Teja13.out 
+: 1618332186:0;./Teja13.out
+: 1618332233:0;gcc Teja13.c -o Teja13.out 
+: 1618332234:0;./Teja13.out
+: 1618332262:0;gcc Teja13.c -o Teja13.out 
+: 1618332263:0;./Teja13.out
+: 1618332274:0;gcc Teja13.c -o Teja13.out 
+: 1618332275:0;./Teja13.out
+: 1618332305:0;gcc Teja13.c -o Teja13.out 
+: 1618332306:0;./Teja13.out
+: 1618332339:0;gcc Teja13.c -o Teja13.out 
+: 1618332340:0;./Teja13.out
+: 1618332377:0;gcc Teja13.c -o Teja13.out 
+: 1618332378:0;./Teja13.out
+: 1618332432:0;gcc Teja13.c -o Teja13.out 
+: 1618332433:0;./Teja13.out
+: 1618332462:0;gcc Teja13.c -o Teja13.out 
+: 1618332463:0;./Teja13.out
+: 1618332573:0;gcc Teja13.c -o Teja13.out 
+: 1618332574:0;./Teja13.out
+: 1618332606:0;gcc Teja13.c -o Teja13.out 
+: 1618332607:0;./Teja13.out
+: 1618332697:0;gcc Teja13.c -o Teja13.out 
+: 1618332698:0;./Teja13.out
+: 1618332708:0;gcc Teja13.c -o Teja13.out 
+: 1618332709:0;./Teja13.out
+: 1618332900:0;gcc Teja13.c -o Teja13.out 
+: 1618332901:0;./Teja13.out
+: 1618333141:0;gcc Teja13.c -o Teja13.out 
+: 1618333142:0;./Teja13.out
+: 1618333155:0;gcc Teja13.c -o Teja13.out 
+: 1618333156:0;./Teja13.out
+: 1618333180:0;gcc Teja13.c -o Teja13.out 
+: 1618333181:0;./Teja13.out
+: 1618333309:0;gcc Teja13.c -o Teja13.out 
+: 1618333310:0;./Teja13.out
+: 1618333402:0;gcc Teja13.c -o Teja13.out 
+: 1618333403:0;./Teja13.out
+: 1618333787:0;gcc Teja13.c -o Teja13.out 
+: 1618333788:0;./Teja13.out
+: 1618333836:0;c
+: 1618368129:0;cd practise
+: 1618369477:0;vi CODE1.c
+: 1618369505:0;vi CodeBashers1.c
+: 1618369678:0;cd practise
+: 1618369686:0;gcc CodeBashers1.c -o CodeBashers1.out
+: 1618369698:0;cd practise
+: 1618369700:0;gcc CodeBashers1.c -o CodeBashers1.out
+: 1618369705:0;./CodeBashers1.out
+: 1618369945:0;vi CodeBashers2.c
+: 1618370468:0;./CD1.out
+: 1618370484:0;e
+: 1618370708:0;./common.out
+: 1618370730:0;e
+: 1618371049:0;gcc CodeBashers1.c -o CodeBashers1.out
+: 1618371059:0;gcc CodeBashers2.c -o CodeBashers2.out
+: 1618371064:0;./CodeBashers2.out
+: 1618371137:0;gcc CodeBashers2.c -o CodeBashers2.out
+: 1618371139:0;./CodeBashers2.out
+: 1618371554:0;gcc CodeBashers2.c -o CodeBashers2.out
+: 1618371555:0;./CodeBashers2.out
+: 1618371622:0;gcc CodeBashers2.c -o CodeBashers2.out
+: 1618371623:0;./CodeBashers2.out
+: 1618371897:0;gcc CodeBashers2.c -o CodeBashers2.out
+: 1618371898:0;./CodeBashers2.out
+: 1618371936:0;gcc CodeBashers2.c -o CodeBashers2.out
+: 1618371942:0;./CodeBashers2.out
+: 1618371944:0;gcc CodeBashers2.c -o CodeBashers2.out
+: 1618371945:0;./CodeBashers2.out
+: 1618372244:0;gcc CodeBashers2.c -o CodeBashers2.out
+: 1618372246:0;./CodeBashers2.out
+: 1618372291:0;gcc CodeBashers2.c -o CodeBashers2.out
+: 1618372293:0;./CodeBashers2.out
+: 1618372344:0;gcc CodeBashers2.c -o CodeBashers2.out
+: 1618372352:0;./CodeBashers2.out
+: 1618374159:0;vi CodeBashers3.c
+: 1618374177:0;c
+: 1618374207:0;vi .config/polybar/config
+: 1618378039:0;gcc CodeBashers3.c -o CodeBashers3.out
+: 1618378052:0;gcc CodeBashers3.c -o CodeBashers3.out;
+: 1618378057:0;./CodeBashers3.out
+: 1618378605:0;gcc CodeBashers3.c -o CodeBashers3.out;
+: 1618378606:0;./CodeBashers3.out
+: 1618378647:0;gcc CodeBashers3.c -o CodeBashers3.out;
+: 1618378648:0;./CodeBashers3.out
+: 1618378673:0;gcc CodeBashers3.c -o CodeBashers3.out;
+: 1618378675:0;./CodeBashers3.out
+: 1618378729:0;gcc CodeBashers3.c -o CodeBashers3.out;
+: 1618378730:0;./CodeBashers3.out
+: 1618379795:0;vi CodeBashers4.c
+: 1618379977:0;cd practise
+: 1618379986:0;gcc CodeBashers4.c -o CodeBashers4.out;
+: 1618379990:0;./CodeBashers4.out
+: 1618380058:0;gcc CodeBashers4.c -o CodeBashers4.out;
+: 1618380059:0;./CodeBashers4.out
+: 1618380380:0;gcc CodeBashers4.c -o CodeBashers4.out;
+: 1618380381:0;./CodeBashers4.out
+: 1618380608:0;gcc CodeBashers4.c -o CodeBashers4.out;
+: 1618380609:0;./CodeBashers4.out
+: 1618380750:0;c
+: 1618380755:0;vi CodeBashers5.c
+: 1618381359:0;gcc CodeBashers5.c -o CodeBashers5.out;
+: 1618381364:0;./CodeBashers5.out
+: 1618415932:0;cd practise
+: 1618415934:0;ls
+: 1618416063:0;vi Quant-Jump.c
+: 1618417514:0;cd practise
+: 1618417522:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618417539:0;./Quant-Jump.out
+: 1618417642:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618417643:0;./Quant-Jump.out
+: 1618417743:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618417744:0;./Quant-Jump.out
+: 1618417828:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618417829:0;./Quant-Jump.out
+: 1618417931:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618417932:0;./Quant-Jump.out
+: 1618417988:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618417989:0;./Quant-Jump.out
+: 1618418509:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618418511:0;./Quant-Jump.out
+: 1618418792:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618418792:0;./Quant-Jump.out
+: 1618418819:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618418834:0;./Quant-Jump.out
+: 1618418864:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618418865:0;./Quant-Jump.out
+: 1618419387:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618419388:0;./Quant-Jump.out
+: 1618419486:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618419487:0;./Quant-Jump.out
+: 1618419694:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618419695:0;./Quant-Jump.out
+: 1618419710:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618419711:0;./Quant-Jump.out
+: 1618419740:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618419741:0;./Quant-Jump.out
+: 1618419888:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618419889:0;./Quant-Jump.out
+: 1618420535:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618420536:0;./Quant-Jump.out
+: 1618420550:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618420551:0;./Quant-Jump.out
+: 1618420588:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618420589:0;./Quant-Jump.out
+: 1618420714:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618420715:0;./Quant-Jump.out
+: 1618420754:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618420759:0;./Quant-Jump.out
+: 1618420778:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618420779:0;./Quant-Jump.out
+: 1618456805:0;cd practise
+: 1618456811:0;vi CodeBashers5.c
+: 1618456819:0;vi CodeBashers4.c 
+: 1618457910:0;vi Prep-Insta1.c
+: 1618458150:0;cd practise
+: 1618458161:0;gcc Prep-Insta1.c -o Prep-Insta1.out
+: 1618458221:0;./Prep-Insta1.out
+: 1618458260:0;gcc Prep-Insta1.c -o Prep-Insta1.out
+: 1618458261:0;./Prep-Insta1.out
+: 1618458297:0;gcc Prep-Insta1.c -o Prep-Insta1.out
+: 1618458338:0;./Prep-Insta1.out
+: 1618458361:0;gcc Prep-Insta1.c -o Prep-Insta1.out
+: 1618458362:0;./Prep-Insta1.out
+: 1618458895:0;gcc Prep-Insta1.c -o Prep-Insta1.out
+: 1618458896:0;./Prep-Insta1.out
+: 1618458976:0;gcc Prep-Insta1.c -o Prep-Insta1.out
+: 1618458977:0;./Prep-Insta1.out
+: 1618459010:0;gcc Prep-Insta1.c -o Prep-Insta1.out
+: 1618459011:0;./Prep-Insta1.out
+: 1618459188:0;gcc Prep-Insta1.c -o Prep-Insta1.out
+: 1618459587:0;vi Prep-Insta2.c
+: 1618542479:0;cd practise
+: 1618542716:0;vi Prep-Insta1.c
+: 1618542868:0;vi Prep-Insta2.c
+: 1618542979:0;cd practise
+: 1618542992:0;gcc Prep-Insta2.c -o Prep-Insta2.out
+: 1618542998:0;./Prep-Insta2.out
+: 1618543063:0;gcc Prep-Insta2.c -o Prep-Insta2.out
+: 1618543064:0;./Prep-Insta2.out
+: 1618543083:0;gcc Prep-Insta2.c -o Prep-Insta2.out
+: 1618543084:0;./Prep-Insta2.out
+: 1618543127:0;gcc Prep-Insta2.c -o Prep-Insta2.out
+: 1618543128:0;./Prep-Insta2.out
+: 1618543272:0;gcc Prep-Insta2.c -o Prep-Insta2.out
+: 1618543274:0;./Prep-Insta2.out
+: 1618543421:0;gcc Prep-Insta2.c -o Prep-Insta2.out
+: 1618543422:0;./Prep-Insta2.out
+: 1618543434:0;vi Prep-Insta3.c
+: 1618544840:0;gcc Prep-Insta3.c -o Prep-Insta3.out
+: 1618544917:0;./Prep-Insta3.out
+: 1618544981:0;gcc Prep-Insta3.c -o Prep-Insta3.out
+: 1618544982:0;./Prep-Insta3.out
+: 1618545028:0;gcc Prep-Insta3.c -o Prep-Insta3.out
+: 1618545028:0;./Prep-Insta3.out
+: 1618545093:0;gcc Prep-Insta3.c -o Prep-Insta3.out
+: 1618545094:0;./Prep-Insta3.out
+: 1618545267:0;gcc Prep-Insta3.c -o Prep-Insta3.out
+: 1618545268:0;./Prep-Insta3.out
+: 1618545368:0;vi Prep-Insta4.c
+: 1618548077:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618548136:0;./Prep-Insta3.out
+: 1618548150:0;./Prep-Insta4.out
+: 1618548167:0;./Prep-Insta3.out
+: 1618548170:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618548172:0;./Prep-Insta4.out
+: 1618548516:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618548517:0;c
+: 1618548519:0;./Prep-Insta4.out
+: 1618548528:0;c
+: 1618548561:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618548562:0;c
+: 1618548564:0;./Prep-Insta4.out
+: 1618548635:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618548637:0;c
+: 1618548639:0;./Prep-Insta4.out
+: 1618548742:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618548743:0;./Prep-Insta4.out
+: 1618548764:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618548765:0;./Prep-Insta4.out
+: 1618548780:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618548781:0;./Prep-Insta4.out
+: 1618548840:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618548850:0;./Prep-Insta4.out
+: 1618548915:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618548916:0;./Prep-Insta4.out
+: 1618548998:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618549001:0;c
+: 1618549003:0;./Prep-Insta4.out
+: 1618549006:0;c
+: 1618549023:0;./Prep-Insta4.ou 
+: 1618549032:0;c
+: 1618549034:0;./Prep-Insta4.out
+: 1618549124:0;vi Prep-Insta5.c
+: 1618556887:0;c
+: 1618586102:0;vi codevita1.c
+: 1618586498:0;gcc Prep-Insta4.c -o Prep-Insta4.out
+: 1618586512:0;gcc codevita1.c -o codevita1.out
+: 1618586516:0;./codevita1.out
+: 1618586623:0;gcc codevita1.c -o codevita1.out
+: 1618586624:0;./codevita1.out
+: 1618586648:0;cd practise
+: 1618586653:0;./codevita1.out
+: 1618589065:0;cd Repos/st
+: 1618589066:0;ls
+: 1618589069:0;vi config.h
+: 1618589107:0;cd Repos/st
+: 1618589274:0;sudo make install
+: 1618589330:0;xev
+: 1618589424:0;sp -S xedv
+: 1618589427:0;sp -S xev
+: 1618589440:0;xembed
+: 1618589446:0;sp -S xed
+: 1618589572:0;yay -S xev
+: 1618589640:0;sudo make install
+: 1618589660:0;cd Repos/st
+: 1618589664:0;...
+: 1618589669:0;cd practise
+: 1618589673:0;./Quant-Jump.out
+: 1618589741:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618589743:0;./Quant-Jump.out
+: 1618589790:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618589791:0;./Quant-Jump.out
+: 1618589979:0;vi codevita2.c
+: 1618590640:0;gcc codevita2.c -o codevita2.out
+: 1618590660:0;./codevita2.out
+: 1618590682:0;gcc codevita2.c -o codevita2.out
+: 1618590683:0;./codevita2.out
+: 1618590760:0;gcc codevita2.c -o codevita2.out
+: 1618590761:0;./codevita2.out
+: 1618590781:0;gcc codevita2.c -o codevita2.out
+: 1618590781:0;./codevita2.out
+: 1618590888:0;gcc codevita2.c -o codevita2.out
+: 1618590889:0;./codevita2.out
+: 1618590983:0;gcc codevita2.c -o codevita2.out
+: 1618590984:0;./codevita2.out
+: 1618591086:0;gcc codevita2.c -o codevita2.out
+: 1618591088:0;./codevita2.out
+: 1618591104:0;gcc codevita2.c -o codevita2.out
+: 1618591105:0;1
+: 1618591107:0;./codevita1.out
+: 1618591113:0;./codevita2.out
+: 1618591165:0;gcc codevita2.c -o codevita2.out
+: 1618591167:0;./codevita2.out
+: 1618591177:0;gcc codevita2.c -o codevita2.out
+: 1618591178:0;./codevita2.out
+: 1618591202:0;gcc codevita2.c -o codevita2.out
+: 1618591203:0;./codevita2.out
+: 1618591566:0;gcc codevita2.c -o codevita2.out
+: 1618591585:0;./codevita2.out
+: 1618591675:0;gcc codevita2.c -o codevita2.out
+: 1618591676:0;./codevita2.out
+: 1618591709:0;gcc codevita2.c -o codevita2.out
+: 1618591710:0;./codevita2.out
+: 1618591740:0;gcc codevita2.c -o codevita2.out
+: 1618591740:0;./codevita2.out
+: 1618591779:0;gcc codevita2.c -o codevita2.out
+: 1618591780:0;./codevita2.out
+: 1618591828:0;gcc codevita2.c -o codevita2.out
+: 1618591829:0;./codevita2.out
+: 1618591928:0;gcc codevita2.c -o codevita2.out
+: 1618591929:0;./codevita2.out
+: 1618591973:0;gcc codevita2.c -o codevita2.out
+: 1618591974:0;./codevita2.out
+: 1618591997:0;gcc codevita2.c -o codevita2.out
+: 1618591998:0;./codevita2.out
+: 1618592026:0;gcc codevita2.c -o codevita2.out
+: 1618592027:0;./codevita2.out
+: 1618592210:0;c
+: 1618592364:0;gcc codevita2.c -o codevita2.out
+: 1618592365:0;c
+: 1618592367:0;gcc codevita2.c -o codevita2.out
+: 1618592370:0;./codevita2.out
+: 1618592408:0;gcc codevita2.c -o codevita2.out
+: 1618592409:0;./codevita2.out
+: 1618592611:0;gcc codevita2.c -o codevita2.out
+: 1618592611:0;./codevita2.out
+: 1618592967:0;gcc codevita2.c -o codevita2.out
+: 1618592968:0;./codevita2.out
+: 1618593114:0;gcc codevita2.c -o codevita2.out
+: 1618593114:0;./codevita2.out
+: 1618593153:0;gcc codevita2.c -o codevita2.out
+: 1618593154:0;./codevita2.out
+: 1618593205:0;gcc codevita2.c -o codevita2.out
+: 1618593206:0;./codevita2.out
+: 1618593223:0;gcc codevita2.c -o codevita2.out
+: 1618593225:0;./codevita2.out
+: 1618593259:0;gcc codevita2.c -o codevita2.out
+: 1618593344:0;./codevita2.out
+: 1618593402:0;gcc codevita2.c -o codevita2.out
+: 1618593403:0;./codevita2.out
+: 1618593510:0;gcc codevita2.c -o codevita2.out
+: 1618593510:0;./codevita2.out
+: 1618593654:0;gcc codevita2.c -o codevita2.out
+: 1618593655:0;./codevita2.out
+: 1618593826:0;c
+: 1618593965:0;./CD1.out
+: 1618593975:0;c
+: 1618593978:0;e
+: 1618594058:0;./CD1.out
+: 1618594066:0;e
+: 1618594100:0;./CD1.out
+: 1618594107:0;c
+: 1618594108:0;e
+: 1618594247:0;./CD4.out
+: 1618594255:0;e
+: 1618594276:0;./CD3.out
+: 1618594292:0;e
+: 1618602385:0;sudo systemctl restart lightdm-plymouth.service
+: 1618641771:0;cd practise
+: 1618641772:0;ls
+: 1618654433:0;./CodeBashers2.out
+: 1618654451:0;e
+: 1618654623:0;./CodeBashers1.out
+: 1618654632:0;c
+: 1618654635:0;e
+: 1618656674:0;cd practise
+: 1618656683:0;gcc Quant-Jump.c -o Quant-Jump.out
+: 1618656687:0;./Quant-Jump.out
+: 1618657454:0;ram
+: 1618657458:0;e
+: 1618657466:0;./Teja4.out
+: 1618657483:0;e
+: 1618657630:0;./Teja4.out
+: 1618657643:0;e
+: 1618806910:0;cd Cell
+: 1618806912:0;cd Internal\ shared\ storage
+: 1618806913:0;ls
+: 1618806934:0;cp /home/argha/Documents/Resume-Photo.pdf .
+: 1618807001:0;..
+: 1618807004:0;cd SD\ card
+: 1618807005:0;ls
+: 1618807009:0;cp /home/argha/Documents/Resume-Photo.pdf .
+: 1618929228:0;yay -S vimvi
+: 1618929236:0;yay -S vimiv
+: 1618929250:0;vimiv
+: 1618929288:0;yay -Rsu vimiv
+: 1618929368:0;pacman -Qm
+: 1618929434:0;pacman -Qe
+: 1618929485:0;sp -Rsu gptfdisk
+: 1618929617:0;ueberzug
+: 1618929622:0;r
+: 1618929656:0;vi .bashrc
+: 1618929677:0;vi .config/zsh/.zshrc
+: 1618929725:0;notify-send "Arcolinux" "All updates are downloaded"
+: 1618929734:0;vi .config/zsh/.zshrc
+: 1618929749:0;source .config/zsh/.zshrc
+: 1618929753:0;r
+: 1618929753:0;source .config/zsh/.zshrc
+: 1618929804:0;ranger
+: 1618930057:0;cd Applications
+: 1618930058:0;ls
+: 1618930063:0;./Waterfox.AppImage
+: 1618935543:0;cd Applications
+: 1618935559:0;./Waterfox-0-Buildlp150.4.1.glibc2.17-x86_64.AppImage
+: 1618937395:0;sp -S libdbusmenu-glib
+: 1618937402:0;./Waterfox-0-Buildlp150.4.1.glibc2.17-x86_64.AppImage
+: 1618937414:0;sp -Rsu libdbusmenu-glib
+: 1618937567:0;cd Applications
+: 1618937569:0;./Waterfox-0-Buildlp150.4.1.glibc2.17-x86_64.AppImage
+: 1618937897:0;...
+: 1618937904:0;h\
+
+: 1618937905:0;c
+: 1618937913:0;cd /usr/local/lib
+: 1618937915:0;ls
+: 1618938117:0;sp -S glib2
+: 1618938395:0;sp -Syyuu
+: 1618938978:0;cd Downloads
+: 1618938979:0;ls
+: 1618938990:0;ex waterfox-G3.2.1.en-US.linux-x86_64.tar.bz2
+: 1618939037:0;cd Applications
+: 1618939039:0;cd waterfox
+: 1618939043:0;./waterfox-bin
+: 1618939160:0;./waterfox
+: 1618939411:0;sp -S xcb-util
+: 1618939454:0;sp -S xf86-video-intel
+: 1618939472:0;sp -Rsu xf86-video-intel
+: 1618939482:0;yay -S xf86-video-intel
+: 1618939500:0;cd Applications
+: 1618939508:0;./Waterfox-0-Buildlp150.4.1.glibc2.17-x86_64.AppImage
+: 1618939891:0;cd .config/bspwm
+: 1618939893:0;ls
+: 1618939898:0;vi bspwmrc
+: 1618940140:0;r
+: 1618940140:0;vi bspwmrc
+: 1618940148:0;ranger
+: 1618940167:0;yay -S uberzug
+: 1618940172:0;yay -Ss uberzug
+: 1618940251:0;yay -S vifmimg-git
+: 1618940320:0;vifm
+: 1618940361:0;vifmimg
+: 1618940372:0;vifmrun
+: 1618940397:0;sp -S imagemagick
+: 1618940408:0;vifmrun
+: 1618940450:0;sp -S ueberzug
+: 1618940458:0;pip uninstall ueberzug
+: 1618940476:0;yay -Yc
+: 1618940484:0;vifmrun
+: 1618940537:0;sp -S ffmpegthumbnailer
+: 1618940542:0;vifmrun
+: 1618940603:0;xprop
+: 1618940651:0;cd .config/bspwm
+: 1618940656:0;vi bspwmrc
+: 1618940994:0;cd .config/vifm
+: 1618940997:0;ls
+: 1618941004:0;vi vifmrc
+: 1618941200:0;yay -Rsu vifmimg-git
+: 1618941224:0;sp -S ueberzug
+: 1618941248:0;yay -S vifmimg-git
+: 1618941272:0;cd .config/bspwm
+: 1618941280:0;vi bspwmrc
+: 1618941456:0;sp -Rsu ranger
+: 1618941461:0;yay -S vifmimg-git
+: 1618941485:0;sp -Rsu vifmimg-git
+: 1618977701:0;spƒ -Rsuƒ vifmimg-git;yay -S vifmimg-git
+: 1618977712:0;yay -S vifmimg-git
+: 1618977770:0;vifmrun
+: 1618977786:0;ranger
+: 1618977789:0;vifmrun
+: 1618977810:0;sp -Rsu vifmimg-git
+: 1618978267:0;sp -Syyuu
+: 1619025285:0;yay -S vifmimg-git
+: 1619025343:0;vifm
+: 1619025353:0;vifmrun
+: 1619025399:0;git clone https://gitlab.com/dwt1/dotfiles.git
+: 1619028643:0;vifmrun
+: 1619028921:0;cd .config/nvim/plugged
+: 1619028923:0;ls
+: 1619029452:0;vifmrun
+: 1619029624:0;git clone https://github.com/vifm/vifm.vim.git
+: 1619029749:0; e
+: 1619030967:0;sp -Rsu ranger
+: 1619061337:0;sp -Syyuu
+: 1619071805:0;sp -S ranger
+: 1619071829:0;ranger
+: 1619071896:0;sp -Rsu ranger
+: 1619093888:0;q
+: 1619093889:0;e
+: 1619094399:0;man 1 vifm
+: 1619094404:0;man vifm
+: 1619094412:0;sp -S man-db
+: 1619094419:0;man vifm
+: 1619105057:0;git clone https://github.com/BrodieRobertson/dotfiles.git
+: 1619105077:0;e
+: 1619107292:0;v
+: 1619107495:0;sp -S dragon
+: 1619107527:0;yay -S dragon-drag-and-drop
+: 1619160333:0;bash
+: 1619160845:0;cd Applications/
+: 1619160845:0;ls
+: 1619160845:0;e
+: 1619160895:0;ex Popcorn-Time-0.4.4-linux64.zip
+: 1619160902:0;e
+: 1619161135:0;whereis ex 
+: 1619161218:0;e
+: 1619161262:0;ext Popcorn-Time-0.4.4-linux64.zip
+: 1619161271:0;e
+: 1619162001:0;cd Applications/
+: 1619162004:0; wget -c https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.4.4/Popcorn-Time-0.4.4-linux64.zip
+: 1619162308:0;mkdir Popcorn-Time-0.4.4-linux64
+: 1619162312:0;cd Popcorn-Time-0.4.4-linux64
+: 1619162319:0;e
+: 1619162542:0;ex Popcorn-Time-0.4.4-linux64.zip
+: 1619162548:0;e
+: 1619162711:0;./Waterfox-0-Buildlp150.4.1.glibc2.17-x86_64_c5d733108bf1703b275deb518cc3b110.AppImage
+: 1619193239:0;ls
+: 1619361246:0;ext Popcorn-Time-0.4.3-linux64.zip
+: 1619361254:0;e
+: 1619361265:0;./Popcorn-Time
+: 1619361281:0;e
+: 1619363478:0;ext Popcorn-Time-linux64.tar.xz
+: 1619363490:0;e
+: 1619363543:0;mkdir Popcorn-Time-0.4.4-linux64
+: 1619363549:0;e
+: 1619363561:0;ex Popcorn-Time-linux64.tar.xz
+: 1619363570:0;tar Popcorn-Time-linux64.tar.xz
+: 1619363577:0;tar --help
+: 1619363605:0;tar -x Popcorn-Time-linux64.tar.xz
+: 1619363612:0;tar -xf Popcorn-Time-linux64.tar.xz
+: 1619363619:0;e
+: 1619363653:0;cd Applications/Popcorn-Time-0.4.4-linux64
+: 1619363655:0;./Popcorn-Time
+: 1619368351:0;sp -S libdbusmenu-glib
+: 1619368373:0;yay -S fredi
+: 1619379709:0;yay -S ferdi
+: 1619380059:0;./Ferdi-5.5.0.AppImage
+: 1619381008:0;yay -Yc
+: 1619381105:0;pacman -Qm
+: 1619381127:0;sp -Rsu ttf-ms-fonts
+: 1619381131:0;c
+: 1619381133:0;pacman -Qm
+: 1619381156:0;yay -S ferdi
+: 1619381206:0;yay -S electron
+: 1619381215:0;c
+: 1619408358:0;tar -xfv Popcorn-Time-linux64.tar.xz
+: 1619408363:0;tar -xf Popcorn-Time-linux64.tar.xz
+: 1619408370:0;e
+: 1619408399:0;sp -S libcanberra
+: 1619408450:0;sp -Ss libgconf
+: 1619408510:0;sp -S libatomic_ops
+: 1619408641:0;yay -Ss libgconf
+: 1619408810:0;./Popcorn-Time
+: 1619409066:0;yay -S libgconf-2.so
+: 1619409152:0;yay -S libgconf-2.so.4.1.5-aur.git
+: 1619409289:0;sp -S gconf
+: 1619409702:0;sp -S electron
+: 1619409715:0;sp -S electron10 
+: 1619409785:0;sp -S pkgconf
+: 1619409806:0;yay -Ss gconf-2.0
+: 1619409812:0;yay -Ss gconf
+: 1619409885:0;yay -S gconf
+: 1619410017:0;cd Applications/Popcorn-Time-0.4.4-linux64
+: 1619410020:0;./Popcorn-Time
+: 1619410134:0;cd Applications
+: 1619410137:0;./Waterfox-0-Buildlp150.4.1.glibc2.17-x86_64_c5d733108bf1703b275deb518cc3b110.AppImage
+: 1619410423:0;q
+: 1619410424:0;w
+: 1619410425:0;e
+: 1619410488:0;ext waterfox-G3.2.1.en-US.linux-x86_64.tar.bz2
+: 1619410505:0;e
+: 1619410531:0;./waterfox
+: 1619410667:0;e
+: 1619413133:0;ext Popcorn-Time-0.4.4-linux64.zip
+: 1619413142:0;e
+: 1619445126:0;pacman -Qq
+: 1619445128:0;pacman -Qqe
+: 1619445131:0;pacman -Qe
+: 1619445146:0;sp -Rsu arandr
+: 1619445172:0;sp -Rsu audacity
+: 1619445183:0;pacman -Qe
+: 1619445510:0;sp -Rsu vimb
+: 1619445524:0;sp -S qutebrowser
+: 1619446623:0;pacman -Qe
+: 1619446977:0;ext arduino-1.8.13-linux64.tar.xz
+: 1619446989:0;tar -xf arduino-1.8.13-linux64.tar.xz
+: 1619447027:0;e
+: 1619447115:0;./arduino
+: 1619447131:0;q
+: 1619447134:0;ext arduino-1.8.13-linux64.tar.xz
+: 1619447137:0;e
+: 1619447589:0;arduino
+: 1619447609:0;sp -Rsu arduino
+: 1619447630:0;pacman -Qe | grep arduino
+: 1619447634:0;pacman -Qe
+: 1619447824:0;vi .config/nvim/init.vim
+: 1619449052:0;q
+: 1619449053:0;e
+: 1619449060:0;ext audacity-minsrc-3.0.0.tar.xz
+: 1619449081:0;tar -xf audacity-minsrc-3.0.0.tar.xz
+: 1619449084:0;e
+: 1619454445:0;vi txt.js
+: 1619454500:0;vi txt.c
+: 1619454670:0;bash
+: 1619492249:0;vi txt.c
+: 1619492249:0;nvim txt.c
+: 1619454727:0;vi txt.c
+: 1619459093:0;which node
+: 1619459316:0;sp -S nodejs
+: 1619459338:0;which node
+: 1619459395:0;sp -S npm
+: 1619459404:0;sp -Rsu nodejs
+: 1619491806:0;sp -Syyuu
+: 1619492168:0;c
+: 1619492181:0;sp -Syyuu
+: 1619492229:0;./Scilab-x86_64.AppImage
+: 1619492315:0;ext scilab-6.1.0.bin.linux-x86_64.tar.gz
+: 1619492324:0;e
+: 1619492353:0;./scilab-bin
+: 1619492389:0;./scilab
+: 1619492426:0;yay -Ss libtinfo
+: 1619492434:0;yay -Ss libinfo
+: 1619492442:0;e
+: 1619493321:0;vi txt.c
+: 1619590859:0;sp -S pulsemixer
+: 1619761631:0;vim /etc/hosts
+: 1619882723:0;vi .dmenu/dmenu-scrot.sh
+: 1619884007:0;sp -Syyuu
+: 1620049699:0;sp -S jdk11-openjdk
+: 1620049718:0;yay -Rsu jdk
+: 1620049739:0;pacman -Qm
+: 1620049755:0;yay -Rsu jdk jre
+: 1620049759:0;c
+: 1620049762:0;pacman -Qm
+: 1620049819:0;sp -S jdk11-openjdk
+: 1620050080:0;javac
+: 1620050097:0;which jdk
+: 1620050100:0;which jre
+: 1620050113:0;sp -Rsu jdk11-openjdk
+: 1620050121:0;javac
+: 1620050127:0;sp -S jdk11-openjdk
+: 1620057595:0;sp -Rsu vimb
+: 1620105329:0;pkill
+: 1620105341:0;killall eclipse
+: 1620105410:0;htop
+: 1620108112:0;nmtui
+: 1620138049:0;sp -S qutebrowser
+: 1620138315:0;vi .config/vimb/config
+: 1620138456:0;vi .config/qutebrowser/config.py
+: 1620138501:0;vi .config/vimb/config
+: 1620187456:0;adb devices
+: 1620187489:0;adb shell pm list packages | grep google
+: 1620187530:0;adb shell pm uninstall --user 0 com.google.android.keep
+: 1620187869:0;cd Cell
+: 1620187871:0;ls
+: 1620278122:0;
+: 1620187926:0;cd Internal shared storage
+: 1620187932:0;cd Cell
+: 1620187933:0;ls
+: 1620187937:0;cd Internal\ shared\ storage
+: 1620187938:0;ls
+: 1620187947:0;rm -rf hosts
+: 1620187949:0;ls
+: 1620187979:0;cp ~/Dotfile/hosts .
+: 1620188299:0;git clone https://github.com/SoumyajitTech/Dotfile.git
+: 1620188664:0;adb shell pm uninstall --user 0 com.google.android.keep
+: 1620188670:0;adb devices
+: 1620188675:0;adb shell pm list packages | grep google
+: 1620188919:0;adb shell pm uninstall --user 0 com.tobykurien.google_news
+: 1620189449:0;adb shell pm uninstall --user 0 com.google.android.apps.nbu.files
+: 1620189466:0;adb shell pm uninstall --user 0 com.google.android.apps.paisa.user
+: 1620189482:0;adb shell pm uninstall --user 0 com.google.android.apps.nbu.paisa.user
+: 1620189610:0;adb shell pm uninstall --user 0 com.google.android.apps.inputmethod.hindi
+: 1620189670:0;adb shell pm list packages | grep google
+: 1620189674:0;c
+: 1620189675:0;adb shell pm list packages | grep google
+: 1620189765:0;adb shell pm uninstall --user 0 com.google.android.partnersetup
+: 1620189776:0;adb shell pm uninstall --user 0 com.google.android.onetimeinitializer
+: 1620189817:0;c
+: 1620189819:0;adb shell pm list packages | grep google
+: 1620190758:0;adb devices
+: 1620190790:0;adb pull /system/etc/hosts F:\hosts
+: 1620190868:0;adb push Dotfile/hosts /system/etc/
+: 1620190996:0;adb push F:\hosts /system/etc
+: 1620191016:0;adb push F:\hosts /system/etc/hosts
+: 1620191359:0;adb /system/etc/hosts
+: 1620276672:0;vi same.c
+: 1620277422:0;gcc same.c -o same.out
+: 1620277425:0;./same.out
+: 1620277834:0;gcc same.c -o same.out
+: 1620277835:0;./same.out
+: 1620278112:0;gcc may-nqt\(1\).c -o may-nqt\(1\).out
+: 1620278116:0;./may-nqt\(1\).out
+: 1620317431:0;ping youtube.com
+: 1620362017:0;cd practise
+: 1620362027:0;vi may-nqt\(2\).c
+: 1620362304:0;cd practise
+: 1620362311:0;gcc may-nqt\(2\).c -o may-nqt\(2\).out
+: 1620362339:0;./may-nqt\(2\).out
+: 1620362379:0;gcc may-nqt\(2\).c -o may-nqt\(2\).out
+: 1620362380:0;./may-nqt\(2\).out
+: 1620362661:0;cd practise
+: 1620362664:0;gcc may-nqt\(2\).c -o may-nqt\(2\).out
+: 1620362677:0;./may-nqt\(2\).out
+: 1620362716:0;gcc may-nqt\(2\).c -o may-nqt\(2\).out
+: 1620362717:0;./may-nqt\(2\).out
+: 1620362749:0;gcc may-nqt\(2\).c -o may-nqt\(2\).out
+: 1620362750:0;./may-nqt\(2\).out
+: 1620362802:0;gcc may-nqt\(2\).c -o may-nqt\(2\).out
+: 1620362803:0;./may-nqt\(2\).out
+: 1620362817:0;gcc may-nqt\(2\).c -o may-nqt\(2\).out
+: 1620362818:0;./may-nqt\(2\).out
+: 1620362828:0;gcc may-nqt\(2\).c -o may-nqt\(2\).out
+: 1620362829:0;./may-nqt\(2\).out
+: 1620362836:0;c
+: 1620362858:0;./may-nqt\(2\).out
+: 1620362870:0;c
+: 1620362913:0;gcc may-nqt\(2\).c -o may-nqt\(2\).out
+: 1620362914:0;./may-nqt\(2\).out
+: 1620397456:0;sp -Rsu vimb
+: 1620397466:0;yay -Yc
+: 1620445989:0;ex Ink\ Drop\ Assets\ -\ DONT\ USE\ WITHOUT\ CREDITS.rar
+: 1620445997:0;sp -S unrar
+: 1620446003:0;ex Ink\ Drop\ Assets\ -\ DONT\ USE\ WITHOUT\ CREDITS.rar
+: 1620446005:0;e
+: 1620447224:0;sp -S youtube-dl
+: 1620447260:0;youtube-dl https://www.youtube.com/watch?v=-SlFVwcuUG8
+: 1620447296:0;man 1 youtube-dl
+: 1620447439:0;youtube-dl https://www.youtube.com/watch?v=-SlFVwcuUG8
+: 1620447450:0;youtube-dl
+: 1620447485:0;youtube-dl https://youtu.be/-SlFVwcuUG8
+: 1620453616:0;sp -Syyuu
+: 1620454090:0;yay -Yc
+: 1620454637:0;youtube-dl https://youtu.be/HSxY0WYP9A4
+: 1620456356:0;sp -S mpv
+: 1620456368:0;cd Videos
+: 1620456397:0;mpv Bhogoban\(à¦­à¦ƒ·à¦¬à¦¾à¦¨\)\ 2.0\ _Lyrical\ _Bojhena\ Shey\ Bojhena\ _Unreleased\ Version_Arijit_Somlata_Arindom_Prasen.mkv
+: 1620482240:0;youtube-dl https://youtu.be/Tf09E0VyH1k
+: 1620534099:0;cd practise
+: 1620538818:0;youtube-dl https://youtu.be/BdaxMKPHRvU
+: 1620627341:0;cd image
+: 1620627342:0;ls
+: 1620627352:0;rename *
+: 1620627362:0;man rename
+: 1620627415:0;rename .jpg .jpeg
+: 1620627421:0;rename .jpg *.jpeg
+: 1620627424:0;rename *.jpg *.jpeg
+: 1620627427:0;ls
+: 1620627439:0;rename *.jpg 
+: 1620627443:0;ls
+: 1620627859:0;cd Documents/image
+: 1620627860:0;ls
+: 1620656029:0;sp -S ranger
+: 1620656037:0;r
+: 1620656037:0;sp -S ranger
+: 1620656045:0;r
+: 1620656045:0;sp -S ranger
+: 1620656053:0;ranger
+: 1620701209:0;sp -Rsu ranger
+: 1620701606:0;yay -S Joshuto
+: 1620793009:0;neofetch
+: 1620796301:0;smitha
+: 1620817729:0;ex Popcorn-Time-linux64.tar.xz
+: 1620817765:0;tar -xf Popcorn-Time-linux64.tar.xz
+: 1620817774:0;e
+: 1620817783:0;./Popcorn-Time
+: 1620817847:0;e
+: 1620979058:0;yay -Ss android-studio
+: 1620979074:0;yay -S android-studio
+: 1620979792:0;yay -Yc
+: 1620979885:0;ext android-studio-ide-202.7351085-linux.tar.gz
+: 1620979902:0;e
+: 1620979954:0;./studio.sh
+: 1620981935:0;vi Android.desktop
+: 1620981941:0;e
+: 1620981951:0;vi Android.desktop
+: 1620982030:0;e
+: 1620991519:0;vi 1
+: 1621006231:0;htop
+: 1621094659:0;ping youtube.com
+: 1621151735:0;ext Popcorn-Time-0.4.4-linux64.zip
+: 1621151742:0;e
+: 1621151751:0;./Popcorn-Time
+: 1621151824:0;e
+: 1621155576:0;ex Popcorn-Time-0.4.0-2-Linux-64.tar.xz
+: 1621155588:0;tar -xf Popcorn-Time-0.4.0-2-Linux-64.tar.xz
+: 1621155594:0;e
+: 1621155610:0;./Popcorn-Time
+: 1621175909:0;ping youtube.com
+: 1621488448:0;sp -Syyuu
+: 1621578677:0;vi 1
+: 1621604317:0;ex android-studio-ide-202.7351085-linux.tar.gz
+: 1621604359:0;e
+: 1621604413:0;./studio.sh
+: 1621604428:0;e
+: 1621604606:0;ex picaxe.tgz
+: 1621604608:0;e
+: 1621604686:0;ext picaxe.tgz
+: 1621604688:0;e
+: 1621604749:0;./picaxe08m
+: 1621604765:0;e
+: 1621606138:0;vi Project.txt
+: 1621606169:0;sp -S ranger
+: 1621606175:0;ranger
+: 1621606217:0;sp -Rsu vifmimg-git
+: 1621606278:0;sp -S ueberzug
+: 1621606284:0;yay -Yc
+: 1621606308:0;ranger
+: 1621606369:0;yay -S vifmimg-git
+: 1621606446:0;vifm ~
+: 1621606461:0;vifmimg ~
+: 1621606465:0;vifmimg
+: 1621606471:0;vifmimg 
+: 1621606477:0;vifmrun
+: 1621607177:0;ping youtube.com
+: 1621607191:0;speedtest-cli
+: 1621617313:0;xkill
+: 1621665529:0;ping youtube.com
+: 1621672025:0;yay -S proteus
+: 1621672033:0;yay -Ss proteus
+: 1621681313:0;yay -Ss ktechtab
+: 1621684050:0;yay -S scilab-git
+: 1621684081:0;yay -Ss scilab-git
+: 1621684090:0;yay -S scilab-git
+: 1621743429:0;sp -Syyuu
+: 1621745100:0;yay -Ss Emulare
+: 1621745481:0;git clone https://github.com/ghewgill/emulino.git
+: 1621826837:0;ping youtube.com
+: 1621918853:0;sp -Rsu virtualbox virtualbox-ext-oracle virtualbox-guest-iso virtualbox-host-modules-arch
+: 1621918875:0;yay -Yc
+: 1622218649:0;./Popcorn-Time
+: 1622218773:0;e
+: 1622348918:0;vi test.java
+: 1622348932:0;javac test.java
+: 1622348977:0;java test.java
+: 1622349029:0;java test
+: 1622349057:0;java Codechef
+: 1622349241:0;vi test.java
+: 1622349576:0;javac test.java
+: 1622349593:0;java Codechef
+: 1622349619:0;vi test.java
+: 1622349645:0;javac test.java
+: 1622349652:0;java Codechef
+: 1622349692:0;vi test.java
+: 1622349718:0;javac test.java
+: 1622349724:0;javac Codechef.class
+: 1622349730:0;java Codechef
+: 1622349747:0;vi test.java
+: 1622349764:0;javac test.java
+: 1622349770:0;java Codechef
+: 1622349788:0;vi test.java
+: 1622349801:0;javac test.java
+: 1622349803:0;java Codechef
+: 1622349821:0;vi test.java
+: 1622349832:0;javac test.java
+: 1622349835:0;java Codechef
+: 1622349862:0;vi test.java
+: 1622349982:0;javac test.java
+: 1622349995:0;vi test.java
+: 1622350022:0;javac test.java
+: 1622350031:0;java A
+: 1622350069:0;vi test.java
+: 1622350104:0;javac test.java
+: 1622350107:0;java A
+: 1622350119:0;vi test.java
+: 1622350290:0;javac test.java
+: 1622350293:0;java A
+: 1622350299:0;vi test.java
+: 1622350443:0;javac test.java
+: 1622350445:0;java A
+: 1622351426:0;gcc dca1.c -o dca1.out
+: 1622351434:0;vi dca1.c
+: 1622351444:0;gcc dca1.c -o dca1.out
+: 1622351450:0;vi dca1.c
+: 1622351465:0;gcc dca1.c -o dca1.out
+: 1622351471:0;./dca1.out
+: 1622351497:0;vi dca1.c
+: 1622351528:0;gcc dca1.c -o dca1.out
+: 1622351530:0;./dca1.out
+: 1622351536:0;vi dca1.c
+: 1622351546:0;gcc dca1.c -o dca1.out
+: 1622351548:0;./dca1.out
+: 1622351556:0;vi dca1.c
+: 1622351598:0;gcc dca1.c -o dca1.out
+: 1622351600:0;./dca1.out
+: 1622375963:0;java A
+: 1622376126:0;vi test.java
+: 1622376267:0;javac test.java
+: 1622376270:0;vi test.java
+: 1622376297:0;javac test.java
+: 1622376301:0;java A
+: 1622376313:0;vi test.java
+: 1622376322:0;javac test.java
+: 1622376325:0;java A
+: 1622376336:0;vi test.java
+: 1622376363:0;javac test.java
+: 1622376365:0;vi test.java
+: 1622376372:0;java A
+: 1622376383:0;vi test.java
+: 1622376391:0;javac test.java
+: 1622376393:0;java A
+: 1622376401:0;vi test.java
+: 1622376428:0;javac test.java
+: 1622376431:0;java A
+: 1622376535:0;vi test.java
+: 1622376600:0;javac test.java
+: 1622376604:0;java A
+: 1622376642:0;e
+: 1622376659:0;./dca1.out
+: 1622444985:0;./zoom
+: 1622444989:0;./ZoomLauncher 
+: 1622533517:0;javac may1.java
+: 1622533527:0;java may1
+: 1622533549:0;e
+: 1622534179:0;java may1
+: 1622534666:0;e
+: 1622536702:0;java may2
+: 1622536709:0;e
+: 1622536741:0;java may2
+: 1622536751:0;e
+: 1622536810:0;java may2
+: 1622536824:0;e
+: 1622536918:0;java may2
+: 1622536926:0;e
+: 1622536965:0;java may2
+: 1622536969:0;e
+: 1622536989:0;javac may2.java
+: 1622536993:0;e
+: 1622537007:0;java may2
+: 1622537016:0;e
+: 1622537110:0;java may2
+: 1622537157:0;e
+: 1622538587:0;ping youtube.com
+: 1622542671:0;java may2
+: 1622542675:0;e
+: 1622550161:0;git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+: 1622550212:0;./auto-cpufreq/auto-cpufreq-installer
+: 1622550262:0;cd auto-cpufreq
+: 1622550274:0;sudo ./auto-cpufreq-installer
+: 1622550576:0;yay -S auto-cpufreq-git
+: 1622550590:0;yay -Ss auto-cpufreq-git
+: 1622550603:0;yay -S auto-cpufreq-git
+: 1622550698:0;sudo systemctl enable auto-cpufreq
+: 1622550707:0;sudo systemctl start auto-cpufreq
+: 1622550729:0;systemctl status auto-cpufreq
+: 1622550796:0;sudo auto-cpufreq --stats
+: 1622551035:0;systemctl status auto-cpufreq
+: 1622551041:0;sudo auto-cpufreq --stats
+: 1622551052:0;auto-cpufreq --stats
+: 1622552164:0;rm -rf .local/share/Trash/files/*
+: 1622552183:0;man rm
+: 1622552312:0;rm -rf /home/myname/.Trash/{*,.[^.]*}
+: 1622552331:0;rm -rf --interactive=never /home/myname/.Trash/{*,.[^.]*}
+: 1622552343:0;man rm
+: 1622552377:0;rm -rf --interactive=never /home/myname/.Trash/{*,.[^.]*}
+: 1622552389:0;rm -rf .local/share/Trash/files/*
+: 1622552407:0;rm -r --interactive .local/share/Trash/files/*
+: 1622552414:0;rm -r --interactive=never .local/share/Trash/files/*
+: 1622552428:0;rm -r --force .local/share/Trash/files/*
+: 1622552578:0;self.fm.run("rm -rf /home/myname/.Trash/{*,.[^.]*}")\
+
+: 1622552584:0;rm -r --force .local/share/Trash/files/*
+: 1622612585:0;sp -Syyuu
+: 1622612647:0;sp -Rsu ca-certificates-mozilla
+: 1622612652:0;sp -R ca-certificates-mozilla
+: 1622643072:0;gcc dca2.c -o dca2.out
+: 1622643088:0;e
+: 1622643120:0;gcc dca2.c -o dca2.out
+: 1622643126:0;./dca2.out
+: 1622643135:0;e
+: 1622646328:0;gcc dca1-re.c -o dca1-re.out
+: 1622646331:0;e
+: 1622646342:0;gcc dca1-re.c -o dca1-re.out
+: 1622646346:0;./dca1-re.out
+: 1622646354:0;e
+: 1622646382:0;gcc dca1-re.c -o dca1-re.out
+: 1622646384:0;./dca1-re.out
+: 1622646397:0;e
+: 1622646485:0;gcc dca1-re.c -o dca1-re.out
+: 1622646487:0;./dca1-re.out
+: 1622646495:0;e
+: 1622646525:0;gcc dca1-re.c -o dca1-re.out
+: 1622646528:0;./dca1-re.out
+: 1622646544:0;e
+: 1622650840:0;./dca1-re.out
+: 1622650856:0;w
+: 1622650867:0;e
+: 1622655967:0;vwebp
+: 1622656102:0;dmenurecord
+: 1622656155:0;cd ...
+: 1622656158:0;~
+: 1622656174:0;cd /dev
+: 1622656184:0;mpv video1
+: 1622656193:0;mpv video2
+: 1622656200:0;dmenurecord
+: 1622718337:0;pip install pyserial
+: 1622718426:0;ls -l /dev/ttyUSB*\
+\
+
+: 1622718450:0;sudo usermod -a -G dialout ${USER}\
+\
+
+: 1622718607:0;sudo usermod -a -G tty argha\
+\
+
+: 1622718620:0;logout
+: 1622718946:0;sudo chmod -R 777 /dev/ttyUSB0
+: 1622720755:0;cd Arduino
+: 1622720758:0;cd 1
+: 1622720765:0;git clone https://github.com/shveytank/ESP8266_MAX30100_I2C_OLED_Heart_Rate_Monitor.git
+: 1622721808:0;sudo chmod -R 777 /dev/ttyUSB0
+: 1622738018:0;vi 2.java
+: 1622905770:0;javac dca1.java
+: 1622905781:0;e
+: 1622905806:0;java dca1
+: 1622905819:0;e
+: 1622905838:0;java dca1
+: 1622905841:0;e
+: 1622905880:0;java dca1
+: 1622905885:0;e
+: 1622905921:0;java dca1
+: 1622905924:0;e
+: 1622905957:0;java dca1
+: 1622905978:0;e
+: 1622905997:0;java dca1
+: 1622906011:0;e
+: 1622906088:0;java dca1
+: 1622906167:0;e
+: 1622906196:0;java dca1
+: 1622906204:0;100
+: 1622906206:0;java dca1
+: 1622908093:0;vi 1.c
+: 1622908979:0;java dca1
+: 1623058171:0;yay -S nyxt
+: 1623058787:0;sp -Rsu nyxt
+: 1623062231:0;git clone https://github.com/aartaka/nyxt-config.git
+: 1623062242:0;e
+: 1623062352:0;uname java
+: 1623062369:0;which java
+: 1623062377:0;whatis java
+: 1623062503:0;yay -Ss java | grep jdk
+: 1623062522:0;yay -Ss java15
+: 1623062526:0;yay -Ss java16
+: 1623062531:0;yay -Ss java11
+: 1623062553:0;yay -Ss jdk15
+: 1623062559:0;yay -Ss jdk16
+: 1623144772:0;yay -Ss teams
+: 1623144818:0;yay -S teams
+: 1623148902:0;gcc amstrong1.c -o amstrong1.cout
+: 1623148906:0;gcc amstrong1.c -o amstrong1.out
+: 1623148913:0;e
+: 1623148927:0;gcc amstrong1.c -o amstrong1.out
+: 1623148939:0;w
+: 1623148940:0;e
+: 1623149101:0;gcc amstrong1.c -o amstrong1.out
+: 1623149105:0;./amstrong1.out
+: 1623149109:0;e
+: 1623149150:0;gcc amstrong1.c -o amstrong1.out
+: 1623149152:0;./amstrong1.out
+: 1623149192:0;e
+: 1623175220:0;javac random.java
+: 1623175238:0;e
+: 1623175308:0;javac random.java
+: 1623175329:0;e
+: 1623175356:0;java random
+: 1623210119:0;javac palindrome.java
+: 1623210188:0;e
+: 1623210211:0;javac palindrome.java
+: 1623210220:0;e
+: 1623210248:0;javac palindrome.java
+: 1623210256:0;e
+: 1623210269:0;javac palindrome.java
+: 1623210279:0;java palindrome
+: 1623210319:0;e
+: 1623210363:0;java palindrome
+: 1623210371:0;e
+: 1623210411:0;javac palindrome.java
+: 1623210416:0;e
+: 1623210429:0;javac palindrome.java
+: 1623210436:0;e
+: 1623210446:0;javac palindrome.java
+: 1623210455:0;java palindrome
+: 1623210461:0;e
+: 1623210478:0;java palindrome
+: 1623210483:0;:q
+: 1623211656:0;chmod -x teams-for-linux-1.0.5.AppImage_
+: 1623211659:0;e
+: 1623211790:0;htop
+: 1623211904:0;mpv /dev/video1
+: 1623212230:0;man 8 shutdown
+: 1623212461:0;mpv /dev/video1
+: 1623213992:0;javac capital.java
+: 1623213996:0;e
+: 1623214006:0;javac capital.java
+: 1623214019:0;e
+: 1623214039:0;javac capital.java
+: 1623214046:0;e
+: 1623214058:0;javac capital.java
+: 1623214065:0;e
+: 1623214096:0;javac capital.java
+: 1623214170:0;e
+: 1623214221:0;javac capital.java
+: 1623214256:0;e
+: 1623214273:0;javac capital.java
+: 1623214279:0;e
+: 1623214407:0;javac capital.java
+: 1623214553:0;
+: 1623214549:0;javac capital.java
+: 1623214553:0;e
+: 1623214582:0;javac capital.java
+: 1623214993:0;java palindrome
+: 1623215004:0;e
+: 1623215027:0;java palindrome
+: 1623215035:0;e
+: 1623215268:0;mpv /dev/video1
+: 1623220599:0;ping youtube.com
+: 1623221307:0;mpv /dev/video1
+: 1623221331:0;ping youtube.com
+: 1623221708:0;c
+: 1623222347:0;ping youtube.com
+: 1623222920:0;mpv /dev/video1
+: 1623223048:0;cd .local/bin/
+: 1623223053:0;dmenurecord
+: 1623223196:0;e
+: 1623223235:0;dmenurecord
+: 1623223278:0;c
+: 1623223280:0;mpv /dev/video1
+: 1623228195:0;vi 1.java
+: 1623228805:0;javac 1.java
+: 1623228839:0;vi 1.java
+: 1623228883:0;vi app.java
+: 1623228894:0;javac app.java
+: 1623228897:0;vi app.java
+: 1623228905:0;javac app.java
+: 1623228913:0;vi app.java
+: 1623228950:0;java app
+: 1623292304:0;sp -Rsu nyxt teams
+: 1623292317:0;yay -Yc
+: 1623292321:0;c
+: 1623382978:0;git clone https://github.com/thevinter/styli.sh.git
+: 1623382987:0;e
+: 1623384105:0;./styli.sh
+: 1623384151:0;e
+: 1623384176:0;./styli.sh
+: 1623384201:0;e
+: 1623384268:0;./styli.sh
+: 1623384283:0;e
+: 1623384324:0;./styli.sh
+: 1623384352:0;e
+: 1623384402:0;./styli.sh -r
+: 1623384419:0;./styli.sh -r earthporn
+: 1623384432:0;./styli.sh -r wallpapers
+: 1623384439:0;e
+: 1623384602:0;javac 1.java
+: 1623384614:0;vi 1.java
+: 1623384621:0;e
+: 1623384631:0;javac app.java
+: 1623384637:0;e
+: 1623384673:0;mv app.java 1.java
+: 1623384681:0;vi 1.java
+: 1623384691:0;javac 1.java
+: 1623384707:0;mv 1.java app.java
+: 1623384710:0;vi app.java
+: 1623384722:0;javac app.java
+: 1623384731:0;java app
+: 1623384763:0;e
+: 1623385210:0;./styli.sh -r wallpapers
+: 1623385349:0;./styli.sh
+: 1623385362:0;e
+: 1623387993:0;gcc common.c -o common.out
+: 1623388000:0;e
+: 1623388021:0;gcc common.c -o common.out
+: 1623388029:0;e
+: 1623388038:0;gcc common.c -o common.out
+: 1623388044:0;e
+: 1623388064:0;gcc common.c -o common.out
+: 1623388068:0;./common.out
+: 1623388081:0;e
+: 1623388094:0;gcc common.c -o common.out
+: 1623388104:0;e
+: 1623397353:0;xprop
+: 1623397368:0;qvidcap
+: 1623397378:0;man qvidcap
+: 1623419606:0;sp -Syyuu
+: 1623419703:0;history
+: 1623419736:0;history | grep usb
+: 1623419794:0;history | grep 777
+: 1623419845:0;sudo chmod -R 777 /dev/ttyUSB0\
+
+: 1623484295:0;e
+: 1623484316:0;javac cpa1.java
+: 1623484322:0;e
+: 1623484334:0;javac cpa1.java
+: 1623484338:0;java cpa1
+: 1623484371:0;e
+: 1623484874:0;java cpa1
+: 1623484940:0;e
+: 1623484967:0;java cpa1
+: 1623484990:0;e
+: 1623485030:0;java cpa1
+: 1623502485:0;history | grep 777
+: 1623502488:0;sudo chmod -R 777 /dev/ttyUSB0\
+
+: 1623582722:0;pacman -Qm
+: 1623582748:0;vifmrun
+: 1623582764:0;sp -Rsu vifmimg-git
+: 1623582793:0;pacman -Qm
+: 1623582810:0;sp -Rsu dragon-drag-and-drop
+: 1623582813:0;pacman -Qm
+: 1623582821:0;auto-cpufreq --stats
+: 1623582843:0;e
+: 1623582858:0;pacman -Qe
+: 1623583119:0;./styli.sh
+: 1623583156:0;e
+: 1623587112:0;pacman -Qe | wc -l
+: 1623587121:0;pacman -Qm | wc -l
+: 1623587135:0;pacman -Qt | wc -l
+: 1623587158:0;pacman -Qt
+: 1623587215:0;qvidcap
+: 1623587220:0;e
+: 1623594060:0;sp -Rsu snappy
+: 1623594067:0;sp -R snappy
+: 1623597768:0;sudo chmod -R 777 /dev/ttyUSB0\
+
+: 1623732145:0;sp -Rsu virtualbox virtualbox-ext-oracle virtualbox-guest-iso virtualbox-host-modules-arch
+: 1623732477:0;sp -S qemu virt-manager ebtables
+: 1623732833:0;yay -S qemu virt-manager ebtables
+: 1623732908:0;yay -S qemu 
+: 1623732918:0;sp -S yay
+: 1623732925:0;sp -Su yay
+: 1623732931:0;yay -S yay
+: 1623732936:0;sp -S qemu virt-manager ebtables
+: 1623732955:0;sp -S ebtables
+: 1623732968:0;yay -Ss ebtables
+: 1623732984:0;sp -S paru
+: 1623732990:0;yay -S paru
+: 1623733026:0;git clone https://aur.archlinux.org/paru.git\
+
+: 1623733040:0;cd paru
+: 1623733051:0;makepkg -si
+: 1623733710:0;yay -Yc
+: 1623733718:0;paru -c
+: 1623733734:0;paru --help
+: 1623733744:0;paru -c
+: 1623733792:0;paru -S qemu virt-manager ebtables
+: 1623733823:0;sp -S qemu virt-manager ebtables
+: 1623733853:0;paru -S yay
+: 1623733866:0;sp -Rsu yay
+: 1623733875:0;paru -c
+: 1623733879:0;c
+: 1623733897:0;vi .config/zsh/.zshrc
+: 1623733915:0;yay -c
+: 1623733959:0;yay -S qemu virt-manager ebtables
+: 1623733973:0;sp -Syyuu
+: 1623734189:0;yay -S qemu virt-manager ebtables
+: 1623734270:0;sudo systemctl enable libvirtd.service
+: 1623734286:0;sudo systemctl start libvirtd.service
+: 1623734326:0;sudo usermod -G libvirtd -a argha
+: 1623734332:0;sudo usermod -G libvirt -a argha
+: 1623734361:0;xprop
+: 1623734821:0;pacman -Qg
+: 1623734826:0;c
+: 1623734830:0;pacman -Qe
+: 1623734986:0;sp -Rsu syncthing
+: 1623735104:0;pacman -Qm
+: 1623735375:0;pacman -Qqe
+: 1623735383:0;pacman -Qqe | wc -l
+: 1623735420:0;pacman -Qqe > packages.txt
+: 1623735633:0;sp -Rsu nyxt teams
+: 1623735938:0;pacman -Qqe
+: 1623735940:0;pacman -Qqe | wc -l
+: 1623735944:0;pacman -Qe | wc -l
+: 1623735948:0;pacman -Q | wc -l
+: 1623735953:0;pacman -Qm | wc -l
+: 1623736728:0;whereis zathura
+: 1623736740:0;cd /usr/bin
+: 1623736743:0;ls
+: 1623736755:0;ls | grep zathura
+: 1623736820:0;sudo touch libreoffice
+: 1623736828:0;vi zathura
+: 1623736882:0;sudo cp ~/Applications/libreoffice-still.basic-x86_64_d2bece1f006f61604caa77da6635db42.appimage libreoffice
+: 1623736897:0;sudo -rm -rf libreoffice
+: 1623736904:0;sudo -rm rf libreoffice
+: 1623736912:0;sudo -rm  libreoffice
+: 1623736939:0;sudo rm libreoffice
+: 1623737004:0;sudo cp ~/Applications/libreoffice-still.basic-x86_64_d2bece1f006f61604caa77da6635db42.appimage libreoffice
+: 1623739392:0;whereis zathura
+: 1623739404:0;cd /usr/lib
+: 1623739405:0;ls
+: 1623739410:0;vi zathura
+: 1623739421:0;vi zathura/libpdf-poppler.so
+: 1623739434:0;e
+: 1623739445:0;cd /usr/include
+: 1623739446:0;ls
+: 1623739469:0;cd /usr/bin
+: 1623739474:0;vi zathura
+: 1623739554:0;cd /usr/bin
+: 1623739562:0;rm libreoffice
+: 1623739573:0;vi libreoffice
+: 1623739586:0;sudo rm libreoffice
+: 1623739591:0;vi libreoffice
+: 1623739610:0;cat libreoffice
+: 1623740470:0;ip a
+: 1623746615:0;sudo systemctl start libvirtd.service
+: 1623750288:0;sudo usermod argha libvirtd
+: 1623750307:0;sudo usermod -G libvirt -a argha
+: 1623750400:0;sudo service libvirtd status\
+
+: 1623750408:0;sudo systemctl libvirtd status\
+
+: 1623750427:0;sudo systemctl status libvirtd\
+
+: 1623750447:0;sp -S libvirt0
+: 1623750453:0;sp -S bridge-utils
+: 1623750526:0;net-start default
+: 1623750540:0;net-list --all
+: 1623750586:0;ip a
+: 1623750613:0;systemctl enable --now libvirtd\
+
+: 1623750626:0;sudo systemctl enable virtlogd.socket\
+
+: 1623750634:0;sudo systemctl restart libvirtd.service\
+
+: 1623750650:0;suo virsh net-autostart default\
+
+: 1623750654:0;sudo virsh net-autostart default\
+
+: 1623750744:0;sp -S libvirt0
+: 1623750747:0;sp -S libvirt
+: 1623750764:0;virsh net-list --all    \
+
+: 1623750776:0;virsh net-start default\
+
+: 1623750780:0;sudo virsh net-start default\
+
+: 1623750990:0;sp -S libvirt-dbus
+: 1623751004:0;sudo virsh net-start default\
+
+: 1623751022:0;sp -Rsu libvirt-dbus
+: 1623751035:0;sp -S dnsmasq
+: 1623751052:0;sp -Rsu dnsmasq
+: 1623751057:0;c
+: 1623751234:0;sudo virsh net-create default
+: 1623751248:0;sudo virsh net-start default
+: 1623751366:0;sudo pacman -S qemu qemu-arch-extra ovmf bridge-utils dnsmasq vde2 \
+openbsd-netcat ebtables iptables
+: 1623751416:0;sudo pacman -S qemu qemu-arch-extra ovmf bridge-utils dnsmasq vde2 openbsd-netcat\
+
+: 1623751885:0;c
+: 1623773325:0;sp -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat
+: 1623773363:0;sudo systemctl restart libvirtd.service\
+
+: 1623773405:0;vim /etc/libvirt/libvirtd.conf\
+
+: 1623773507:0;sudo usermod -a -G libvirt $(whoami)\
+
+: 1623773515:0;newgrp libvirt\
+
+: 1623773526:0;sudo systemctl restart libvirtd.service\
+
+: 1623778322:0;sudo systemctl restart lightdm-plymouth.service\
+
+: 1623780638:0;vi /usr/bin/rofi_run
+: 1623783325:0;cd styli
+: 1623783341:0;./styli.sh --help
+: 1623783362:0;vi styli.sh 
+: 1623783432:0;./styli.sh -r wallpapers
+: 1623783443:0;./styli.sh -r linux
+: 1623783448:0;./styli.sh -n linux
+: 1623783549:0;./styli.sh -s linux
+: 1623783769:0;./styli.sh -s unix
+: 1623783781:0;./styli.sh -s arch
+: 1623783793:0;./styli.sh -s archlinux
+: 1623783804:0;./styli.sh -s linux
+: 1623783825:0;./styli.sh -s nature
+: 1623860405:0;git add -u
+: 1623860410:0;git status
+: 1623860414:0;git add Lyra-widow.tar.xz
+: 1623860431:0;git commit -m "Adding new Theme"
+: 1623860436:0;git push
+: 1623860474:0;e
+: 1623860510:0;ex Lyra-widow.tar.xz
+: 1623860518:0;tar -xf Lyra-widow.tar.xz
+: 1623860521:0;e

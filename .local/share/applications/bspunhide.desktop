@@ -4,4 +4,5 @@ Type = Application
 Terminal = false
 Name = Bsp-Unhide
 Exec = /home/argha/.local/bin/bspwm/bspunhide
+Icon = /home/argha/.config/icon/unhide.png
 Categories = Application;

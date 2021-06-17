@@ -28,8 +28,8 @@ set syscalls
 " This probably shouldn't be an option.
 
 set trash
+set sort+=iname
 
-set dotfiles
 
 " This is how many directories to store in the directory history.
 
@@ -65,7 +65,7 @@ set norunexec
 
 " Selected color scheme
 
-colorscheme Default
+colorscheme distrotube
 
 " Format for displaying time in file list. For example:
 " TIME_STAMP_FORMAT=%m/%d-%H:%M
@@ -126,6 +126,10 @@ set statusline="  %t%= %A %10u:%-7g %15E %20d  "
 command! df df -h %m 2> /dev/null
 command! diff vim -d %f %F
 command! zip zip -r %f.zip %f
+command! rn bulkrename %s
+command! unzip /home/argha/.local/bin/ext %f
+command! dragon dragon-drag-and-drop -a -x %f
+command! wallpaper cp %f ~/.config/wall.png && xwallpaper --zoom %f && notify-send "%f" "Wallpaper has been changed"
 command! run !! ./%f
 command! make !!make %a
 command! mkcd :mkdir %a | cd %a
@@ -206,8 +210,8 @@ filextype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
 fileviewer *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
           \*.fl[icv],*.m2v,*.mov,*.webm,*.ts,*.mts,*.m4v,*.r[am],*.qt,*.divx,
           \*.as[fx]
-        \ vifmimg videopreview %px %py %pw %ph %c 
-        \ %pc 
+        \ vifmimg videopreview %px %py %pw %ph %c
+        \ %pc
         \ vifmimg clear
         " \ ffprobe -pretty %c 2>&1
 
@@ -250,7 +254,7 @@ fileviewer *.gif
         \ vifmimg gifpreview %px %py %pw %ph %c
         \ %pc
         \ vifmimg clear
-        
+
 " OpenRaster
 filextype *.ora
         \ {Edit in MyPaint}
@@ -329,7 +333,7 @@ filetype *.7z
        \ FUSE_MOUNT|fuse-7z %SOURCE_FILE %DESTINATION_DIR,
 
 " Office files
-filextype *.odt,*.doc,*.docx,*.xls,*.xlsx,*.odp,*.pptx libreoffice %f &
+filextype *.odt,*.doc,*.docx,*.xls,*.xlsx,*.odp,*.pptx /home/argha/Applications/LibreOffice-still.basic-x86_64_d2bece1f006f61604caa77da6635db42.AppImage %f &
 
 " TuDu files
 filetype *.tudu tudu -f %c
@@ -375,6 +379,77 @@ fileviewer * preview
 " For Windows:
 " filetype * start, explorer
 
+" GETTING ICONS TO DISPLAY IN VIFM
+" You need the next 14 lines!
+
+" Filetypes/directories
+set classify=' :dir:/, :exe:, :reg:, :link:,? :?:, ::../::'
+
+" Specific files
+set classify+=' ::.Xdefaults,,.Xresources,,.bashprofile,,.bash_profile,,.bashrc,,.dmrc,,.d_store,,.fasd,,.gitconfig,,.gitignore,,.jack-settings,,.mime.types,,.nvidia-settings-rc,,.pam_environment,,.profile,,.recently-used,,.selected_editor,,.xinitpurc,,.zprofile,,.yarnc,,.snclirc,,.tmux.conf,,.urlview,,.config,,.ini,,.user-dirs.dirs,,.mimeapps.list,,.offlineimaprc,,.msmtprc,,.Xauthority,,config::'
+set classify+=' ::dropbox::'
+set classify+=' ::favicon.*,,README,,readme::'
+set classify+=' ::.vim,,.vimrc,,.gvimrc,,.vifm::'
+set classify+=' ::gruntfile.coffee,,gruntfile.js,,gruntfile.ls::'
+set classify+=' ::gulpfile.coffee,,gulpfile.js,,gulpfile.ls::'
+set classify+=' ::ledger::'
+set classify+=' ::license,,copyright,,copying,,LICENSE,,COPYRIGHT,,COPYING::'
+set classify+=' ::node_modules::'
+set classify+=' ::react.jsx::'
+
+" File extensions
+set classify+='λ ::*.ml,,*.mli::'
+set classify+=' ::*.styl::'
+set classify+=' ::*.scss::'
+set classify+=' ::*.py,,*.pyc,,*.pyd,,*.pyo::'
+set classify+=' ::*.php::'
+set classify+=' ::*.markdown,,*.md::'
+set classify+=' ::*.json::'
+set classify+=' ::*.js::'
+set classify+=' ::*.bmp,,*.gif,,*.ico,,*.jpeg,,*.jpg,,*.png,,*.svg,,*.svgz,,*.tga,,*.tiff,,*.xmb,,*.xcf,,*.xpm,,*.xspf,,*.xwd,,*.cr2,,*.dng,,*.3fr,,*.ari,,*.arw,,*.bay,,*.crw,,*.cr3,,*.cap,,*.data,,*.dcs,,*.dcr,,*drf,,*.eip,,*.erf,,*.fff,,*.gpr,,*.iiq,,*.k25,,*.kdc,,*.mdc,,.*mef,,*.mos,,.*.mrw,,.*.obm,,*.orf,,*.pef,,*.ptx,,*.pxn,,*.r3d,,*.raf,,*.raw,,*.rwl,,*.rw2,,*.rwz,,*.sr2,,*.srf,,*.srf,,*.srw,,*.tif,,*.x3f::'
+set classify+=' ::*.ejs,,*.htm,,*.html,,*.slim,,*.xml::'
+set classify+=' ::*.mustasche::'
+set classify+=' ::*.css,,*.less,,*.bat,,*.conf,,*.ini,,*.rc,,*.yml,,*.cfg,,*.rc::'
+set classify+=' ::*.rss::'
+set classify+=' ::*.coffee::'
+set classify+=' ::*.twig::'
+set classify+=' ::*.c++,,*.cc,,*.c,,*.cpp,,*.cxx,,*.c,,*.h::'
+set classify+=' ::*.hs,,*.lhs::'
+set classify+=' ::*.lua::'
+set classify+=' ::*.jl::'
+set classify+=' ::*.go::'
+set classify+=' ::*.ts::'
+set classify+=' ::*.db,,*.dump,,*.sql::'
+set classify+=' ::*.sln,,*.suo::'
+set classify+=' ::*.exe::'
+set classify+=' ::*.diff,,*.sum,,*.md5,,*.sha512::'
+set classify+=' ::*.scala::'
+set classify+=' ::*.java,,*.jar::'
+set classify+=' ::*.xul::'
+set classify+=' ::*.clj,,*.cljc::'
+set classify+=' ::*.pl,,*.pm,,*.t::'
+set classify+=' ::*.cljs,,*.edn::'
+set classify+=' ::*.rb::'
+set classify+=' ::*.fish,,*.sh,,*.bash::'
+set classify+=' ::*.dart::'
+set classify+=' ::*.f#,,*.fs,,*.fsi,,*.fsscript,,*.fsx::'
+set classify+=' ::*.rlib,,*.rs::'
+set classify+=' ::*.d::'
+set classify+=' ::*.erl,,*.hrl::'
+set classify+=' ::*.ai::'
+set classify+=' ::*.psb,,*.psd::'
+set classify+=' ::*.jsx::'
+set classify+=' ::*.vim,,*.vimrc::'
+set classify+=' ::*.aac,,*.anx,,*.asf,,*.au,,*.axa,,*.flac,,*.m2a,,*.m4a,,*.mid,,*.midi,,*.mp3,,*.mpc,,*.oga,,*.ogg,,*.ogx,,*.ra,,*.ram,,*.rm,,*.spx,,*.wav,,*.wma,,*.ac3::'
+set classify+=' ::*.avi,,*.ts,,*.axv,,*.divx,,*.m2v,,*.m4p,,*.m4v,,.mka,,*.mkv,,*.mov,,*.mp4,,*.flv,,*.mp4v,,*.mpeg,,*.mpg,,*.nuv,,*.ogv,,*.webm,,*.pbm,,*.pgm,,*.qt,,*.vob,,*.wmv,,*.xvid::'
+set classify+=' ::*.epub,,*.pdf,,*.fb2,,*.djvu::'
+set classify+=' ::*.7z,,*.apk,,*.bz2,,*.cab,,*.cpio,,*.deb,,*.gem,,*.gz,,*.gzip,,*.lh,,*.lzh,,*.lzma,,*.rar,,*.rpm,,*.tar,,*.tgz,,*.xz,,*.zip::'
+set classify+=' ::*.cbr,,*.cbz::'
+set classify+=' ::*.log::'
+set classify+=' ::*.doc,,*.docx,,*.adoc::'
+set classify+=' ::*.xls,,*.xls,,*.xlsmx::'
+set classify+=' ::*.pptx,,*.ppt::'
+
 " ------------------------------------------------------------------------------
 
 " What should be saved automatically between vifm sessions.  Drop "savedirs"
@@ -397,6 +472,8 @@ set vifminfo=dhistory,savedirs,chistory,state,tui,shistory,
 " ------------------------------------------------------------------------------
 
 " Sample mappings
+" background wallpaper
+nnoremap bg :wallpaper<cr>
 
 " Start shell in current directory
 nnoremap s :shell<cr>
@@ -432,9 +509,12 @@ nnoremap ` :help<cr>
 nnoremap h za
 nnoremap f :filter<space>
 nnoremap F zR
+nnoremap <C-d> :dragon<CR>
 
 " Mappings for faster renaming
-nnoremap r cw<c-a>
+nnoremap aa cW
+nnoremap A cw
+nnoremap br rn
 
 " File operators
 nnoremap mf :touch<space>
@@ -449,34 +529,26 @@ nnoremap gh :cd<cr>
 nnoremap gtr :cd ~/.local/share/Trash/files<cr>
 nnoremap gus :cd /run/media/brodie<cr>
 
-nnoremap gv. :cd ~/videos<cr>
-nnoremap gva :cd ~/videos/anime<cr>
+nnoremap gvv :cd ~/Videos<cr>
 
-nnoremap gy. :cd ~/videos/youtube<cr>
-nnoremap gyt :cd ~/videos/youtube/ToUpload<cr>
-nnoremap gyu :cd ~/videos/youtube/Uploaded<cr>
-nnoremap gya :cd ~/videos/youtube/asset<cr>
-nnoremap go. :cd ~/videos/podcast<cr>
-nnoremap got :cd ~/videos/podcast/ToUpload<cr>
-nnoremap gou :cd ~/videos/podcast/Uploaded<cr>
 
-nnoremap gp. :cd ~/pictures<cr>
-nnoremap gpm :cd ~/pictures/mpvscreenshots<cr>
-nnoremap gpa :cd ~/pictures/Anime<cr>
-nnoremap gps :cd ~/pictures/screenshots<cr>
+nnoremap gpp :cd ~/Pictures<cr>
+nnoremap gpm :cd ~/Pictures/mpvscreenshots<cr>
+nnoremap gpa :cd ~/Pictures/Anime<cr>
+nnoremap gps :cd ~/Pictures/Screenshots<cr>
 
-nnoremap gw. :cd ~/pictures/Wallpapers<cr>
-nnoremap gww :cd ~/pictures/Wallpapers/Wallpapers<cr>
-nnoremap gwm :cd ~/pictures/Wallpapers/MobileWallpapers<cr>
+nnoremap gw :cd ~/Pictures/Wallpapers<cr>
+nnoremap gww :cd ~/Pictures/Wallpapers/Wallpapers<cr>
+nnoremap gwm :cd ~/Pictures/Wallpapers/MobileWallpapers<cr>
 
 nnoremap gt. :cd ~/documents/Textbooks<cr>
 nnoremap gt1 :cd ~/documents/Textbooks/1stYear<cr>
 nnoremap gt2 :cd ~/documents/Textbooks/2ndYear<cr>
 nnoremap gt3 :cd ~/documents/Textbooks/3rdYear<cr>
 nnoremap gu3 :cd ~/documents/Uni/3rdYear<cr>
-nnoremap gd :cd ~/documents<cr>
+nnoremap gd :cd ~/Documents<cr>
 
-nnoremap gD :cd ~/downloads<cr>
+nnoremap gD :cd ~/Downloads<cr>
 nnoremap ge :cd ~/desktop<cr>
 
 nnoremap gs. :cd ~/scripts<cr>
@@ -489,18 +561,18 @@ nnoremap gsb :cd ~/scripts/bspwm<cr>
 nnoremap gsu :cd ~/scripts/pulse<cr>
 nnoremap gdt :cd ~/scripts/transmission<cr>
 
-nnoremap gr. :cd ~/repos<cr>
-nnoremap grb :cd ~/repos/bookmenu<cr>
-nnoremap grf :cd ~/repos/cleanfullscreen<cr>
-nnoremap grm :cd ~/repos/dmenu<cr>
-nnoremap grd :cd ~/repos/dotfiles<cr>
-nnoremap gri :cd ~/repos/init<cr>
-nnoremap grk :cd ~/repos/kanban-board<cr>
-nnoremap grl :cd ~/repos/lbryurlconvert<cr>
-nnoremap grP :cd ~/repos/PerlProjects<cr>
-nnoremap grr :cd ~/repos/reading-list<cr>
-nnoremap grs :cd ~/repos/st<cr>
-nnoremap grw :cd ~/repos/website<cr>
+nnoremap gr. :cd ~/Repos<cr>
+nnoremap grb :cd ~/Repos/bookmenu<cr>
+nnoremap grf :cd ~/Repos/cleanfullscreen<cr>
+nnoremap grm :cd ~/Repos/dmenu<cr>
+nnoremap grd :cd ~/Repos/dotfiles<cr>
+nnoremap gri :cd ~/Repos/init<cr>
+nnoremap grk :cd ~/Repos/kanban-board<cr>
+nnoremap grl :cd ~/Repos/lbryurlconvert<cr>
+nnoremap grP :cd ~/Repos/PerlProjects<cr>
+nnoremap grr :cd ~/Repos/reading-list<cr>
+nnoremap grs :cd ~/Repos/st<cr>
+nnoremap grw :cd ~/Repos/website<cr>
 
 nnoremap gc :cd ~/.config<cr>
 nnoremap gC :cd ~/.local/share/cell<cr>

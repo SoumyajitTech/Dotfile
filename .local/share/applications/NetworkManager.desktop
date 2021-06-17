@@ -5,4 +5,5 @@ Terminal = true
 Name = NetworkManager
 # Exec = /home/argha/.local/bin/NetworkManager.sh
 Exec = systemctl restart NetworkManager.service
+Icon = /home/argha/.config/icon/Network.png
 Categories = Application;
